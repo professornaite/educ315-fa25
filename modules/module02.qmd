@@ -1,0 +1,205 @@
+---
+title: "Module 2: Numbers and sets"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: module02-slides.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+Module: Numbers and Sets
+
+## Module Overview
+
+This module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya's problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms.
+
+## Problem Solving
+
+Problem-solving has been a central focus in mathematics education for decades. The emphasis on problem-solving strategies gained momentum in the 1980s, with the National Council of Teachers of Mathematics (NCTM) highlighting its importance in their standards. Since then, various approaches have been developed to enhance students' problem-solving skills, including heuristic strategies, metacognitive techniques, and collaborative problem-solving.
+
+### Who is George Polya?
+
+George Polya (1887-1985) was a Hungarian mathematician who made significant contributions to various fields of mathematics. He is best known for his work on problem-solving, particularly his book "How to Solve It" (1945), which outlines a systematic approach to problem-solving.
+
+Polya's problem-solving approach consists of four main steps:
+
+1.  **Understand the problem**: This step involves carefully reading the problem, identifying key information, and clarifying any unfamiliar terms or concepts.
+
+2.  **Devise a plan**: Here, the problem-solver considers various strategies and selects an appropriate approach. This may include drawing diagrams, looking for patterns, or working backwards.
+
+3.  **Carry out the plan**: In this step, the chosen strategy is implemented, and calculations are performed. It's important to check each step for accuracy\[2\].
+
+4.  **Look back**: After obtaining a solution, the problem-solver reviews their work, verifies the result, and considers alternative methods or extensions of the problem\[2\].
+
+**Example 1**: Solve the equation 2x + 5 = 13
+
+1.  Understand: We need to find the value of x that makes the equation true.
+2.  Plan: Isolate x by subtracting 5 from both sides, then divide by 2.
+3.  Execute: 2x + 5 = 13 2x = 8 x = 4
+4.  Look back: Check if 2(4) + 5 = 13, which it does.
+
+**Example 2**: Find the area of a rectangle with perimeter 24 cm and length 3 cm longer than its width.
+
+1.  Understand: We need to find the area, given the perimeter and a relationship between length and width.
+2.  Plan: Let w be the width. Express length as w + 3. Use the perimeter formula to find w, then calculate the area.
+3.  Execute: 2(w + (w + 3)) = 24 4w + 6 = 24 4w = 18 w = 4.5 cm length = 7.5 cm Area = 4.5 × 7.5 = 33.75 cm²
+4.  Look back: Verify that the perimeter is indeed 24 cm and the length is 3 cm longer than the width.
+
+## History of Number Theory
+
+Number theory has a rich history of problem-solving approaches. Some famous theorems include:
+
+1.  **Fermat's Last Theorem**: Pierre de Fermat claimed in 1637 that no three positive integers a, b, and c can satisfy the equation a\^n + b\^n = c\^n for any integer n \> 2. This theorem was finally proved by Andrew Wiles in 1995, after centuries of attempts.
+
+2.  **The Goldbach Conjecture**: Proposed by Christian Goldbach in 1742, it states that every even integer greater than 2 can be expressed as the sum of two primes. While widely believed to be true, it remains unproven.
+
+3.  **The Riemann Hypothesis**: Proposed by Bernhard Riemann in 1859, this conjecture about the distribution of prime numbers is considered one of the most important unsolved problems in mathematics.
+
+## Sets
+
+A set is a well-defined collection of distinct objects. Set theory provides a foundation for much of modern mathematics. Key concepts include:
+
+-   Set notation: {1, 2, 3} represents a set containing the elements 1, 2, and 3.
+-   Subsets: A is a subset of B if every element of A is also in B.
+-   Set operations: union (∪), intersection (∩), difference (-), complement.
+-   Venn diagrams: Visual representations of set relationships.
+
+## Numbers
+
+The sets of numbers form a hierarchy:
+
+1.  **Natural numbers (ℕ)**: Positive integers used for counting.
+2.  **Whole numbers (ℕ~0~)**: Natural numbers plus zero.
+3.  **Integers (ℤ)**: Positive and negative whole numbers.
+4.  **Rational numbers (ℚ)**: Numbers that can be expressed as fractions.
+5.  **Irrational numbers**: Numbers that cannot be expressed as fractions (e.g., π, √2, √3).
+6.  **Real numbers (ℝ)**: The union of rational and irrational numbers.
+7.  **Complex numbers (ℂ)**: Numbers with a real and imaginary part.
+
+### Natural numbers
+
+-   Definition: Positive integers used for counting (1, 2, 3, ...)
+
+-   Also called counting numbers
+
+-   Denoted by N or ℕ Smallest natural number: 1
+
+-   No largest natural number (infinite set)
+
+### Whole numbers
+
+-   Definition: Natural numbers plus zero (0, 1, 2, 3, ...)
+
+-   Includes all non-negative integers
+
+#### Key differences
+
+-   Natural numbers start at 1, whole numbers start at 0
+
+-   Whole numbers are a superset of natural numbers
+
+# Teaching sets and numbers
+
+To effectively teach numbers, fractions, and decimals, teachers should follow a structured approach that builds conceptual understanding and connects the related topics.
+
+## Teaching Sets
+
+-   Introduce the concept of a set as a collection of distinct objects
+-   Start with concrete, familiar examples (e.g., set of fruits, set of colors)
+
+### Basic Set Concepts
+
+-   Teach set notation: { } for listing elements, $\epsilon$ for "is an element of"
+-   Explain finite and infinite sets
+-   Introduce the empty set (∅ or { })
+
+### Set Relationships and Operations
+
+-   Teach subset (⊆) and proper subset (⊂) relationships
+-   Introduce set operations: union (∪), intersection (∩), difference (-)
+-   Use Venn diagrams to visually represent set relationships
+
+### Progression
+
+1.  Begin with simple, countable sets
+2.  Move to more abstract sets (e.g., even numbers, prime numbers)
+3.  Introduce set operations and relationships
+4.  Connect sets to other mathematical concepts (e.g., number systems, probability)
+
+### Teaching Strategies
+
+-   Use manipulatives for hands-on exploration of sets
+-   Employ visual aids like Venn diagrams and Carroll diagrams
+-   Encourage students to create their own sets and classify objects
+-   Integrate set theory into problem-solving activities
+
+### Real-world Applications
+
+-   Discuss how sets are used in databases and computer science
+-   Explore set applications in logic and reasoning
+-   Show how sets relate to grouping and categorization in everyday life
+
+### Common Misconceptions
+
+-   Address the difference between a set and its elements
+-   Clarify that order doesn't matter in sets (unlike in sequences)
+-   Explain that repeated elements are counted only once in a set
+
+## Teaching Numbers
+
+-   Start with natural numbers (1, 2, 3, ...) for counting and basic operations
+-   Introduce whole numbers, including zero
+-   Emphasize place value concepts and number relationships
+
+### Teaching Fractions
+
+-   Begin with concrete models and visual representations
+-   Use fraction walls and number lines to demonstrate equivalence
+-   Introduce proper fractions before improper fractions and mixed numbers
+-   Focus on conceptual understanding before moving to procedures
+
+### Teaching Decimals
+
+-   Connect decimals to fractions, especially tenths and hundredths
+-   Use place value language (e.g., "two-tenths and four-hundredths" for 0.24)
+-   Employ visual models like decimal grids and number lines
+
+### Connecting Fractions and Decimals
+
+-   Explicitly show the relationship between fractions and decimals
+-   Use double number lines to compare fractions and decimals
+-   Demonstrate conversion between fractions and decimals
+
+### Key Teaching Strategies
+
+-   Use manipulatives and visual models extensively
+-   Encourage students to make connections between concepts
+-   Provide ample opportunities for practice and discussion
+-   Address common misconceptions (e.g., longer decimal doesn't always mean larger number)
+-   Integrate real-world applications and problem-solving
+
+### Progression
+
+1.  Teach fractions before decimals to build a strong conceptual foundation
+2.  Introduce decimals as an extension of the place value system
+3.  Show how decimals relate to fractions, especially tenths and hundredths
+4.  Gradually increase complexity, moving to operations with fractions and decimals
+
+## Exercises
+
+1.  Use Polya's problem-solving approach to solve: A rectangle's length is twice its width. If its perimeter is 30 cm, what are its dimensions?
+
+2.  How might we introduce struggling learners to the concept of sets and numbers?
+
+3.  Given sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B.

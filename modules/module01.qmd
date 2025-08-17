@@ -1,0 +1,115 @@
+---
+title: "Module 1: Logic and concepts"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: module01-slides.html
+    height: 900
+    width: 1600
+    smaller: true
+    slide-number: c/t #< collapsted/total
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    toc: false
+    echo: true
+    incremental: false
+---
+
+# Module overview
+
+This module introduces fundamental concepts in logic and mathematical reasoning. It explores the core principles of deductive and inductive reasoning, providing a foundation for understanding logical arguments and mathematical proofs, key mathematical concepts such as quantity, structure, space, and change, which form the basis of various mathematical disciplines. Special attention is given to the fundamental concepts of zero and infinity, their historical development, and their significance in mathematical thinking
+
+# Framing mathematics and science
+
+**Science** is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence.
+
+**Mathematics** is the science that deals with the logic of quantity, structure, space, and change.
+
+## Logic
+
+Logic refers to the principles of reasoning, especially correct reasoning. It's the systematic method of coming to conclusions through rational thought. In mathematics, logic involves the formal principles of reasoning and inference used to derive valid conclusions.
+
+### Reasoning
+
+-   **Deductive reasoning**: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a "top-down" approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.
+
+-   **Inductive reasoning**: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as "bottom-up" reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.
+
+-   Using if-then statements
+
+## Quantity
+
+Quantity relates to the amount or number of something that can be measured or counted. In mathematics, it deals with concepts like magnitude, size, or amount that can be expressed numerically.
+
+## Structure
+
+Structure in mathematics refers to the way mathematical objects are organized or arranged. It involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.
+
+## Space
+
+In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist. It can be two-dimensional (like a plane), three-dimensional (like our physical world), or even higher-dimensional in abstract mathematics.
+
+## Change
+
+Change in mathematics deals with how quantities or properties vary or transform over time or under different conditions. This concept is fundamental to areas like calculus, which studies rates of change and accumulation.
+
+# Basic Concepts
+
+## Zero
+
+### Formal Definition
+
+Zero is a number that represents the absence of quantity or magnitude. It is the integer between the set of all negative integers and all positive integers.
+
+### Examples
+
+The empty set: $\emptyset$ or $\{ \}$.
+
+The number line: A starting point on number line.
+
+Counting: of you have a basket of apples and remove all of the apples, you are left with zero apples.
+
+Temperature: On the Celsius scale, zero degrees represents the freezing point of water.
+
+### Key Points:
+
+Zero as a placeholder in our number system.
+
+The role of zero in mathematics (e.g., additive identity).
+
+Historical developments of the concept of zero:
+
+-   Dividing a number by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x \neq 0$
+
+-   Dividing zero by zero, $\dfrac{x}{0} = \text{undefined}$ for some number $x = 0$.
+
+## Infinity
+
+### Formal Definition
+
+Infinity is a concept describing something without any limit, and is larger than any real number. It is often denoted by the symbol $\infty$.
+
+### Examples
+
+The number line: You can always add 1 to any number, no matter how large, so the number line extends infinitely.
+
+Fractional division: 1 divided by 3 results in a repeating decimal (0.333...) that goes on infinitely.
+
+### Key Points
+
+Different types of infinity (countable and uncountable)
+
+The concept of infinity in mathematics vs. everyday life
+
+Paradoxes involving infinity (e.g., Hilbert's Hotel)
+
+# Exercises
+
+1.  Who is George Polya? What is Polya's Four-Step Process applied to problem solving?
+
+2.  How would you introduce the concept of zero to a 5th grader who has had issues understanding concepts before?
+
+3.  How would you extend the concept of infinity for a 5th grader who has an exceptional understanding of mathemtics?
