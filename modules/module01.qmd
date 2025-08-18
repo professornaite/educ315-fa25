@@ -1,5 +1,5 @@
 ---
-title: "Module 1: Logic and concepts"
+title: "Module 1: Logic and the language of mathematics"
 subtitle: "EDUC 315 - Howard University"
 author: "Nathan Alexander, PhD"
 institute: "School of Education"
@@ -9,10 +9,10 @@ format:
     output-file: module01-slides.html
     height: 900
     width: 1600
-    smaller: true
+    smaller: false
     slide-number: c/t #< collapsted/total
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
     toc: false
     echo: true
     incremental: false

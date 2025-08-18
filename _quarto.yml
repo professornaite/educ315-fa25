@@ -25,7 +25,7 @@ website:
     tools: 
       - icon: github
         href: https://professornaite.github.io/educ315-fa25/
-        text: "GitHub organization"
+        text: "GitHub page"
       - icon: code-square
         href: https://canvas.howard.edu/courses/53402
         text: "Canvas site"
@@ -46,6 +46,7 @@ website:
           text: Assignments
     - section: "Modules"
       contents:
+        - href: modules/module00.qmd
         - href: modules/module01.qmd
           text: Module 1
         - href: modules/module02.qmd
@@ -56,6 +57,8 @@ website:
           text: Module 4
         - href: modules/module05.qmd
           text: Module 5
+        - href: modules/module06.qmd
+          text: Module 6
     - section: "Assignment rubrics"
       contents:
         - href: modules/historical.qmd

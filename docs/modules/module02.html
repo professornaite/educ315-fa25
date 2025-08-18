@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Nathan Alexander, PhD">
+
+<title>Module 2: Numbers and sets – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../modules/module03.html" rel="next">
+<link href="../modules/module01.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1229fd017d06d12aef5eba1dc583112d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-6a0241b741398fdfb3d856a31c312278.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Module 2: Numbers and sets – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)">
+<meta property="og:description" content="EDUC 315 - Howard University">
+<meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module02.html">Module 2</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../img/gladys-west.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://professornaite.github.io/educ315-fa25/" title="GitHub page" class="quarto-navigation-tool px-1" aria-label="GitHub page"><i class="bi bi-github"></i></a>
+    <a href="https://canvas.howard.edu/courses/53402" title="Canvas site" class="quarto-navigation-tool px-1" aria-label="Canvas site"><i class="bi bi-code-square"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Course information</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course landing page</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../who.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Who is in the site photo?</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../assignments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assignments</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Modules</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module00.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to the course</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module02.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Module 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 6</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Assignment rubrics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/historical.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Historical STEM figure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/math-lesson1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mathematics Lesson</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../files/sample-assessment.Rmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sample Math Lesson Rubric</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Field experience</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field/expectations.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Expectations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field/weekly.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Weekly schedules</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Standards and curricula</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../standards/common.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Common Core State Standards - Mathematics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../standards/osse.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Office of the State Superintendent of Education (OSSE)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../standards/umoja.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Umoja Curriculum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../standards/freedom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Freedom School Curriculum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#module-overview" id="toc-module-overview" class="nav-link active" data-scroll-target="#module-overview">Module Overview</a></li>
+  <li><a href="#problem-solving" id="toc-problem-solving" class="nav-link" data-scroll-target="#problem-solving">Problem Solving</a>
+  <ul class="collapse">
+  <li><a href="#who-is-george-polya" id="toc-who-is-george-polya" class="nav-link" data-scroll-target="#who-is-george-polya">Who is George Polya?</a></li>
+  </ul></li>
+  <li><a href="#history-of-number-theory" id="toc-history-of-number-theory" class="nav-link" data-scroll-target="#history-of-number-theory">History of Number Theory</a></li>
+  <li><a href="#sets" id="toc-sets" class="nav-link" data-scroll-target="#sets">Sets</a></li>
+  <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers">Numbers</a>
+  <ul class="collapse">
+  <li><a href="#natural-numbers" id="toc-natural-numbers" class="nav-link" data-scroll-target="#natural-numbers">Natural numbers</a></li>
+  <li><a href="#whole-numbers" id="toc-whole-numbers" class="nav-link" data-scroll-target="#whole-numbers">Whole numbers</a></li>
+  </ul></li>
+  <li><a href="#teaching-sets-and-numbers" id="toc-teaching-sets-and-numbers" class="nav-link" data-scroll-target="#teaching-sets-and-numbers">Teaching sets and numbers</a>
+  <ul class="collapse">
+  <li><a href="#teaching-sets" id="toc-teaching-sets" class="nav-link" data-scroll-target="#teaching-sets">Teaching Sets</a>
+  <ul class="collapse">
+  <li><a href="#basic-set-concepts" id="toc-basic-set-concepts" class="nav-link" data-scroll-target="#basic-set-concepts">Basic Set Concepts</a></li>
+  <li><a href="#set-relationships-and-operations" id="toc-set-relationships-and-operations" class="nav-link" data-scroll-target="#set-relationships-and-operations">Set Relationships and Operations</a></li>
+  <li><a href="#progression" id="toc-progression" class="nav-link" data-scroll-target="#progression">Progression</a></li>
+  <li><a href="#teaching-strategies" id="toc-teaching-strategies" class="nav-link" data-scroll-target="#teaching-strategies">Teaching Strategies</a></li>
+  <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-world Applications</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions">Common Misconceptions</a></li>
+  </ul></li>
+  <li><a href="#teaching-numbers" id="toc-teaching-numbers" class="nav-link" data-scroll-target="#teaching-numbers">Teaching Numbers</a>
+  <ul class="collapse">
+  <li><a href="#teaching-fractions" id="toc-teaching-fractions" class="nav-link" data-scroll-target="#teaching-fractions">Teaching Fractions</a></li>
+  <li><a href="#teaching-decimals" id="toc-teaching-decimals" class="nav-link" data-scroll-target="#teaching-decimals">Teaching Decimals</a></li>
+  <li><a href="#connecting-fractions-and-decimals" id="toc-connecting-fractions-and-decimals" class="nav-link" data-scroll-target="#connecting-fractions-and-decimals">Connecting Fractions and Decimals</a></li>
+  <li><a href="#key-teaching-strategies" id="toc-key-teaching-strategies" class="nav-link" data-scroll-target="#key-teaching-strategies">Key Teaching Strategies</a></li>
+  <li><a href="#progression-1" id="toc-progression-1" class="nav-link" data-scroll-target="#progression-1">Progression</a></li>
+  </ul></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="module02-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module02.html">Module 2</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Module 2: Numbers and sets</h1>
+<p class="subtitle lead">EDUC 315 - Howard University</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nathan Alexander, PhD </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            School of Education
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Module: Numbers and Sets</p>
+<section id="module-overview" class="level2">
+<h2 class="anchored" data-anchor-id="module-overview">Module Overview</h2>
+<p>This module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya’s problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms.</p>
+</section>
+<section id="problem-solving" class="level2">
+<h2 class="anchored" data-anchor-id="problem-solving">Problem Solving</h2>
+<p>Problem-solving has been a central focus in mathematics education for decades. The emphasis on problem-solving strategies gained momentum in the 1980s, with the National Council of Teachers of Mathematics (NCTM) highlighting its importance in their standards. Since then, various approaches have been developed to enhance students’ problem-solving skills, including heuristic strategies, metacognitive techniques, and collaborative problem-solving.</p>
+<section id="who-is-george-polya" class="level3">
+<h3 class="anchored" data-anchor-id="who-is-george-polya">Who is George Polya?</h3>
+<p>George Polya (1887-1985) was a Hungarian mathematician who made significant contributions to various fields of mathematics. He is best known for his work on problem-solving, particularly his book “How to Solve It” (1945), which outlines a systematic approach to problem-solving.</p>
+<p>Polya’s problem-solving approach consists of four main steps:</p>
+<ol type="1">
+<li><p><strong>Understand the problem</strong>: This step involves carefully reading the problem, identifying key information, and clarifying any unfamiliar terms or concepts.</p></li>
+<li><p><strong>Devise a plan</strong>: Here, the problem-solver considers various strategies and selects an appropriate approach. This may include drawing diagrams, looking for patterns, or working backwards.</p></li>
+<li><p><strong>Carry out the plan</strong>: In this step, the chosen strategy is implemented, and calculations are performed. It’s important to check each step for accuracy[2].</p></li>
+<li><p><strong>Look back</strong>: After obtaining a solution, the problem-solver reviews their work, verifies the result, and considers alternative methods or extensions of the problem[2].</p></li>
+</ol>
+<p><strong>Example 1</strong>: Solve the equation 2x + 5 = 13</p>
+<ol type="1">
+<li>Understand: We need to find the value of x that makes the equation true.</li>
+<li>Plan: Isolate x by subtracting 5 from both sides, then divide by 2.</li>
+<li>Execute: 2x + 5 = 13 2x = 8 x = 4</li>
+<li>Look back: Check if 2(4) + 5 = 13, which it does.</li>
+</ol>
+<p><strong>Example 2</strong>: Find the area of a rectangle with perimeter 24 cm and length 3 cm longer than its width.</p>
+<ol type="1">
+<li>Understand: We need to find the area, given the perimeter and a relationship between length and width.</li>
+<li>Plan: Let w be the width. Express length as w + 3. Use the perimeter formula to find w, then calculate the area.</li>
+<li>Execute: 2(w + (w + 3)) = 24 4w + 6 = 24 4w = 18 w = 4.5 cm length = 7.5 cm Area = 4.5 × 7.5 = 33.75 cm²</li>
+<li>Look back: Verify that the perimeter is indeed 24 cm and the length is 3 cm longer than the width.</li>
+</ol>
+</section>
+</section>
+<section id="history-of-number-theory" class="level2">
+<h2 class="anchored" data-anchor-id="history-of-number-theory">History of Number Theory</h2>
+<p>Number theory has a rich history of problem-solving approaches. Some famous theorems include:</p>
+<ol type="1">
+<li><p><strong>Fermat’s Last Theorem</strong>: Pierre de Fermat claimed in 1637 that no three positive integers a, b, and c can satisfy the equation a^n + b^n = c^n for any integer n &gt; 2. This theorem was finally proved by Andrew Wiles in 1995, after centuries of attempts.</p></li>
+<li><p><strong>The Goldbach Conjecture</strong>: Proposed by Christian Goldbach in 1742, it states that every even integer greater than 2 can be expressed as the sum of two primes. While widely believed to be true, it remains unproven.</p></li>
+<li><p><strong>The Riemann Hypothesis</strong>: Proposed by Bernhard Riemann in 1859, this conjecture about the distribution of prime numbers is considered one of the most important unsolved problems in mathematics.</p></li>
+</ol>
+</section>
+<section id="sets" class="level2">
+<h2 class="anchored" data-anchor-id="sets">Sets</h2>
+<p>A set is a well-defined collection of distinct objects. Set theory provides a foundation for much of modern mathematics. Key concepts include:</p>
+<ul>
+<li>Set notation: {1, 2, 3} represents a set containing the elements 1, 2, and 3.</li>
+<li>Subsets: A is a subset of B if every element of A is also in B.</li>
+<li>Set operations: union (∪), intersection (∩), difference (-), complement.</li>
+<li>Venn diagrams: Visual representations of set relationships.</li>
+</ul>
+</section>
+<section id="numbers" class="level2">
+<h2 class="anchored" data-anchor-id="numbers">Numbers</h2>
+<p>The sets of numbers form a hierarchy:</p>
+<ol type="1">
+<li><strong>Natural numbers (ℕ)</strong>: Positive integers used for counting.</li>
+<li><strong>Whole numbers (ℕ<sub>0</sub>)</strong>: Natural numbers plus zero.</li>
+<li><strong>Integers (ℤ)</strong>: Positive and negative whole numbers.</li>
+<li><strong>Rational numbers (ℚ)</strong>: Numbers that can be expressed as fractions.</li>
+<li><strong>Irrational numbers</strong>: Numbers that cannot be expressed as fractions (e.g., π, √2, √3).</li>
+<li><strong>Real numbers (ℝ)</strong>: The union of rational and irrational numbers.</li>
+<li><strong>Complex numbers (ℂ)</strong>: Numbers with a real and imaginary part.</li>
+</ol>
+<section id="natural-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="natural-numbers">Natural numbers</h3>
+<ul>
+<li><p>Definition: Positive integers used for counting (1, 2, 3, …)</p></li>
+<li><p>Also called counting numbers</p></li>
+<li><p>Denoted by N or ℕ Smallest natural number: 1</p></li>
+<li><p>No largest natural number (infinite set)</p></li>
+</ul>
+</section>
+<section id="whole-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="whole-numbers">Whole numbers</h3>
+<ul>
+<li><p>Definition: Natural numbers plus zero (0, 1, 2, 3, …)</p></li>
+<li><p>Includes all non-negative integers</p></li>
+</ul>
+<section id="key-differences" class="level4">
+<h4 class="anchored" data-anchor-id="key-differences">Key differences</h4>
+<ul>
+<li><p>Natural numbers start at 1, whole numbers start at 0</p></li>
+<li><p>Whole numbers are a superset of natural numbers</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="teaching-sets-and-numbers" class="level1">
+<h1>Teaching sets and numbers</h1>
+<p>To effectively teach numbers, fractions, and decimals, teachers should follow a structured approach that builds conceptual understanding and connects the related topics.</p>
+<section id="teaching-sets" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-sets">Teaching Sets</h2>
+<ul>
+<li>Introduce the concept of a set as a collection of distinct objects</li>
+<li>Start with concrete, familiar examples (e.g., set of fruits, set of colors)</li>
+</ul>
+<section id="basic-set-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="basic-set-concepts">Basic Set Concepts</h3>
+<ul>
+<li>Teach set notation: { } for listing elements, <span class="math inline">\(\epsilon\)</span> for “is an element of”</li>
+<li>Explain finite and infinite sets</li>
+<li>Introduce the empty set (∅ or { })</li>
+</ul>
+</section>
+<section id="set-relationships-and-operations" class="level3">
+<h3 class="anchored" data-anchor-id="set-relationships-and-operations">Set Relationships and Operations</h3>
+<ul>
+<li>Teach subset (⊆) and proper subset (⊂) relationships</li>
+<li>Introduce set operations: union (∪), intersection (∩), difference (-)</li>
+<li>Use Venn diagrams to visually represent set relationships</li>
+</ul>
+</section>
+<section id="progression" class="level3">
+<h3 class="anchored" data-anchor-id="progression">Progression</h3>
+<ol type="1">
+<li>Begin with simple, countable sets</li>
+<li>Move to more abstract sets (e.g., even numbers, prime numbers)</li>
+<li>Introduce set operations and relationships</li>
+<li>Connect sets to other mathematical concepts (e.g., number systems, probability)</li>
+</ol>
+</section>
+<section id="teaching-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-strategies">Teaching Strategies</h3>
+<ul>
+<li>Use manipulatives for hands-on exploration of sets</li>
+<li>Employ visual aids like Venn diagrams and Carroll diagrams</li>
+<li>Encourage students to create their own sets and classify objects</li>
+<li>Integrate set theory into problem-solving activities</li>
+</ul>
+</section>
+<section id="real-world-applications" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-applications">Real-world Applications</h3>
+<ul>
+<li>Discuss how sets are used in databases and computer science</li>
+<li>Explore set applications in logic and reasoning</li>
+<li>Show how sets relate to grouping and categorization in everyday life</li>
+</ul>
+</section>
+<section id="common-misconceptions" class="level3">
+<h3 class="anchored" data-anchor-id="common-misconceptions">Common Misconceptions</h3>
+<ul>
+<li>Address the difference between a set and its elements</li>
+<li>Clarify that order doesn’t matter in sets (unlike in sequences)</li>
+<li>Explain that repeated elements are counted only once in a set</li>
+</ul>
+</section>
+</section>
+<section id="teaching-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="teaching-numbers">Teaching Numbers</h2>
+<ul>
+<li>Start with natural numbers (1, 2, 3, …) for counting and basic operations</li>
+<li>Introduce whole numbers, including zero</li>
+<li>Emphasize place value concepts and number relationships</li>
+</ul>
+<section id="teaching-fractions" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-fractions">Teaching Fractions</h3>
+<ul>
+<li>Begin with concrete models and visual representations</li>
+<li>Use fraction walls and number lines to demonstrate equivalence</li>
+<li>Introduce proper fractions before improper fractions and mixed numbers</li>
+<li>Focus on conceptual understanding before moving to procedures</li>
+</ul>
+</section>
+<section id="teaching-decimals" class="level3">
+<h3 class="anchored" data-anchor-id="teaching-decimals">Teaching Decimals</h3>
+<ul>
+<li>Connect decimals to fractions, especially tenths and hundredths</li>
+<li>Use place value language (e.g., “two-tenths and four-hundredths” for 0.24)</li>
+<li>Employ visual models like decimal grids and number lines</li>
+</ul>
+</section>
+<section id="connecting-fractions-and-decimals" class="level3">
+<h3 class="anchored" data-anchor-id="connecting-fractions-and-decimals">Connecting Fractions and Decimals</h3>
+<ul>
+<li>Explicitly show the relationship between fractions and decimals</li>
+<li>Use double number lines to compare fractions and decimals</li>
+<li>Demonstrate conversion between fractions and decimals</li>
+</ul>
+</section>
+<section id="key-teaching-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="key-teaching-strategies">Key Teaching Strategies</h3>
+<ul>
+<li>Use manipulatives and visual models extensively</li>
+<li>Encourage students to make connections between concepts</li>
+<li>Provide ample opportunities for practice and discussion</li>
+<li>Address common misconceptions (e.g., longer decimal doesn’t always mean larger number)</li>
+<li>Integrate real-world applications and problem-solving</li>
+</ul>
+</section>
+<section id="progression-1" class="level3">
+<h3 class="anchored" data-anchor-id="progression-1">Progression</h3>
+<ol type="1">
+<li>Teach fractions before decimals to build a strong conceptual foundation</li>
+<li>Introduce decimals as an extension of the place value system</li>
+<li>Show how decimals relate to fractions, especially tenths and hundredths</li>
+<li>Gradually increase complexity, moving to operations with fractions and decimals</li>
+</ol>
+</section>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<ol type="1">
+<li><p>Use Polya’s problem-solving approach to solve: A rectangle’s length is twice its width. If its perimeter is 30 cm, what are its dimensions?</p></li>
+<li><p>How might we introduce struggling learners to the concept of sets and numbers?</p></li>
+<li><p>Given sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B.</p></li>
+</ol>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/educ315-fa25\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/module01.html" class="pagination-link" aria-label="Module 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 1</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../modules/module03.html" class="pagination-link" aria-label="Module 3">
+        <span class="nav-page-text">Module 3</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Nathan Alexander</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page was built by Nathan Alexander, PhD in <a href="https://quarto.org/">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

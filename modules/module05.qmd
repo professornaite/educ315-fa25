@@ -12,7 +12,7 @@ format:
     smaller: true
     slide-number: c/t #< collapsted/total
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
     toc: false
     echo: true
     incremental: false
@@ -28,7 +28,29 @@ This module focuses on developing engaging and effective mathematics lessons for
 2.  Learn to effectively organize standards, lesson activities, and assessments.
 3.  Improve assessment practices, especially in preparation for high-stakes testing.
 
-------------------------------------------------------------------------
+---
+
+# Activity
+Using Census data to make sense of the cities where we
+
+Create a census api key
+
+Use your google account on posit.co to create a RStudio project
+
+We will use your census api key to create a series of maps of the city where you want to teach
+
+Identify two census variables that you want to understand about the geospatial districution of those variables.
+
+Save your map and provide a .Rmd file to .html on how what you found will inform your teaching
+
+Option to create a teaching brief (.Rmd file to .html) on the city context based on your variables and suggestions for others who will live in the city as  FINAL PROJECT.
+
+# Lecture and Discussion
+
+# Share
+
+
+
 
 ## Creative Methods in Mathematics Teaching
 
@@ -158,8 +180,8 @@ Effective assessment in mathematics goes beyond traditional testing, especially 
 
 Click the links below to access the templates. These can also be found on Canvas.
 
-- [5E Lesson Plan Template](/files/5E-lesson-plan-template.pdf){target="_blank"}
+-   [5E Lesson Plan Template](/files/5E-lesson-plan-template.pdf){target="_blank"}
 
-- [Weekly Lesson Plan Template](/files/weekly-lesson-plan-template.pdf){target="_blank"}
+-   [Weekly Lesson Plan Template](/files/weekly-lesson-plan-template.pdf){target="_blank"}
 
-- [Danielson Framework Template](/files/danielson-framework-lesson-plan-template.pdf){target="_blank"}
+-   [Danielson Framework Template](/files/danielson-framework-lesson-plan-template.pdf){target="_blank"}

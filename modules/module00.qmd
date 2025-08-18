@@ -1,0 +1,85 @@
+---
+title: "Introduction to the course"
+subtitle: "EDUC 315 - Howard University"
+author: "Nathan Alexander, PhD"
+institute: "School of Education"
+format: 
+  html: default
+  revealjs:
+    output-file: module00-slides.html
+    height: 900
+    width: 1600
+    smaller: false
+    slide-number: c/t
+    logo: "img/howard-logo.jpg"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
+    toc: true
+    toc-depth: 3
+    echo: true
+    incremental: false
+---
+
+## Course description
+
+This course provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4 – 6. Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.
+
+This course has a particular emphasis on learning mathematics in K-6 school settings.
+
+## Course goals
+
+- This course will explore how we understand our dual identities as learners of mathematics and as teachers of mathematics (and quantification) in a society that, broadly, has had adverse experiences with mathematics.
+
+- This could will focus on how we can develop a good understanding of the principles of logical reasoning and explore how mathematical language shapes our thinking about different real-world scenarios and applications.
+
+- This course will allow us to develop our skills to analyze and construct mathematical arguments, and to connect logic to real-world teaching and learning scenarios.
+
+- This course will support your thinking about how to develop lessons and unit-plans that support the above priorities: exploring how we understand oursevles and others as mathematical people, developing a good understandign of logic and mathemtical language, and developing our skills to create lessons that construct mathematical arguments to a diverse set of scenaiors and contexts.
+
+## Modules
+
+1. Foundations of mathematical thinking and learning
+
+2. Whole number operations and computation
+
+3. Fractions, decimals, and rational numbers
+
+4. Geometry and measurement
+
+5. Data science and probability
+
+6. Mathematical modeling and early algebraic thinking
+
+
+---
+
+## Instructor
+
+**Nathan Alexander, PhD**  
+School of Education  
+Howard University
+
+---
+
+## Course Resources
+
+- Lecture Slides  
+- Readings & Exercises  
+- Discussion Forums  
+- GitHub Repository: [Course Data GitHub](https://github.com/educ315-fa25)
+
+---
+
+## Getting Started
+
+- Review the syllabus and course schedule.  
+- Install any recommended software/tools.  
+- Join the course discussion forums.  
+- Prepare for the first interactive lecture session.
+
+# Overview of Modules
+
+## Module 1: Introduction to Logic and the Language of Mathematics
+
+Welcome to **EDUC 315** at Howard University! This course explores the foundational concepts of logic and the language that underpins mathematical thinking. Throughout the module, we will focus on developing critical reasoning skills essential for teaching and understanding mathematics.
+
+---
