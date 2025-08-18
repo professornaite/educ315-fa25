@@ -9,7 +9,7 @@ format:
     output-file: module00-slides.html
     height: 900
     width: 1600
-    smaller: true
+    smaller: false
     slide-number: c/t
     logo: "img/howard-logo.jpg"
     footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
@@ -28,18 +28,27 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 ## Instructor
 
 **Nathan Alexander, PhD**  
-School of Education  
-Howard University
+School of Education, Howard University  
+
+- **Office:** MIN 122H (Curriculum & Instruction)  
+- **Office Hours:** MW after class; By appointment  
+- **Email:** [nathan.alexander@howard.edu](mailto:nathan.alexander@howard.edu)  
+- **Appointment Link:** [https://nathanalexander.youcanbook.me/](https://nathanalexander.youcanbook.me/)  
+- **Course Site:** [https://canvas.howard.edu/courses/61566](https://canvas.howard.edu/courses/61566)  
+
 
 # Course goals
 
-- This course will explore how we understand our dual identities as learners of mathematics and as teachers of mathematics (and quantification) in a society that, broadly, has had adverse experiences with mathematics.
+- Understand mathematics as both learners and teachers, and reflect on how personal and societal experiences shape our views of math.  
+- Build skills in logical reasoning and mathematical language, and explore how they shape thinking, communication, and instruction.  
+- Learn to analyze and construct mathematical arguments and connect them to real teaching and learning scenarios.  
+- Design lessons and unit plans that:  
+  - Support students’ identities as mathematical thinkers  
+  - Emphasize logical reasoning and conceptual understanding  
+  - Integrate mathematics with science and Common Core standards  
+  - Use varied strategies to reach diverse learners in grades 4–6  
+- Apply learning in field experiences by creating and evaluating evidence-based lessons that combine math, science, and culturally responsive pedagogy.  
 
-- This could will focus on how we can develop a good understanding of the principles of logical reasoning and explore how mathematical language shapes our thinking about different real-world scenarios and applications.
-
-- This course will allow us to develop our skills to analyze and construct mathematical arguments, and to connect logic to real-world teaching and learning scenarios.
-
-- This course will support your thinking about how to develop lessons and unit-plans that support the above priorities: exploring how we understand oursevles and others as mathematical people, developing a good understandign of logic and mathemtical language, and developing our skills to create lessons that construct mathematical arguments to a diverse set of scenaiors and contexts.
 
 ## Modules
 
@@ -58,22 +67,11 @@ Howard University
 
 ---
 
-
 ## Course Resources
 
-- Lecture Slides  
-- Readings & Exercises  
-- Discussion Forums  
-- GitHub Repository: [Course Data GitHub](https://github.com/educ315-fa25)
-
----
-
-## Getting Started
-
-- Review the syllabus and course schedule.  
-- Install any recommended software/tools.  
-- Join the course discussion forums.  
-- Prepare for the first interactive lecture session.
+- Lecture slides  
+- Readings and exercises  
+- Discussion and reflections  
 
 # Overview of Modules
 
