@@ -153,11 +153,9 @@ Topics include:
 - Introduction to mathematical models for real-world problems  
 
 
----
-
 # Next steps
 
-For Wednesday, two things:
+For Wednesday, a few things:
 
 1. Presentation: Please prepare one slide about your image and the mathematical design.
 
