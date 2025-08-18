@@ -39,45 +39,37 @@ School of Education, Howard University
 
 # Course goals
 
-- Understand mathematics as both learners and teachers, and reflect on how personal and societal experiences shape our views of math.  
+- Understand mathematics as both learners and teachers, and reflect on how personal and societal experiences shape our views of math.
+
 - Build skills in logical reasoning and mathematical language, and explore how they shape thinking, communication, and instruction.  
+
 - Learn to analyze and construct mathematical arguments and connect them to real teaching and learning scenarios.  
+
 - Design lessons and unit plans that:  
   - Support students’ identities as mathematical thinkers  
   - Emphasize logical reasoning and conceptual understanding  
   - Integrate mathematics with science and Common Core standards  
   - Use varied strategies to reach diverse learners in grades 4–6  
+  
 - Apply learning in field experiences by creating and evaluating evidence-based lessons that combine math, science, and culturally responsive pedagogy.  
-
-
-## Modules
-
-1. Foundations of mathematical thinking and learning
-
-2. Whole number operations and computation
-
-3. Fractions, decimals, and rational numbers
-
-4. Geometry and measurement
-
-5. Data science and probability
-
-6. Mathematical modeling and early algebraic thinking
-
 
 ---
 
 ## Course Resources
 
 - Lecture slides  
+
 - Readings and exercises  
+
 - Discussion and reflections  
 
 # Overview of Modules
 
 ## Module 1: Introduction to Logic and the Language of Mathematics
-This module sets the stage by building the habits of logical reasoning and precision in mathematical language.  
+This module sets the stage by building the habits of logical reasoning and precision in mathematical language.
+
 Topics include:
+
 - Basic elements of logic: propositions, connectives, and quantifiers  
 - Structure of mathematical arguments and proofs  
 - Use of precise definitions and symbols  
@@ -86,7 +78,9 @@ Topics include:
 ---
 
 ## Module 2: Foundations of Mathematical Thinking
+
 This module reinforces the essential skills that underlie all mathematics.  
+
 Topics include:
 - Number sense and patterns  
 - Place value and structure of the number system  
@@ -96,8 +90,11 @@ Topics include:
 ---
 
 ## Module 3: Whole Number Operations and Computation
+
 This module develops fluency with operations on whole numbers.  
+
 Topics include:
+
 - Addition, subtraction, multiplication, and division  
 - Properties of operations (commutative, associative, distributive)  
 - Algorithms and mental computation strategies  
@@ -106,8 +103,11 @@ Topics include:
 ---
 
 ## Module 4: Fractions, Decimals, and Rational Numbers
+
 This module extends number understanding beyond whole numbers.  
+
 Topics include:
+
 - Representations of fractions and decimals  
 - Equivalence and comparison of rational numbers  
 - Operations with fractions and decimals  
@@ -116,8 +116,11 @@ Topics include:
 ---
 
 ## Module 5: Geometry and Measurement
-This module explores shapes, spatial reasoning, and measurement.  
+
+This module explores shapes, spatial reasoning, and measurement. 
+
 Topics include:
+
 - Properties of two- and three-dimensional figures  
 - Perimeter, area, surface area, and volume  
 - Coordinate geometry and transformations  
@@ -126,8 +129,11 @@ Topics include:
 ---
 
 ## Module 6: Data Science and Probability
-This module introduces data literacy and chance.  
+
+This module introduces data literacy and chance.
+
 Topics include:
+
 - Collecting, representing, and interpreting data  
 - Measures of central tendency (mean, median, mode)  
 - Variability and distributions  
@@ -136,8 +142,11 @@ Topics include:
 ---
 
 ## Module 7: Mathematical Modeling and Early Algebraic Thinking
+
 This module connects arithmetic reasoning with algebraic thinking.  
+
 Topics include:
+
 - Recognizing patterns and generalizations  
 - Expressions, equations, and inequalities  
 - Using variables to represent quantities  
@@ -145,3 +154,13 @@ Topics include:
 
 
 ---
+
+# Next steps
+
+For Wednesday, two things:
+
+1. Presentation: Please prepare one slide about your image and the mathematical design.
+
+2. Syllabus and Canvas: We'll review the syllabus and Canvas together.
+
+3. Course site: We'll go over the course site and prepare for Module 1.

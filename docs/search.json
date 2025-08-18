@@ -73,7 +73,7 @@
     "href": "modules/module00.html#module-1-introduction-to-logic-and-the-language-of-mathematics",
     "title": "Introduction to the course",
     "section": "Module 1: Introduction to Logic and the Language of Mathematics",
-    "text": "Module 1: Introduction to Logic and the Language of Mathematics\nThis module sets the stage by building the habits of logical reasoning and precision in mathematical language.\nTopics include: - Basic elements of logic: propositions, connectives, and quantifiers\n- Structure of mathematical arguments and proofs\n- Use of precise definitions and symbols\n- Transition from everyday reasoning to formal mathematical thinking",
+    "text": "Module 1: Introduction to Logic and the Language of Mathematics\nThis module sets the stage by building the habits of logical reasoning and precision in mathematical language. Topics include: - Basic elements of logic: propositions, connectives, and quantifiers\n- Structure of mathematical arguments and proofs\n- Use of precise definitions and symbols\n- Transition from everyday reasoning to formal mathematical thinking",
     "crumbs": [
       "Modules",
       "Overview"
@@ -164,7 +164,7 @@
     "href": "modules/module00-slides.html#course-resources",
     "title": "Introduction to the course",
     "section": "Course Resources",
-    "text": "Course Resources\n\nLecture slides\n\nReadings and exercises\n\nDiscussion and reflections"
+    "text": "Course Resources\n\nLecture slides\nReadings and exercises\nDiscussion and reflections"
   },
   {
     "objectID": "modules/module00-slides.html#getting-started",
@@ -178,7 +178,7 @@
     "href": "modules/module00-slides.html#module-1-introduction-to-logic-and-the-language-of-mathematics",
     "title": "Introduction to the course",
     "section": "Module 1: Introduction to Logic and the Language of Mathematics",
-    "text": "Module 1: Introduction to Logic and the Language of Mathematics\nThis module sets the stage by building the habits of logical reasoning and precision in mathematical language.\nTopics include: - Basic elements of logic: propositions, connectives, and quantifiers\n- Structure of mathematical arguments and proofs\n- Use of precise definitions and symbols\n- Transition from everyday reasoning to formal mathematical thinking"
+    "text": "Module 1: Introduction to Logic and the Language of Mathematics\nThis module sets the stage by building the habits of logical reasoning and precision in mathematical language.\nTopics include:\n\nBasic elements of logic: propositions, connectives, and quantifiers\n\nStructure of mathematical arguments and proofs\n\nUse of precise definitions and symbols\n\nTransition from everyday reasoning to formal mathematical thinking"
   },
   {
     "objectID": "modules/module00-slides.html#module-2-foundations-of-mathematical-thinking",
@@ -192,35 +192,35 @@
     "href": "modules/module00-slides.html#module-3-whole-number-operations-and-computation",
     "title": "Introduction to the course",
     "section": "Module 3: Whole Number Operations and Computation",
-    "text": "Module 3: Whole Number Operations and Computation\nThis module develops fluency with operations on whole numbers.\nTopics include: - Addition, subtraction, multiplication, and division\n- Properties of operations (commutative, associative, distributive)\n- Algorithms and mental computation strategies\n- Estimation and reasoning about magnitude"
+    "text": "Module 3: Whole Number Operations and Computation\nThis module develops fluency with operations on whole numbers.\nTopics include:\n\nAddition, subtraction, multiplication, and division\n\nProperties of operations (commutative, associative, distributive)\n\nAlgorithms and mental computation strategies\n\nEstimation and reasoning about magnitude"
   },
   {
     "objectID": "modules/module00-slides.html#module-4-fractions-decimals-and-rational-numbers",
     "href": "modules/module00-slides.html#module-4-fractions-decimals-and-rational-numbers",
     "title": "Introduction to the course",
     "section": "Module 4: Fractions, Decimals, and Rational Numbers",
-    "text": "Module 4: Fractions, Decimals, and Rational Numbers\nThis module extends number understanding beyond whole numbers.\nTopics include: - Representations of fractions and decimals\n- Equivalence and comparison of rational numbers\n- Operations with fractions and decimals\n- Ratios, rates, and percentages in real-world contexts"
+    "text": "Module 4: Fractions, Decimals, and Rational Numbers\nThis module extends number understanding beyond whole numbers.\nTopics include:\n\nRepresentations of fractions and decimals\n\nEquivalence and comparison of rational numbers\n\nOperations with fractions and decimals\n\nRatios, rates, and percentages in real-world contexts"
   },
   {
     "objectID": "modules/module00-slides.html#module-5-geometry-and-measurement",
     "href": "modules/module00-slides.html#module-5-geometry-and-measurement",
     "title": "Introduction to the course",
     "section": "Module 5: Geometry and Measurement",
-    "text": "Module 5: Geometry and Measurement\nThis module explores shapes, spatial reasoning, and measurement.\nTopics include: - Properties of two- and three-dimensional figures\n- Perimeter, area, surface area, and volume\n- Coordinate geometry and transformations\n- Units of measurement and precision"
+    "text": "Module 5: Geometry and Measurement\nThis module explores shapes, spatial reasoning, and measurement.\nTopics include:\n\nProperties of two- and three-dimensional figures\n\nPerimeter, area, surface area, and volume\n\nCoordinate geometry and transformations\n\nUnits of measurement and precision"
   },
   {
     "objectID": "modules/module00-slides.html#module-6-data-science-and-probability",
     "href": "modules/module00-slides.html#module-6-data-science-and-probability",
     "title": "Introduction to the course",
     "section": "Module 6: Data Science and Probability",
-    "text": "Module 6: Data Science and Probability\nThis module introduces data literacy and chance.\nTopics include: - Collecting, representing, and interpreting data\n- Measures of central tendency (mean, median, mode)\n- Variability and distributions\n- Basic probability concepts and applications"
+    "text": "Module 6: Data Science and Probability\nThis module introduces data literacy and chance.\nTopics include:\n\nCollecting, representing, and interpreting data\n\nMeasures of central tendency (mean, median, mode)\n\nVariability and distributions\n\nBasic probability concepts and applications"
   },
   {
     "objectID": "modules/module00-slides.html#module-7-mathematical-modeling-and-early-algebraic-thinking",
     "href": "modules/module00-slides.html#module-7-mathematical-modeling-and-early-algebraic-thinking",
     "title": "Introduction to the course",
     "section": "Module 7: Mathematical Modeling and Early Algebraic Thinking",
-    "text": "Module 7: Mathematical Modeling and Early Algebraic Thinking\nThis module connects arithmetic reasoning with algebraic thinking.\nTopics include: - Recognizing patterns and generalizations\n- Expressions, equations, and inequalities\n- Using variables to represent quantities\n- Introduction to mathematical models for real-world problems"
+    "text": "Module 7: Mathematical Modeling and Early Algebraic Thinking\nThis module connects arithmetic reasoning with algebraic thinking.\nTopics include:\n\nRecognizing patterns and generalizations\n\nExpressions, equations, and inequalities\n\nUsing variables to represent quantities\n\nIntroduction to mathematical models for real-world problems"
   },
   {
     "objectID": "modules/module03.html",
