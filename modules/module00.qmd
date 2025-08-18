@@ -9,7 +9,7 @@ format:
     output-file: module00-slides.html
     height: 900
     width: 1600
-    smaller: false
+    smaller: true
     slide-number: c/t
     logo: "img/howard-logo.jpg"
     footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
@@ -19,13 +19,19 @@ format:
     incremental: false
 ---
 
-## Course description
+# Course description
 
 This course provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4 – 6. Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.
 
 This course has a particular emphasis on learning mathematics in K-6 school settings.
 
-## Course goals
+## Instructor
+
+**Nathan Alexander, PhD**  
+School of Education  
+Howard University
+
+# Course goals
 
 - This course will explore how we understand our dual identities as learners of mathematics and as teachers of mathematics (and quantification) in a society that, broadly, has had adverse experiences with mathematics.
 
@@ -52,13 +58,6 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 
 ---
 
-## Instructor
-
-**Nathan Alexander, PhD**  
-School of Education  
-Howard University
-
----
 
 ## Course Resources
 
@@ -79,7 +78,72 @@ Howard University
 # Overview of Modules
 
 ## Module 1: Introduction to Logic and the Language of Mathematics
+This module sets the stage by building the habits of logical reasoning and precision in mathematical language.  
+Topics include:
+- Basic elements of logic: propositions, connectives, and quantifiers  
+- Structure of mathematical arguments and proofs  
+- Use of precise definitions and symbols  
+- Transition from everyday reasoning to formal mathematical thinking  
 
-Welcome to **EDUC 315** at Howard University! This course explores the foundational concepts of logic and the language that underpins mathematical thinking. Throughout the module, we will focus on developing critical reasoning skills essential for teaching and understanding mathematics.
+---
+
+## Module 2: Foundations of Mathematical Thinking
+This module reinforces the essential skills that underlie all mathematics.  
+Topics include:
+- Number sense and patterns  
+- Place value and structure of the number system  
+- Problem-solving strategies  
+- Connections between arithmetic and broader mathematical concepts  
+
+---
+
+## Module 3: Whole Number Operations and Computation
+This module develops fluency with operations on whole numbers.  
+Topics include:
+- Addition, subtraction, multiplication, and division  
+- Properties of operations (commutative, associative, distributive)  
+- Algorithms and mental computation strategies  
+- Estimation and reasoning about magnitude  
+
+---
+
+## Module 4: Fractions, Decimals, and Rational Numbers
+This module extends number understanding beyond whole numbers.  
+Topics include:
+- Representations of fractions and decimals  
+- Equivalence and comparison of rational numbers  
+- Operations with fractions and decimals  
+- Ratios, rates, and percentages in real-world contexts  
+
+---
+
+## Module 5: Geometry and Measurement
+This module explores shapes, spatial reasoning, and measurement.  
+Topics include:
+- Properties of two- and three-dimensional figures  
+- Perimeter, area, surface area, and volume  
+- Coordinate geometry and transformations  
+- Units of measurement and precision  
+
+---
+
+## Module 6: Data Science and Probability
+This module introduces data literacy and chance.  
+Topics include:
+- Collecting, representing, and interpreting data  
+- Measures of central tendency (mean, median, mode)  
+- Variability and distributions  
+- Basic probability concepts and applications  
+
+---
+
+## Module 7: Mathematical Modeling and Early Algebraic Thinking
+This module connects arithmetic reasoning with algebraic thinking.  
+Topics include:
+- Recognizing patterns and generalizations  
+- Expressions, equations, and inequalities  
+- Using variables to represent quantities  
+- Introduction to mathematical models for real-world problems  
+
 
 ---

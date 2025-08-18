@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II (Grades 4-6)"
+  title: "EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II"
   description: "Course site for EDUC 315 at Howard University"
   site-url: "https://educ315-fa25.github.io"
   
@@ -13,12 +13,12 @@ website:
   open-graph: true
 
   page-footer:
-    right: "This page was built by Nathan Alexander, PhD in [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2025, Nathan Alexander"
+    right: "This page was built by Nathan N. Alexander, PhD in [Quarto](https://quarto.org/)"
+    left: "&copy; Copyright 2025, Nathan N. Alexander"
     background: "#ccb6b1"
    
   sidebar:
-    background: "#ccb6b1"
+    background: "#ccb6b4"
     logo: "img/gladys-west.png"
     pinned: true
     align: center
@@ -37,16 +37,17 @@ website:
     - section: "Course information"
       contents:
         - href: index.qmd
-          text: Course landing page
-        - href: who.qmd
-          text: Who is in the site photo?
+          text: Home
         - href: course-overview.qmd
           text: Overview
         - href: assignments.qmd
           text: Assignments
+        - href: who.qmd
+          text: Site photo
     - section: "Modules"
       contents:
         - href: modules/module00.qmd
+          text: Overview
         - href: modules/module01.qmd
           text: Module 1
         - href: modules/module02.qmd
@@ -59,7 +60,7 @@ website:
           text: Module 5
         - href: modules/module06.qmd
           text: Module 6
-    - section: "Assignment rubrics"
+    - section: "Rubrics"
       contents:
         - href: modules/historical.qmd
           text: Historical STEM figure
@@ -73,16 +74,6 @@ website:
           text: Expectations
         - href: field/weekly.qmd
           text: Weekly schedules
-    - section: "Standards and curricula"
-      contents: 
-        - href: standards/common.qmd
-          text: Common Core State Standards - Mathematics
-        - href: standards/osse.qmd
-          text: Office of the State Superintendent of Education (OSSE)
-        - href: standards/umoja.qmd
-          text: Umoja Curriculum
-        - href: standards/freedom.qmd
-          text: Freedom School Curriculum
 
 format:
   html:

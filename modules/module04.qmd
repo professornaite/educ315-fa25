@@ -28,6 +28,13 @@ This module will deepen your understanding of often taken-for-granted fundamenta
 
 One goal for this module is for you to come up with a set of ways to describe these properties to your students. Use examples from previous modules to guide you.
 
+
+# Activity
+
+# Lecture and Discussion
+
+# Share
+
 ------------------------------------------------------------------------
 
 ![Some of the mathematical properties.](/img/mod04/properties){width="50%"}

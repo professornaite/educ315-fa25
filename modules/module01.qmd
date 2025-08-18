@@ -22,6 +22,17 @@ format:
 
 This module introduces fundamental concepts in logic and mathematical reasoning. It explores the core principles of deductive and inductive reasoning, providing a foundation for understanding logical arguments and mathematical proofs, key mathematical concepts such as quantity, structure, space, and change, which form the basis of various mathematical disciplines. Special attention is given to the fundamental concepts of zero and infinity, their historical development, and their significance in mathematical thinking
 
+# Activity
+
+# Lecture and Discussion
+
+# Share
+
+
+
+
+
+
 # Framing mathematics and science
 
 **Science** is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence.
