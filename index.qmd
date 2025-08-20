@@ -3,41 +3,39 @@ title: "Welcome to EDUC 315"
 subtitle: "Principles of Teaching Mathematics and Science in Urban Classrooms II"
 ---
 
-The pages on this site outline the technical components of EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by [Professor Nathan Alexander](https://professornaite.github.io){target="_blank"}. This site will serve as a <u>companion</u> to our [Canvas site](https://canvas.howard.edu/courses/61566){target="_blank"}, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.
+This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by [Professor Nathan Alexander](https://professornaite.github.io){target="_blank"}. This site will serve as a <u>companion</u> to our [Canvas site](https://canvas.howard.edu/courses/61566){target="_blank"}, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.
 
 ::: column-screen-inset-right
 | Module | Date | Topics | Key questions |
-|:--------|:---:|:--------|:-------------------|
-| Overview                                      | [Aug 18](modules/module00.html) | [Overview](modules/module00.html)                                  | What do we mean by ‘zero’, $0$?                                |
-| I: Foundations                                       | [Aug 20](modules/module01.html) | [Logic and Mathematical Language](modules/module01.html)           | What do we mean by ‘infinity’, $\\infty$?; Syllabus review      |
-|        | [Aug 25](modules/module02.html) | [Foundations of Mathematical Thinking (pt 1)](modules/module02.html) | Natural ($\\mathbb{N}$), whole ($\\mathbb{N}_0$); What does 'urban' mean? |
-|        | [Aug 27](modules/module02.html) | [Foundations of Mathematical Thinking (pt 2)](modules/module02.html) | Integers ($\\mathbb{Z}$), rational ($\\mathbb{Q}$), irrational; What is rigor? |
-|                                              | Sept 1      | —                                                                      | University closed: Labor Day                                    |
-|  II: Numbers and Operations        | [Sept 3](modules/module03.html) | [Whole Number Operations & Computation (pt 1)](modules/module03.html)     | Teaching numbers, fractions, and decimals                       |
-|    | [Sept 8](modules/module03.html#sum-and-difference) | [Whole Number Operations & Computation (pt 2)](modules/module03.html#sum-and-difference) | Sum, Difference; Teaching diverse students                      |
-|       | [Sept 10](modules/module03.html#product-and-quotient) | [Whole Number Operations & Computation (pt 3)](modules/module03.html#product-and-quotient) | Product, Quotient; Teaching operations                          |
-|    | [Sept 15](modules/module03.html#exponents-and-roots) | [Fractions, Decimals & Rational Numbers (pt 1)](modules/module03.html#exponents-and-roots) | Exponents and roots; Ancestral mathematics activity             |
-| III. Fractions and Decimals    | [Sept 17](modules/module03.html#stem-figures-and-history) | [Fractions, Decimals & Rational Numbers (pt 2)](modules/module03.html#stem-figures-and-history) | Excursion 1: National Portrait Gallery; Historical figures in STEM |
-|                   | [Sept 22](modules/module04.html) | [Geometry & Measurement (pt 1)](modules/module04.html)                   | Commutative property; Math teaching in grades 4–6, pt 1         |
-|                   | [Sept 24](modules/module04.html) | [Geometry & Measurement (pt 2)](modules/module04.html)                   | Associative property; Math teaching in grades 4–6, pt 2         |
-|                    | [Sept 29](modules/module04.html) | [Geometry & Measurement (pt 3)](modules/module04.html)                   | Distributive property; Historical STEM figure presentations      |
-|  IV. Geometry and Measurement              | [Oct 1](modules/module04.html)   | [Geometry & Measurement (pt 4)](modules/module04.html)                   | Identity property; Historical STEM figure presentations          |
-|                                              | Oct 6       | —                                                                      | Fractions; Teaching African American youth                      |
-|                                              | Oct 8       | —                                                                      | More fractions                                                  |
-|                                              | Oct 13      | —                                                                      | University closed: Mental Health Day                            |
-|                                              | Oct 15      | —                                                                      | Lesson previews                                                 |
-|    V. Data Science and Probability                                          | Oct 20      | —                                                                      | Lesson previews                                                 |
-|                                              | Oct 22      | —                                                                      | Excursion 2: National Museum of African American History & Culture|
-|                 | [Oct 27](modules/module05.html) | [Data Science & Probability (pt 1)](modules/module05.html)               | Lesson planning                                                 |
-|                 | [Oct 29](modules/module05.html) | [Data Science & Probability (pt 2)](modules/module05.html)               | Lesson planning                                                 |
-|                | [Nov 3](modules/module05.html)  | [Data Science & Probability (pt 3)](modules/module05.html)               | Assessments                                                     |
-|                 | [Nov 5](modules/module05.html)  | [Data Science & Probability (pt 4)](modules/module05.html)               | Assessments                                                     |
-| VI. Modeling and Early Algebraic Thinking | [Nov 10](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 1)](modules/module06.html) | Lesson presentations                                            |
-| | [Nov 12](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 2)](modules/module06.html) | Lesson presentations                                            |
-|  | Nov 17     | —                                                                      | Assessment updates (no class)                                   |
-|  | [Nov 19](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 3)](modules/module06.html) | Lesson presentations                                            |
-|                                              | Nov 24      | —                                                                      | “Classgiving” Potluck                                           |
-|                                              | Nov 26      | —                                                                      | No class; University closed for Thanksgiving                    |
+|:-------------|:------------:|:---------------------------|:---------------|
+| Overview | [Aug 18](modules/module00.html) | [Overview](modules/module00.html) | What do we mean by ‘zero’, $0$? |
+| I: Foundations | [Aug 20](modules/module01.html) | [Logic and Mathematical Language](modules/module01.html) | What do we mean by ‘infinity’, $\\infty$?; Syllabus review |
+|  | [Aug 25](modules/module02.html) | [Foundations of Mathematical Thinking (pt 1)](modules/module02.html) | Natural ($\\mathbb{N}$), whole ($\\mathbb{N}_0$); What does 'urban' mean? |
+|  | [Aug 27](modules/module02.html) | [Foundations of Mathematical Thinking (pt 2)](modules/module02.html) | Integers ($\\mathbb{Z}$), rational ($\\mathbb{Q}$), irrational; What is rigor? |
+|  | Sept 1 | — | University closed: Labor Day |
+| II: Numbers and Operations | [Sept 3](modules/module03.html) | [Whole Number Operations & Computation (pt 1)](modules/module03.html) | Teaching numbers, fractions, and decimals |
+|  | [Sept 8](modules/module03.html#sum-and-difference) | [Whole Number Operations & Computation (pt 2)](modules/module03.html#sum-and-difference) | Sum, Difference; Teaching diverse students |
+|  | [Sept 10](modules/module03.html#product-and-quotient) | [Whole Number Operations & Computation (pt 3)](modules/module03.html#product-and-quotient) | Product, Quotient; Teaching operations |
+|  | [Sept 15](modules/module03.html#exponents-and-roots) | [Fractions, Decimals & Rational Numbers (pt 1)](modules/module03.html#exponents-and-roots) | Exponents and roots; Ancestral mathematics activity |
+| III\. Fractions and Decimals | [Sept 17](modules/module03.html#stem-figures-and-history) | [Fractions, Decimals & Rational Numbers (pt 2)](modules/module03.html#stem-figures-and-history) | Excursion 1: National Portrait Gallery; Historical figures in STEM |
+|  | [Sept 22](modules/module04.html) | [Geometry & Measurement (pt 1)](modules/module04.html) | Commutative property; Math teaching in grades 4–6, pt 1 |
+|  | [Sept 24](modules/module04.html) | [Geometry & Measurement (pt 2)](modules/module04.html) | Associative property; Math teaching in grades 4–6, pt 2 |
+|  | [Sept 29](modules/module04.html) | [Geometry & Measurement (pt 3)](modules/module04.html) | Distributive property; Historical STEM figure presentations |
+| IV\. Geometry and Measurement | [Oct 1](modules/module04.html) | [Geometry & Measurement (pt 4)](modules/module04.html) | Identity property; Historical STEM figure presentations |
+|  | Oct 6 | — | Fractions; Teaching African American youth |
+|  | Oct 8 | — | More fractions |
+|  | Oct 13 | — | University closed: Mental Health Day |
+|  | Oct 15 | — | Lesson previews |
+| V. Data Science and Probability | Oct 20 | — | Lesson previews |
+|  | Oct 22 | — | Excursion 2: National Museum of African American History & Culture |
+|  | [Oct 27](modules/module05.html) | [Data Science & Probability (pt 1)](modules/module05.html) | Lesson planning |
+|  | [Oct 29](modules/module05.html) | [Data Science & Probability (pt 2)](modules/module05.html) | Lesson planning |
+|  | [Nov 3](modules/module05.html) | [Data Science & Probability (pt 3)](modules/module05.html) | Assessments |
+|  | [Nov 5](modules/module05.html) | [Data Science & Probability (pt 4)](modules/module05.html) | Assessments |
+| VI\. Modeling and Early Algebraic Thinking | [Nov 10](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 1)](modules/module06.html) | Lesson presentations |
+|  | [Nov 12](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 2)](modules/module06.html) | Lesson presentations |
+|  | Nov 17 | — | Assessment updates (no class) |
+|  | [Nov 19](modules/module06.html) | [Mathematical Modeling & Early Algebraic Thinking (pt 3)](modules/module06.html) | Lesson presentations |
+|  | Nov 24 | — | “Classgiving” Potluck |
+|  | Nov 26 | — | No class; University closed for Thanksgiving |
 :::
-
-

@@ -37,7 +37,7 @@ website:
     - section: "Course information"
       contents:
         - href: index.qmd
-          text: Home
+          text: Calendar
         - href: course-overview.qmd
           text: Overview
         - href: assignments.qmd
@@ -50,16 +50,6 @@ website:
           text: Overview
         - href: modules/module01.qmd
           text: Module 1
-        - href: modules/module02.qmd
-          text: Module 2
-        - href: modules/module03.qmd
-          text: Module 3
-        - href: modules/module04.qmd
-          text: Module 4
-        - href: modules/module05.qmd
-          text: Module 5
-        - href: modules/module06.qmd
-          text: Module 6
     - section: "Rubrics"
       contents:
         - href: modules/historical.qmd
