@@ -5,38 +5,42 @@ subtitle: "Principles of Teaching Mathematics and Science in Urban Classrooms II
 
 This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by [Professor Nathan Alexander](https://professornaite.github.io){target="_blank"}. This site will serve as a <u>companion</u> to our [Canvas site](https://canvas.howard.edu/courses/61566){target="_blank"}, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.
 
-::: column-screen-inset-right
-| Week | Day | Module / Topic | Assignments |
-|:----:|:-----:|:---------------|:------------|
-| 1 | Mon, Aug 18 | **Overview** <br> Introduction to EDUC 315 | — |
-| 1 | Wed, Aug 20 | **Introduction to the Language of Mathematics** <br> Building the number line; sets of numbers (ℕ, ℕ₀, ℤ, ℚ, ℝ, ℂ) | — |
-| 2 | Mon, Aug 25 | **Introduction to the Language of Mathematics** <br> Zeno’s Paradox activity; sets, logic, union, intersection | — |
-| 2 | Wed, Aug 27 | **Introduction to the Language of Mathematics** <br> Logic & proofs; CRA approach; group math corner design | **Quiz 1** <br> Assignment 1 announced |
-| 3 | Mon, Sept 1 | — | No class (Labor Day) |
-| 3 | Wed, Sept 3 | **Foundations of Mathematical Thinking** <br> Review quiz; proofs; Polya’s 4-step method; group proof activity | Reminder: Assignment 1 due next week |
-| 4 | Mon, Sept 8 | **Foundations of Mathematical Thinking** <br> Review concepts; number sense; place value; Polya’s method; Math corner rotations & feedback | Assignment 2 announced (Historical STEM Figure) |
-| 4 | Wed, Sept 10 | **Foundations of Mathematical Thinking** <br> CRA approach; activity: fraction tiles, computation (⅔ + ½) | **Quiz 2** |
-| 5 | Mon, Sept 15 | **Whole Number Operations and Computation** <br> Exponents and roots; teaching examples | — |
-| 5 | Wed, Sept 17 | **Fractions, Decimals & Rational Numbers** <br> STEM Figures activity; Excursion 1: National Portrait Gallery | **Assignment 1 due** |
-| 6 | Mon, Sept 22 | **Geometry and Measurement** <br> Commutative property; teaching math in grades 4–6 (pt 1) | — |
-| 6 | Wed, Sept 24 | **Geometry and Measurement** <br> Associative property; grades 4–6 (pt 2) | — |
-| 7 | Mon, Sept 29 | **Geometry and Measurement** <br> Distributive property; Historical STEM figure presentations | **Assignment 2 due** |
-| 7 | Wed, Oct 1 | **Geometry and Measurement** <br> Identity property; Historical STEM figure presentations | — |
-| 8 | Mon, Oct 6 | **Fractions, Decimals & Rational Numbers** <br> Fraction focus; teaching African American youth | — |
-| 8 | Wed, Oct 8 | **Fractions, Decimals & Rational Numbers** <br> Continued fractions exploration | — |
-| 9 | Mon, Oct 13 | — | No class (Indigenous Peoples’ Day) |
-| 9 | Wed, Oct 15 | **Fractions, Decimals & Rational Numbers** <br> Lesson previews | — |
-| 10 | Mon, Oct 20 | **Data Science and Probability** <br> Lesson previews | — |
-| 10 | Wed, Oct 22 | **Data Science and Probability** <br> Excursion 2: Museum of African American History & Culture | — |
-| 11 | Mon, Oct 27 | **Data Science and Probability** <br> Virtual session (conference) <br> Lesson planning | — |
-| 11 | Wed, Oct 29 | **Data Science and Probability** <br> Lesson planning continued | — |
-| 12 | Mon, Nov 3 | **Data Science and Probability** <br> Assessments (pt 1) | — |
-| 12 | Wed, Nov 5 | **Data Science and Probability** <br> Assessments (pt 2) | — |
-| 13 | Mon, Nov 10 | **Mathematical Modeling & Early Algebraic Thinking** <br> Lesson presentations (pt 1) | — |
-| 13 | Wed, Nov 12 | **Mathematical Modeling & Early Algebraic Thinking** <br> Lesson presentations (pt 2) | — |
-| 14 | Mon, Nov 17 | **Mathematical Modeling & Early Algebraic Thinking** <br> Assessment updates (no class meeting) | — |
-| 14 | Wed, Nov 19 | **Mathematical Modeling & Early Algebraic Thinking** <br> Completing EDUC 315; Lesson presentations | — |
-| 15 | Mon, Nov 24 | **Closing EDUC 315** <br> Classgiving Potluck & closing reflections | — |
-| 15 | Wed, Nov 26 | — | No class (Thanksgiving break) |
-:::
+------------------------------------------------------------------------
 
+## Course Schedule and Modules
+
+::: column-screen-inset-right
+| Week | Day | Topic | Assignments and Assessments |
+|:------------:|:------------:|:-----------------------|:-------------------|
+| [1](modules/module00.qmd) | Mon, Aug 18 | [**Introduction to EDUC 315**](modules/module00.html) <br> Course overview | — |
+| 1 | Wed, Aug 20 | [**Introduction to EDUC 315**](modules/module00.html) <br> Number line; sets of numbers | Mathematics color book |
+| [2](modules/module01.qmd) | Mon, Aug 25 | [**Module 1: Language of Mathematics**](modules/module01.html) <br> Sets, union, intersection | Number lines |
+| 2 | Wed, Aug 27 | [**Module 1: Language of Mathematics**](modules/module01.html) <br> Logic and proofs; CRA approach | Quiz 1 |
+| 3 | Mon, Sept 1 | — | No class (Labor Day) |
+| 3 | Wed, Sept 3 | **Module 2: Foundations of Mathematical Thinking** <br> Polya’s 4-step method | Math corner activity due Sun, Sept 7 |
+| 4 | Mon, Sept 8 | **Module 2: Foundations of Mathematical Thinking** <br> Number sense, place value | \- |
+| 4 | Wed, Sept 10 | **Module 2: Foundations of Mathematical Thinking** <br> Computation | Quiz 2 |
+| 5 | Mon, Sept 15 |  | Excursion 1: National Portrait Gallery |
+| 5 | Wed, Sept 17 | **Module 3: Whole Number Operations** <br> Exponents and roots |  |
+| 6 | Mon, Sept 22 | **Module 3: Whole Number Operations** <br> Commutative property | — |
+| 6 | Wed, Sept 24 | **Module 3: Whole Number Operations** <br> Associative property | Quiz 3 |
+| 7 | Mon, Sept 29 | **Module 3: Whole Number Operations** <br> Distributive property | Historical STEM figure due Sun, Sept 28 |
+| 7 | Wed, Oct 1 | **Module 4: Fractions, Decimals & Rational Numbers** | Midterm Exam |
+| 8 | Mon, Oct 6 | **Module 4: Fractions, Decimals & Rational Numbers** | — |
+| 8 | Wed, Oct 8 | **Module 4: Fractions, Decimals & Rational Numbers** | — |
+| 9 | Mon, Oct 13 | — | No class (Indigenous Peoples’ Day) <br> Two-day lesson plan due Tue, Oct 14 |
+| 9 | Wed, Oct 15 | **Module 5: Geometry and Measurement** | Quiz 4 |
+| 10 | Mon, Oct 20 | **Module 5: Geometry and Measurement** | — |
+| 10 | Wed, Oct 22 | **Module 5: Geometry and Measurement** |  |
+| 11 | Mon, Oct 27 | **Module 5: Geometry and Measurement** | — |
+| 11 | Wed, Oct 29 | **Module 5: Geometry and Measurement** | — |
+| 12 | Mon, Nov 3 | **Module 6: Data Science and Probability** | — |
+| 12 | Wed, Nov 5 | **Module 6: Data Science and Probability** | Quiz 5 |
+| 13 | Mon, Nov 10 | **Module 6: Data Science and Probability** | — |
+| 13 | Wed, Nov 12 | **Module 7: Mathematical Modeling** | Excursion 2: NMAAHC |
+| 14 | Mon, Nov 17 | **Module 7: Mathematical Modeling** | Mathematics unit outline due Sun, Nov 16 |
+| 14 | Wed, Nov 19 | **Module 7: Mathematical Modeling** | Quiz 6 |
+| 15 | Mon, Nov 24 | **Closing** <br> Classgiving Potluck & closing reflections | — |
+| 15 | Wed, Nov 26 | — | No class (Thanksgiving) |
+|  | Wed, Dec 3 | — | **Field placement log due** |
+:::
