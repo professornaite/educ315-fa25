@@ -31,30 +31,29 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 
 *School of Education*
 
-- Department of Curriculum and Instruction
-- Miner Building 122H
+-   Department of Curriculum and Instruction
+-   Miner Building 122H
 
 *The Graduate School*
 
-- Program in Applied Data Science and Analytics
-- Annex III Room 208
+-   Program in Applied Data Science and Analytics
+-   Annex III Room 208
 
----
+------------------------------------------------------------------------
 
 ## Instructor contact details
 
--   Office Hours: 
+-   Office Hours:
 
-    - Office location: Miner Building 122H (Curriculum and Instruction)
-    
-    - Monday and Wednesday after class or by appointment
+    -   Office location: Miner Building 122H (Curriculum and Instruction)
 
-    - Appointment Link: <https://nathanalexander.youcanbook.me/>
+    -   Monday and Wednesday after class or by appointment
 
--   Email: [nathan.alexander@howard.edu](mailto:nathan.alexander@howard.edu)
+    -   Appointment Link: <https://nathanalexander.youcanbook.me/>
+
+-   Email: [nathan.alexander\@howard.edu](mailto:nathan.alexander@howard.edu)
 
 -   Course Site: <https://canvas.howard.edu/courses/61566>
-
 
 # Course goals
 
@@ -64,10 +63,10 @@ This course has a particular emphasis on learning mathematics in K-6 school sett
 
 -   Learn to analyze and construct mathematical arguments and connect them to teaching and learning scenarios that will improve your ability to design lessons and unit plans that:
 
-    - Support students’ identities as "mathematical thinkers and doers"
-    - Emphasize informal and formal reasoning and conceptual understanding
-    - Integrate mathematics and science using targeted standards
-    
+    -   Support students’ identities as "mathematical thinkers and doers"
+    -   Emphasize informal and formal reasoning and conceptual understanding
+    -   Integrate mathematics and science using targeted standards
+
 -   Apply theories and strategies in a classroom-based field experience
 
 # Overview of course modules
@@ -83,12 +82,12 @@ This module sets the stage for our course by building our knowledge of the habit
 
 ## Module 2: Foundations of Mathematical Thinking
 
-This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking. Topics will include: 
+This module will reinforce some of the essential skills that underlie all of our thinking about mathematics, and have us consider some of the ways that we can approach supporting mathematical thinking. Topics will include:
 
-- Number sense and patterns
-- Place value and structure of the number system
-- Problem-solving strategies
-- Connections between arithmetic and broader mathematical concepts
+-   Number sense and patterns
+-   Place value and structure of the number system
+-   Problem-solving strategies
+-   Connections between arithmetic and broader mathematical concepts
 
 ## Module 3: Whole Number Operations and Computation
 
@@ -116,7 +115,6 @@ This module will explore how we support students' knowledge of shapes, spatial r
 -   Perimeter, area, surface area, and volume
 -   Coordinate geometry and transformations
 -   Units of measurement and precision
-
 
 ## Module 6: Data Science and Probability
 
