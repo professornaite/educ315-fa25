@@ -107,7 +107,7 @@ The set of **integers**, $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}$
 
 ### Rational numbers
 
-The set of **rational** numbers, $\mathbb{Q} = \{\dfrac{a}{b}, a \in \mathbb{Z}, b \in \mathbb{Z}, b = 0\}$
+The set of **rational** numbers, $\mathbb{Q} = \{\dfrac{a}{b}, a \in \mathbb{Z}, b \in \mathbb{Z}, b \ne 0\}$
 
 ### Real numbers
 

@@ -703,7 +703,7 @@
     "href": "modules/module01-slides.html#sets-of-numbers",
     "title": "Module 1: Logic and the language of mathematics",
     "section": "Sets of numbers",
-    "text": "Sets of numbers\n\n\nNatural numbers\nThe set of natural numbers, \\(\\mathbb{N} = \\{1, 2, 3, ...\\}\\)\nWhole numbers\nThe set of whole numbers, \\(\\mathbb{N_0} = \\{0, 1, 2, 3, ...\\}\\)\nInteger numbers\nThe set of integers, \\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}\\)\nRational numbers\nThe set of rational numbers, \\(\\mathbb{Q} = \\{\\dfrac{a}{b}, a \\in \\mathbb{Z}, b \\in \\mathbb{Z}, b = 0\\}\\)\nReal numbers\n\nThe set of real numbers, \\(\\mathbb{R} = (-\\infty, \\infty)\\)\n\nOther sets\nWhat sets are missing? How can you define and visualize these other sets?\n\nSets of numbers. From cuemath.com"
+    "text": "Sets of numbers\n\n\nNatural numbers\nThe set of natural numbers, \\(\\mathbb{N} = \\{1, 2, 3, ...\\}\\)\nWhole numbers\nThe set of whole numbers, \\(\\mathbb{N_0} = \\{0, 1, 2, 3, ...\\}\\)\nInteger numbers\nThe set of integers, \\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}\\)\nRational numbers\nThe set of rational numbers, \\(\\mathbb{Q} = \\{\\dfrac{a}{b}, a \\in \\mathbb{Z}, b \\in \\mathbb{Z}, b \\ne 0\\}\\)\nReal numbers\n\nThe set of real numbers, \\(\\mathbb{R} = (-\\infty, \\infty)\\)\n\nOther sets\nWhat sets are missing? How can you define and visualize these other sets?\n\nSets of numbers. From cuemath.com"
   },
   {
     "objectID": "modules/module01-slides.html#framing-mathematics-and-science",
@@ -767,7 +767,7 @@
     "href": "modules/module01.html#sets-of-numbers",
     "title": "Module 1: Logic and the language of mathematics",
     "section": "Sets of numbers",
-    "text": "Sets of numbers\n\n\n\nNatural numbers\nThe set of natural numbers, \\(\\mathbb{N} = \\{1, 2, 3, ...\\}\\)\n\n\nWhole numbers\nThe set of whole numbers, \\(\\mathbb{N_0} = \\{0, 1, 2, 3, ...\\}\\)\n\n\nInteger numbers\nThe set of integers, \\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}\\)\n\n\nRational numbers\nThe set of rational numbers, \\(\\mathbb{Q} = \\{\\dfrac{a}{b}, a \\in \\mathbb{Z}, b \\in \\mathbb{Z}, b = 0\\}\\)\n\n\nReal numbers\n\nThe set of real numbers, \\(\\mathbb{R} = (-\\infty, \\infty)\\)\n\n\n\nOther sets\nWhat sets are missing? How can you define and visualize these other sets?\n\n\n\nSets of numbers. From cuemath.com",
+    "text": "Sets of numbers\n\n\n\nNatural numbers\nThe set of natural numbers, \\(\\mathbb{N} = \\{1, 2, 3, ...\\}\\)\n\n\nWhole numbers\nThe set of whole numbers, \\(\\mathbb{N_0} = \\{0, 1, 2, 3, ...\\}\\)\n\n\nInteger numbers\nThe set of integers, \\(\\mathbb{Z} = \\{..., -3, -2, -1, 0, 1, 2, 3, ...\\}\\)\n\n\nRational numbers\nThe set of rational numbers, \\(\\mathbb{Q} = \\{\\dfrac{a}{b}, a \\in \\mathbb{Z}, b \\in \\mathbb{Z}, b \\ne 0\\}\\)\n\n\nReal numbers\n\nThe set of real numbers, \\(\\mathbb{R} = (-\\infty, \\infty)\\)\n\n\n\nOther sets\nWhat sets are missing? How can you define and visualize these other sets?\n\n\n\nSets of numbers. From cuemath.com",
     "crumbs": [
       "Modules",
       "Module 1"
