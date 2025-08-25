@@ -7,7 +7,7 @@ subtitle: "Principles of Teaching Math and Science in Urban Classrooms II"
 
 ### Course description
 
-Provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4-6.Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implementevidence-based lessons in science and mathematics.
+Provides candidates with knowledge, skills, dispositions and pedagogy to deliver content-rich, rigorous mathematics and science instruction for African American and diverse urban learners in grades 4-6.Candidates will have opportunities to employ a variety of instructional strategies to integrate mathematics and science content and the Common Core State Standards through the Principles of Learning Mathematics and Science. Field-based experiences provide an opportunity for candidates to design, develop and implement evidence-based lessons in science and mathematics.
 
 Click [here](https://catalogue.howard.edu/sites/default/files/pdf/class/educ-315.pdf?1697638771) to see the Howard course catalog description.
 
@@ -40,10 +40,10 @@ Canvas is the go-to for submissions, and where you can find readings and assignm
 ::: incremental
 The four categories for **assignments** in this course are as follows:
 
-- Mathematical activities and lesson plans (50 points)
-- Quizzes (20 points)
-- Midterm exam (20 points)
-- Field placement log and other files/notes (10 points)
+-   Mathematical activities and lesson plans (50 points)
+-   Quizzes (20 points)
+-   Midterm exam (20 points)
+-   Field placement log and other files/notes (10 points)
 :::
 
 ### **A few other items**

@@ -52,12 +52,8 @@ website:
           text: Module 1
     - section: "Rubrics"
       contents:
-        - href: modules/historical.qmd
+        - href: other/historical.qmd
           text: Historical STEM figure
-        - href: modules/math-lesson1.qmd
-          text: Mathematics Lesson
-        - href: files/sample-assessment.Rmd
-          text: Sample Math Lesson Rubric
     - section: "Field experience"
       contents:
         - href: field/expectations.qmd
