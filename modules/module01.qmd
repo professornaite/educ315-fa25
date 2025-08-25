@@ -28,11 +28,6 @@ This module introduces fundamental concepts in logic and mathematical reasoning.
 
 # Share
 
-
-
-
-
-
 # Framing mathematics and science
 
 **Science** is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence.

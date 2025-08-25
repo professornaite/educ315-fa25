@@ -69,35 +69,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <meta property="og:title" content="Welcome to EDUC 315 – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 <meta property="og:description" content="Principles of Teaching Mathematics and Science in Urban Classrooms II">
@@ -199,36 +170,6 @@ window.Quarto = {
  <span class="menu-text">Module 1</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules/module02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules/module03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 3</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules/module04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 4</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules/module05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 5</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modules/module06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 6</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -317,194 +258,200 @@ window.Quarto = {
 <p>This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by <a href="https://professornaite.github.io" target="_blank">Professor Nathan Alexander</a>. This site will serve as a <u>companion</u> to our <a href="https://canvas.howard.edu/courses/61566" target="_blank">Canvas site</a>, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.</p>
 <div class="column-screen-inset-right">
 <table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 38%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Module</th>
-<th style="text-align: center;">Date</th>
-<th style="text-align: left;">Topics</th>
-<th style="text-align: left;">Key questions</th>
+<th style="text-align: center;">Week</th>
+<th style="text-align: center;">Day</th>
+<th style="text-align: left;">Module / Topic</th>
+<th style="text-align: left;">Assignments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Overview</td>
-<td style="text-align: center;"><a href="modules/module00.html">Aug 18</a></td>
-<td style="text-align: left;"><a href="modules/module00.html">Overview</a></td>
-<td style="text-align: left;">What do we mean by ‘zero’, <span class="math inline">\(0\)</span>?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">I: Foundations</td>
-<td style="text-align: center;"><a href="modules/module01.html">Aug 20</a></td>
-<td style="text-align: left;"><a href="modules/module01.html">Logic and Mathematical Language</a></td>
-<td style="text-align: left;">What do we mean by ‘infinity’, <span class="math inline">\(\\infty\)</span>?; Syllabus review</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module02.html">Aug 25</a></td>
-<td style="text-align: left;"><a href="modules/module02.html">Foundations of Mathematical Thinking (pt 1)</a></td>
-<td style="text-align: left;">Natural (<span class="math inline">\(\\mathbb{N}\)</span>), whole (<span class="math inline">\(\\mathbb{N}_0\)</span>); What does ‘urban’ mean?</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module02.html">Aug 27</a></td>
-<td style="text-align: left;"><a href="modules/module02.html">Foundations of Mathematical Thinking (pt 2)</a></td>
-<td style="text-align: left;">Integers (<span class="math inline">\(\\mathbb{Z}\)</span>), rational (<span class="math inline">\(\\mathbb{Q}\)</span>), irrational; What is rigor?</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Sept 1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Mon, Aug 18</td>
+<td style="text-align: left;"><strong>Overview</strong> <br> Introduction to EDUC 315</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">University closed: Labor Day</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">II: Numbers and Operations</td>
-<td style="text-align: center;"><a href="modules/module03.html">Sept 3</a></td>
-<td style="text-align: left;"><a href="modules/module03.html">Whole Number Operations &amp; Computation (pt 1)</a></td>
-<td style="text-align: left;">Teaching numbers, fractions, and decimals</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module03.html#sum-and-difference">Sept 8</a></td>
-<td style="text-align: left;"><a href="modules/module03.html#sum-and-difference">Whole Number Operations &amp; Computation (pt 2)</a></td>
-<td style="text-align: left;">Sum, Difference; Teaching diverse students</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module03.html#product-and-quotient">Sept 10</a></td>
-<td style="text-align: left;"><a href="modules/module03.html#product-and-quotient">Whole Number Operations &amp; Computation (pt 3)</a></td>
-<td style="text-align: left;">Product, Quotient; Teaching operations</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module03.html#exponents-and-roots">Sept 15</a></td>
-<td style="text-align: left;"><a href="modules/module03.html#exponents-and-roots">Fractions, Decimals &amp; Rational Numbers (pt 1)</a></td>
-<td style="text-align: left;">Exponents and roots; Ancestral mathematics activity</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">III. Fractions and Decimals</td>
-<td style="text-align: center;"><a href="modules/module03.html#stem-figures-and-history">Sept 17</a></td>
-<td style="text-align: left;"><a href="modules/module03.html#stem-figures-and-history">Fractions, Decimals &amp; Rational Numbers (pt 2)</a></td>
-<td style="text-align: left;">Excursion 1: National Portrait Gallery; Historical figures in STEM</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module04.html">Sept 22</a></td>
-<td style="text-align: left;"><a href="modules/module04.html">Geometry &amp; Measurement (pt 1)</a></td>
-<td style="text-align: left;">Commutative property; Math teaching in grades 4–6, pt 1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module04.html">Sept 24</a></td>
-<td style="text-align: left;"><a href="modules/module04.html">Geometry &amp; Measurement (pt 2)</a></td>
-<td style="text-align: left;">Associative property; Math teaching in grades 4–6, pt 2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module04.html">Sept 29</a></td>
-<td style="text-align: left;"><a href="modules/module04.html">Geometry &amp; Measurement (pt 3)</a></td>
-<td style="text-align: left;">Distributive property; Historical STEM figure presentations</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">IV. Geometry and Measurement</td>
-<td style="text-align: center;"><a href="modules/module04.html">Oct 1</a></td>
-<td style="text-align: left;"><a href="modules/module04.html">Geometry &amp; Measurement (pt 4)</a></td>
-<td style="text-align: left;">Identity property; Historical STEM figure presentations</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Oct 6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Wed, Aug 20</td>
+<td style="text-align: left;"><strong>Introduction to the Language of Mathematics</strong> <br> Building the number line; sets of numbers (ℕ, ℕ₀, ℤ, ℚ, ℝ, ℂ)</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">Fractions; Teaching African American youth</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Oct 8</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">More fractions</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Oct 13</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Mon, Aug 25</td>
+<td style="text-align: left;"><strong>Introduction to the Language of Mathematics</strong> <br> Zeno’s Paradox activity; sets, logic, union, intersection</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">University closed: Mental Health Day</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Oct 15</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Lesson previews</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Wed, Aug 27</td>
+<td style="text-align: left;"><strong>Introduction to the Language of Mathematics</strong> <br> Logic &amp; proofs; CRA approach; group math corner design</td>
+<td style="text-align: left;"><strong>Quiz 1</strong> <br> Assignment 1 announced</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">V. Data Science and Probability</td>
-<td style="text-align: center;">Oct 20</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Mon, Sept 1</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">Lesson previews</td>
+<td style="text-align: left;">No class (Labor Day)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Oct 22</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">Excursion 2: National Museum of African American History &amp; Culture</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Wed, Sept 3</td>
+<td style="text-align: left;"><strong>Foundations of Mathematical Thinking</strong> <br> Review quiz; proofs; Polya’s 4-step method; group proof activity</td>
+<td style="text-align: left;">Reminder: Assignment 1 due next week</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module05.html">Oct 27</a></td>
-<td style="text-align: left;"><a href="modules/module05.html">Data Science &amp; Probability (pt 1)</a></td>
-<td style="text-align: left;">Lesson planning</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Mon, Sept 8</td>
+<td style="text-align: left;"><strong>Foundations of Mathematical Thinking</strong> <br> Review concepts; number sense; place value; Polya’s method; Math corner rotations &amp; feedback</td>
+<td style="text-align: left;">Assignment 2 announced (Historical STEM Figure)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module05.html">Oct 29</a></td>
-<td style="text-align: left;"><a href="modules/module05.html">Data Science &amp; Probability (pt 2)</a></td>
-<td style="text-align: left;">Lesson planning</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Wed, Sept 10</td>
+<td style="text-align: left;"><strong>Foundations of Mathematical Thinking</strong> <br> CRA approach; activity: fraction tiles, computation (⅔ + ½)</td>
+<td style="text-align: left;"><strong>Quiz 2</strong></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module05.html">Nov 3</a></td>
-<td style="text-align: left;"><a href="modules/module05.html">Data Science &amp; Probability (pt 3)</a></td>
-<td style="text-align: left;">Assessments</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module05.html">Nov 5</a></td>
-<td style="text-align: left;"><a href="modules/module05.html">Data Science &amp; Probability (pt 4)</a></td>
-<td style="text-align: left;">Assessments</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">VI. Modeling and Early Algebraic Thinking</td>
-<td style="text-align: center;"><a href="modules/module06.html">Nov 10</a></td>
-<td style="text-align: left;"><a href="modules/module06.html">Mathematical Modeling &amp; Early Algebraic Thinking (pt 1)</a></td>
-<td style="text-align: left;">Lesson presentations</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module06.html">Nov 12</a></td>
-<td style="text-align: left;"><a href="modules/module06.html">Mathematical Modeling &amp; Early Algebraic Thinking (pt 2)</a></td>
-<td style="text-align: left;">Lesson presentations</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Nov 17</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Mon, Sept 15</td>
+<td style="text-align: left;"><strong>Whole Number Operations and Computation</strong> <br> Exponents and roots; teaching examples</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">Assessment updates (no class)</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="modules/module06.html">Nov 19</a></td>
-<td style="text-align: left;"><a href="modules/module06.html">Mathematical Modeling &amp; Early Algebraic Thinking (pt 3)</a></td>
-<td style="text-align: left;">Lesson presentations</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Wed, Sept 17</td>
+<td style="text-align: left;"><strong>Fractions, Decimals &amp; Rational Numbers</strong> <br> STEM Figures activity; Excursion 1: National Portrait Gallery</td>
+<td style="text-align: left;"><strong>Assignment 1 due</strong></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Nov 24</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Mon, Sept 22</td>
+<td style="text-align: left;"><strong>Geometry and Measurement</strong> <br> Commutative property; teaching math in grades 4–6 (pt 1)</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">“Classgiving” Potluck</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: center;">Nov 26</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Wed, Sept 24</td>
+<td style="text-align: left;"><strong>Geometry and Measurement</strong> <br> Associative property; grades 4–6 (pt 2)</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">No class; University closed for Thanksgiving</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Mon, Sept 29</td>
+<td style="text-align: left;"><strong>Geometry and Measurement</strong> <br> Distributive property; Historical STEM figure presentations</td>
+<td style="text-align: left;"><strong>Assignment 2 due</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Wed, Oct 1</td>
+<td style="text-align: left;"><strong>Geometry and Measurement</strong> <br> Identity property; Historical STEM figure presentations</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Mon, Oct 6</td>
+<td style="text-align: left;"><strong>Fractions, Decimals &amp; Rational Numbers</strong> <br> Fraction focus; teaching African American youth</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Wed, Oct 8</td>
+<td style="text-align: left;"><strong>Fractions, Decimals &amp; Rational Numbers</strong> <br> Continued fractions exploration</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Mon, Oct 13</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">No class (Indigenous Peoples’ Day)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Wed, Oct 15</td>
+<td style="text-align: left;"><strong>Fractions, Decimals &amp; Rational Numbers</strong> <br> Lesson previews</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Mon, Oct 20</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Lesson previews</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Wed, Oct 22</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Excursion 2: Museum of African American History &amp; Culture</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Mon, Oct 27</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Virtual session (conference) <br> Lesson planning</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Wed, Oct 29</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Lesson planning continued</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">Mon, Nov 3</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Assessments (pt 1)</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">Wed, Nov 5</td>
+<td style="text-align: left;"><strong>Data Science and Probability</strong> <br> Assessments (pt 2)</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">Mon, Nov 10</td>
+<td style="text-align: left;"><strong>Mathematical Modeling &amp; Early Algebraic Thinking</strong> <br> Lesson presentations (pt 1)</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">Wed, Nov 12</td>
+<td style="text-align: left;"><strong>Mathematical Modeling &amp; Early Algebraic Thinking</strong> <br> Lesson presentations (pt 2)</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">Mon, Nov 17</td>
+<td style="text-align: left;"><strong>Mathematical Modeling &amp; Early Algebraic Thinking</strong> <br> Assessment updates (no class meeting)</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">Wed, Nov 19</td>
+<td style="text-align: left;"><strong>Mathematical Modeling &amp; Early Algebraic Thinking</strong> <br> Completing EDUC 315; Lesson presentations</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">Mon, Nov 24</td>
+<td style="text-align: left;"><strong>Closing EDUC 315</strong> <br> Classgiving Potluck &amp; closing reflections</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">Wed, Nov 26</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">No class (Thanksgiving break)</td>
 </tr>
 </tbody>
 </table>

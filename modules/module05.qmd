@@ -28,9 +28,10 @@ This module focuses on developing engaging and effective mathematics lessons for
 2.  Learn to effectively organize standards, lesson activities, and assessments.
 3.  Improve assessment practices, especially in preparation for high-stakes testing.
 
----
+------------------------------------------------------------------------
 
 # Activity
+
 Using Census data to make sense of the cities where we
 
 Create a census api key
@@ -43,14 +44,11 @@ Identify two census variables that you want to understand about the geospatial d
 
 Save your map and provide a .Rmd file to .html on how what you found will inform your teaching
 
-Option to create a teaching brief (.Rmd file to .html) on the city context based on your variables and suggestions for others who will live in the city as  FINAL PROJECT.
+Option to create a teaching brief (.Rmd file to .html) on the city context based on your variables and suggestions for others who will live in the city as FINAL PROJECT.
 
 # Lecture and Discussion
 
 # Share
-
-
-
 
 ## Creative Methods in Mathematics Teaching
 

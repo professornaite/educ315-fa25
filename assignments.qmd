@@ -9,58 +9,27 @@ Our course assignments will be split between four assignment groups.
 
 Please see the detailed syllabus on our Canvas for a more ordered list.
 
-+----------------------------------+------------------------------------------------------+--------------+
-| Assignment group                 | Assignment                                           | Due date     |
-+==================================+======================================================+==============+
-| **Reflections and statements**   |                                                      |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Position statement #1                                | Thu Aug 29   |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Reflection: Mathematics autobiography                | Thu Sept 5   |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Position statement 2                                 | Thu Sept 12  |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Position statement 3                                 | Thu Sept 26  |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Position statement 4                                 | Thu Oct 10   |
-+----------------------------------+------------------------------------------------------+--------------+
-| **Classroom activities/lessons** |                                                      |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Mathematics lesson draft                             | Thu Oct 17   |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Historical STEM Figure                               | Thu Nov 7    |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Mathematics lesson (complete)                        | Thu Nov 21   |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Assessment plan                                      | Thu Dec 5    |
-+----------------------------------+------------------------------------------------------+--------------+
-| **Quizzes** (in class)           |                                                      |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Quiz 1: Basic concepts                               | Wed Aug 28   |
-|                                  |                                                      |              |
-|                                  | (natural, whole, zero, infinity)                     |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Quiz 2: Numbers and sets                             | Wed Sept 11  |
-|                                  |                                                      |              |
-|                                  | (integers, rational, irrational, real)               |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Quiz 3: Quantity and operations                      | Wed Sept 25  |
-|                                  |                                                      |              |
-|                                  | (sum, difference, product, quotient, exponent, root) |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Quiz 4: Structure and properties                     | Wed Oct 9    |
-|                                  |                                                      |              |
-|                                  | (commutative, associative, distributive, identity)   |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Quiz 5: Lesson planning                              | Mon Nov 18   |
-|                                  |                                                      |              |
-|                                  | (planning and organization of a lesson)              |              |
-+----------------------------------+------------------------------------------------------+--------------+
-| **Field and excursions**         |                                                      |              |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Excursion 1: National Portrait Gallery               | Wed Sept 18  |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Excursion 2: NMAAHC                                  | Wed Oct 23   |
-+----------------------------------+------------------------------------------------------+--------------+
-|                                  | Field placement log                                  | Mon Dec 9    |
-+----------------------------------+------------------------------------------------------+--------------+
+| Assignment group | Assignment | Due date |
+|----------------------|----------------------------------|----------------|
+| **Reflections and statements** |  |  |
+|  | Position statement #1 | Thu Aug 29 |
+|  | Reflection: Mathematics autobiography | Thu Sept 5 |
+|  | Position statement 2 | Thu Sept 12 |
+|  | Position statement 3 | Thu Sept 26 |
+|  | Position statement 4 | Thu Oct 10 |
+| **Classroom activities/lessons** |  |  |
+|  | Mathematics lesson draft | Thu Oct 17 |
+|  | Historical STEM Figure | Thu Nov 7 |
+|  | Mathematics lesson (complete) | Thu Nov 21 |
+|  | Assessment plan | Thu Dec 5 |
+| **Quizzes** (in class) |  |  |
+|  | Quiz 1: Numbers and sets | Wed Aug 28 |
+|  | Quiz 2: Logic and related concepts | Wed Sept 11 |
+|  | Quiz 3: Quantity and operations (sum, difference, product, quotient, exponent, root) | Wed Sept 25 |
+|  | Quiz 4: Structure and properties (commutative, associative, distributive, identity) | Wed Oct 9 |
+|  | Quiz 5: Space and geometry (objects, shape, representations) | Mon Nov 18 |
+|  | Quiz 6: Mathematical modeling (patterns and sequences, functions, early algebraic thinking) |  |
+| **Field and excursions** |  |  |
+|  | Excursion 1: National Portrait Gallery | Wed Sept 18 |
+|  | Excursion 2: NMAAHC | Wed Oct 23 |
+|  | Field placement log | Mon Dec 9 |

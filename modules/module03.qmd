@@ -28,16 +28,11 @@ Module: Quantity and Operations
 
 This module explores the mathematical concepts focusing on quantity and operations within the context of elementary mathematics. The module covers the historical development of arithmetic operations, introduces the Concrete-Representational-Abstract (CRA) approach to teaching mathematics, delves into the properties of basic arithmetic operations, and examines the relationships between different operations. By the end of this module, you will have a comprehensive understanding of quantity and operations to effectively deal with various mathematical representations.
 
-
 # Activity
 
 # Lecture and Discussion
 
 # Share
-
-
-
-
 
 # Quantity and Operations
 

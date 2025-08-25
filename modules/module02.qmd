@@ -24,18 +24,11 @@ Module: Numbers and Sets
 
 This module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya's problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms.
 
-
-
 # Activity
 
 # Lecture and Discussion
 
 # Share
-
-
-
-
-
 
 ## Problem Solving
 
