@@ -54,10 +54,9 @@ In this context, $\in$ (epsilon) means: "is an element of," "is a member of," or
 ::: callout-tip
 ### Subsets
 
-A set $A$ is a subset of $B$ if every element of $A$ is also in $B$. 
+A set $A$ is a subset of $B$ if every element of $A$ is also in $B$.
 
 We write $A \subseteq B$ to indicate subsets.
-
 :::
 
 ::: callout-tip
@@ -65,7 +64,7 @@ We write $A \subseteq B$ to indicate subsets.
 
 #### Union
 
-The **union** of sets $A$ and $B$ is the set of all elements in $A$ or $B$:  
+The **union** of sets $A$ and $B$ is the set of all elements in $A$ or $B$:
 
 $$
 A \cup B = \{ x \mid x \in A \text{ or } x \in B \}
@@ -73,7 +72,7 @@ $$
 
 #### Intersection
 
-The **intersection** of sets $A$ and $B$ is the set of all elements in both $A$ and $B$: 
+The **intersection** of sets $A$ and $B$ is the set of all elements in both $A$ and $B$:
 
 $$
 A \cap B = \{ x \mid x \in A \text{ and } x \in B \}
@@ -81,17 +80,17 @@ $$
 
 #### Complement
 
-The **complement** of set $A$ (relative to a universal set $U$) is the set of all elements in $U$ not in $A$:  
+The **complement** of set $A$ (relative to a universal set $U$) is the set of all elements in $U$ not in $A$:\
 $$
 A^{c} = \{ x \in U \mid x \notin A \}
 $$
-
 :::
-
 
 ## Sets of numbers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 
 ### Natural numbers
 
@@ -123,7 +122,7 @@ What sets are missing? How can you define and visualize these other sets?
 
 **Science** is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence. **Mathematics** is the science that deals with the logic of quantity, structure, space, and change.
 
----
+------------------------------------------------------------------------
 
 ### Logic
 
@@ -132,6 +131,8 @@ Logic refers to the principles of reasoning, especially correct reasoning. It's 
 ### Reasoning
 
 -   **Deductive reasoning**: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a "top-down" approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.
+
+    -   For example, if we know that "All fish live in water" and "Nemo is a fish," what can we conclude?
 
 -   **Inductive reasoning**: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as "bottom-up" reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.
 
@@ -153,7 +154,7 @@ In mathematics, space refers to the framework within which points, lines, shapes
 
 Change in mathematics deals with how quantities or properties vary or transform over time or under different conditions. This concept is fundamental to areas like calculus, which studies rates of change and accumulation.
 
-# What do we mean by zero? 
+# What do we mean by zero?
 
 Zero is a number that represents the absence of quantity or magnitude. It is the integer between the set of all negative integers and all positive integers.
 
@@ -196,4 +197,3 @@ Different types of infinity (countable and uncountable)
 The concept of infinity in mathematics vs. everyday life
 
 Paradoxes involving infinity (e.g., Hilbert's Hotel)
-

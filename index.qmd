@@ -11,7 +11,7 @@ This is the companion site for EDUC 315: Principles of Teaching Mathematics and 
 
 ::: column-screen-inset-right
 | Week | Day | Topic | Assignments and Assessments |
-|:------------:|:------------:|:-----------------------|:-------------------|
+|:--------------:|:--------------:|:---------------------|:-----------------|
 | [1](modules/module00.qmd) | Mon, Aug 18 | [**Introduction to EDUC 315**](modules/module00.html) <br> Course overview | — |
 | 1 | Wed, Aug 20 | [**Introduction to EDUC 315**](modules/module00.html) <br> Number line; sets of numbers | Mathematics color book |
 | [2](modules/module01.qmd) | Mon, Aug 25 | [**Module 1: Language of Mathematics**](modules/module01.html) <br> Sets, union, intersection | Number lines |
