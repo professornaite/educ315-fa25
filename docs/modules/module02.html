@@ -8,7 +8,7 @@
 
 <meta name="author" content="Nathan Alexander, PhD">
 
-<title>Module 2: Numbers and sets – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
+<title>Module 2: Foundations of mathematical thinking – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../other/math-corner.html" rel="next">
+<link href="../modules/module01.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,38 +71,10 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Module 2: Numbers and sets – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
+<meta property="og:title" content="Module 2: Foundations of mathematical thinking – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 <meta property="og:description" content="EDUC 315 - Howard University">
+<meta property="og:image" content="https://educ315-fa25.github.io/img/mod02/problem-solving.jpg">
 <meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 </head>
 
@@ -113,7 +87,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Module 2: Numbers and sets</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module02.html">Module 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -180,13 +154,13 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Modules</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../modules/module00.html" class="sidebar-item-text sidebar-link">
@@ -197,6 +171,12 @@ window.Quarto = {
   <div class="sidebar-item-container"> 
   <a href="../modules/module01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module02.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Module 2</span></a>
   </div>
 </li>
       </ul>
@@ -210,6 +190,12 @@ window.Quarto = {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../other/math-corner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Math corner activity</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../other/historical.html" class="sidebar-item-text sidebar-link">
@@ -252,42 +238,23 @@ window.Quarto = {
    
   <ul>
   <li><a href="#module-overview" id="toc-module-overview" class="nav-link active" data-scroll-target="#module-overview">Module Overview</a></li>
-  <li><a href="#activity" id="toc-activity" class="nav-link" data-scroll-target="#activity">Activity</a></li>
-  <li><a href="#lecture-and-discussion" id="toc-lecture-and-discussion" class="nav-link" data-scroll-target="#lecture-and-discussion">Lecture and Discussion</a></li>
-  <li><a href="#share" id="toc-share" class="nav-link" data-scroll-target="#share">Share</a>
+  <li><a href="#understanding-mathematical-problem-solving" id="toc-understanding-mathematical-problem-solving" class="nav-link" data-scroll-target="#understanding-mathematical-problem-solving">Understanding mathematical problem solving</a>
   <ul class="collapse">
-  <li><a href="#problem-solving" id="toc-problem-solving" class="nav-link" data-scroll-target="#problem-solving">Problem Solving</a>
-  <ul class="collapse">
-  <li><a href="#who-is-george-polya" id="toc-who-is-george-polya" class="nav-link" data-scroll-target="#who-is-george-polya">Who is George Polya?</a></li>
+  <li><a href="#what-is-problem-solving" id="toc-what-is-problem-solving" class="nav-link" data-scroll-target="#what-is-problem-solving">What is Problem Solving?</a></li>
+  <li><a href="#george-polyas-four-step-method" id="toc-george-polyas-four-step-method" class="nav-link" data-scroll-target="#george-polyas-four-step-method">George Polya’s Four-Step Method</a></li>
+  <li><a href="#classroom-application" id="toc-classroom-application" class="nav-link" data-scroll-target="#classroom-application">Classroom Application</a></li>
   </ul></li>
-  <li><a href="#history-of-number-theory" id="toc-history-of-number-theory" class="nav-link" data-scroll-target="#history-of-number-theory">History of Number Theory</a></li>
-  <li><a href="#sets" id="toc-sets" class="nav-link" data-scroll-target="#sets">Sets</a></li>
-  <li><a href="#numbers" id="toc-numbers" class="nav-link" data-scroll-target="#numbers">Numbers</a>
+  <li><a href="#concrete-representational-abstract-cra" id="toc-concrete-representational-abstract-cra" class="nav-link" data-scroll-target="#concrete-representational-abstract-cra">Concrete-Representational-Abstract (CRA)</a>
   <ul class="collapse">
-  <li><a href="#natural-numbers" id="toc-natural-numbers" class="nav-link" data-scroll-target="#natural-numbers">Natural numbers</a></li>
-  <li><a href="#whole-numbers" id="toc-whole-numbers" class="nav-link" data-scroll-target="#whole-numbers">Whole numbers</a></li>
+  <li><a href="#what-is-cra" id="toc-what-is-cra" class="nav-link" data-scroll-target="#what-is-cra">What is CRA?</a></li>
+  <li><a href="#why-cra-matters" id="toc-why-cra-matters" class="nav-link" data-scroll-target="#why-cra-matters">Why CRA Matters</a></li>
+  <li><a href="#classroom-applications" id="toc-classroom-applications" class="nav-link" data-scroll-target="#classroom-applications">Classroom Applications</a></li>
   </ul></li>
-  </ul></li>
-  <li><a href="#teaching-sets-and-numbers" id="toc-teaching-sets-and-numbers" class="nav-link" data-scroll-target="#teaching-sets-and-numbers">Teaching sets and numbers</a>
+  <li><a href="#connecting-problem-solving-and-cra-for-effective-teaching" id="toc-connecting-problem-solving-and-cra-for-effective-teaching" class="nav-link" data-scroll-target="#connecting-problem-solving-and-cra-for-effective-teaching">Connecting Problem Solving and CRA for Effective Teaching</a>
   <ul class="collapse">
-  <li><a href="#teaching-sets" id="toc-teaching-sets" class="nav-link" data-scroll-target="#teaching-sets">Teaching Sets</a>
-  <ul class="collapse">
-  <li><a href="#basic-set-concepts" id="toc-basic-set-concepts" class="nav-link" data-scroll-target="#basic-set-concepts">Basic Set Concepts</a></li>
-  <li><a href="#set-relationships-and-operations" id="toc-set-relationships-and-operations" class="nav-link" data-scroll-target="#set-relationships-and-operations">Set Relationships and Operations</a></li>
-  <li><a href="#progression" id="toc-progression" class="nav-link" data-scroll-target="#progression">Progression</a></li>
-  <li><a href="#teaching-strategies" id="toc-teaching-strategies" class="nav-link" data-scroll-target="#teaching-strategies">Teaching Strategies</a></li>
-  <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-world Applications</a></li>
-  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions">Common Misconceptions</a></li>
-  </ul></li>
-  <li><a href="#teaching-numbers" id="toc-teaching-numbers" class="nav-link" data-scroll-target="#teaching-numbers">Teaching Numbers</a>
-  <ul class="collapse">
-  <li><a href="#teaching-fractions" id="toc-teaching-fractions" class="nav-link" data-scroll-target="#teaching-fractions">Teaching Fractions</a></li>
-  <li><a href="#teaching-decimals" id="toc-teaching-decimals" class="nav-link" data-scroll-target="#teaching-decimals">Teaching Decimals</a></li>
-  <li><a href="#connecting-fractions-and-decimals" id="toc-connecting-fractions-and-decimals" class="nav-link" data-scroll-target="#connecting-fractions-and-decimals">Connecting Fractions and Decimals</a></li>
-  <li><a href="#key-teaching-strategies" id="toc-key-teaching-strategies" class="nav-link" data-scroll-target="#key-teaching-strategies">Key Teaching Strategies</a></li>
-  <li><a href="#progression-1" id="toc-progression-1" class="nav-link" data-scroll-target="#progression-1">Progression</a></li>
-  </ul></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#integrating-cra-with-polyas-problem-solving" id="toc-integrating-cra-with-polyas-problem-solving" class="nav-link" data-scroll-target="#integrating-cra-with-polyas-problem-solving">Integrating CRA with Polya’s Problem Solving</a></li>
+  <li><a href="#developing-logical-thinking" id="toc-developing-logical-thinking" class="nav-link" data-scroll-target="#developing-logical-thinking">Developing Logical Thinking</a></li>
+  <li><a href="#reflection-and-discussion" id="toc-reflection-and-discussion" class="nav-link" data-scroll-target="#reflection-and-discussion">Reflection and Discussion</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="module02-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
@@ -295,9 +262,9 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module02.html">Module 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Module 2: Numbers and sets</h1>
+<h1 class="title">Module 2: Foundations of mathematical thinking</h1>
 <p class="subtitle lead">EDUC 315 - Howard University</p>
 </div>
 
@@ -328,223 +295,95 @@ window.Quarto = {
 </header>
 
 
-<p>Module: Numbers and Sets</p>
 <section id="module-overview" class="level2">
 <h2 class="anchored" data-anchor-id="module-overview">Module Overview</h2>
-<p>This module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya’s problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms.</p>
+<p>This module introduces foundational mathematical thinking, Polya’s problem-solving method, and the Concrete-Representational-Abstract (CRA) instructional approach. The focus is on understanding how we can support students in developing systematic problem-solving skills and connecting concepts with hands-on learning.</p>
+<hr>
 </section>
-<section id="activity" class="level1">
-<h1>Activity</h1>
+<section id="understanding-mathematical-problem-solving" class="level1">
+<h1>Understanding mathematical problem solving</h1>
+<hr>
+<section id="what-is-problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-problem-solving">What is Problem Solving?</h3>
+<ul>
+<li><p>The heart of mathematical thinking where students make sense of and solve new problems.</p></li>
+<li><p>Emphasis on a systematic approach to build students’ confidence and skill development.</p></li>
+</ul>
+<p><img src="../img/mod02/problem-solving.jpg" class="img-fluid"></p>
+<hr>
 </section>
-<section id="lecture-and-discussion" class="level1">
-<h1>Lecture and Discussion</h1>
-</section>
-<section id="share" class="level1">
-<h1>Share</h1>
-<section id="problem-solving" class="level2">
-<h2 class="anchored" data-anchor-id="problem-solving">Problem Solving</h2>
-<p>Problem-solving has been a central focus in mathematics education for decades. The emphasis on problem-solving strategies gained momentum in the 1980s, with the National Council of Teachers of Mathematics (NCTM) highlighting its importance in their standards. Since then, various approaches have been developed to enhance students’ problem-solving skills, including heuristic strategies, metacognitive techniques, and collaborative problem-solving.</p>
-<section id="who-is-george-polya" class="level3">
-<h3 class="anchored" data-anchor-id="who-is-george-polya">Who is George Polya?</h3>
-<p>George Polya (1887-1985) was a Hungarian mathematician who made significant contributions to various fields of mathematics. He is best known for his work on problem-solving, particularly his book “How to Solve It” (1945), which outlines a systematic approach to problem-solving.</p>
-<p>Polya’s problem-solving approach consists of four main steps:</p>
+<section id="george-polyas-four-step-method" class="level3">
+<h3 class="anchored" data-anchor-id="george-polyas-four-step-method">George Polya’s Four-Step Method</h3>
+<p>Nearly 100 years ago, a man named George Polya designed a four-step method to solve all kinds of problems: Understand the problem, make a plan, execute the plan, and look back and reflect.</p>
 <ol type="1">
-<li><p><strong>Understand the problem</strong>: This step involves carefully reading the problem, identifying key information, and clarifying any unfamiliar terms or concepts.</p></li>
-<li><p><strong>Devise a plan</strong>: Here, the problem-solver considers various strategies and selects an appropriate approach. This may include drawing diagrams, looking for patterns, or working backwards.</p></li>
-<li><p><strong>Carry out the plan</strong>: In this step, the chosen strategy is implemented, and calculations are performed. It’s important to check each step for accuracy[2].</p></li>
-<li><p><strong>Look back</strong>: After obtaining a solution, the problem-solver reviews their work, verifies the result, and considers alternative methods or extensions of the problem[2].</p></li>
+<li><p><strong>UNDERSTAND THE PROBLEM</strong>: Read carefully, identify knowns and unknowns, restate the problem in your own words, and draw pictures if helpful.</p></li>
+<li><p><strong>DEVISE A PLAN</strong>: Think of strategies like drawing diagrams, looking for patterns, working backward, or breaking down the problem.</p></li>
+<li><p><strong>CARRY OUT THE PLAN</strong>: Implement the chosen strategy carefully and check each step for accuracy.</p></li>
+<li><p><strong>LOOK BACK</strong>: Review the solution, check for mistakes, and consider alternative strategies or extensions.</p></li>
 </ol>
-<p><strong>Example 1</strong>: Solve the equation 2x + 5 = 13</p>
-<ol type="1">
-<li>Understand: We need to find the value of x that makes the equation true.</li>
-<li>Plan: Isolate x by subtracting 5 from both sides, then divide by 2.</li>
-<li>Execute: 2x + 5 = 13 2x = 8 x = 4</li>
-<li>Look back: Check if 2(4) + 5 = 13, which it does.</li>
-</ol>
-<p><strong>Example 2</strong>: Find the area of a rectangle with perimeter 24 cm and length 3 cm longer than its width.</p>
-<ol type="1">
-<li>Understand: We need to find the area, given the perimeter and a relationship between length and width.</li>
-<li>Plan: Let w be the width. Express length as w + 3. Use the perimeter formula to find w, then calculate the area.</li>
-<li>Execute: 2(w + (w + 3)) = 24 4w + 6 = 24 4w = 18 w = 4.5 cm length = 7.5 cm Area = 4.5 × 7.5 = 33.75 cm²</li>
-<li>Look back: Verify that the perimeter is indeed 24 cm and the length is 3 cm longer than the width.</li>
-</ol>
+<hr>
+<p><img src="../img/mod02/how-to-solve.jpg" class="img-fluid"></p>
 </section>
-</section>
-<section id="history-of-number-theory" class="level2">
-<h2 class="anchored" data-anchor-id="history-of-number-theory">History of Number Theory</h2>
-<p>Number theory has a rich history of problem-solving approaches. Some famous theorems include:</p>
-<ol type="1">
-<li><p><strong>Fermat’s Last Theorem</strong>: Pierre de Fermat claimed in 1637 that no three positive integers a, b, and c can satisfy the equation a^n + b^n = c^n for any integer n &gt; 2. This theorem was finally proved by Andrew Wiles in 1995, after centuries of attempts.</p></li>
-<li><p><strong>The Goldbach Conjecture</strong>: Proposed by Christian Goldbach in 1742, it states that every even integer greater than 2 can be expressed as the sum of two primes. While widely believed to be true, it remains unproven.</p></li>
-<li><p><strong>The Riemann Hypothesis</strong>: Proposed by Bernhard Riemann in 1859, this conjecture about the distribution of prime numbers is considered one of the most important unsolved problems in mathematics.</p></li>
-</ol>
-</section>
-<section id="sets" class="level2">
-<h2 class="anchored" data-anchor-id="sets">Sets</h2>
-<p>A set is a well-defined collection of distinct objects. Set theory provides a foundation for much of modern mathematics. Key concepts include:</p>
+<section id="classroom-application" class="level3">
+<h3 class="anchored" data-anchor-id="classroom-application">Classroom Application</h3>
 <ul>
-<li>Set notation: {1, 2, 3} represents a set containing the elements 1, 2, and 3.</li>
-<li>Subsets: A is a subset of B if every element of A is also in B.</li>
-<li>Set operations: union (∪), intersection (∩), difference (-), complement.</li>
-<li>Venn diagrams: Visual representations of set relationships.</li>
+<li><p>Practice using Polya’s framing in the development of your mathematics activities.</p></li>
+<li><p>How can this method can be taught explicitly to students to build metacognition and resilience?</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="concrete-representational-abstract-cra" class="level1">
+<h1>Concrete-Representational-Abstract (CRA)</h1>
+<section id="what-is-cra" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-cra">What is CRA?</h3>
+<ul>
+<li><p>An instructional framework that supports conceptual understanding by moving learners through three stages:</p>
+<ul>
+<li><p><strong>Concrete</strong>: Use physical objects or manipulatives (e.g., blocks, counters).</p></li>
+<li><p><strong>Representational</strong>: Use drawings, diagrams, or visual models of concrete objects.</p></li>
+<li><p><strong>Abstract</strong>: Use numbers, symbols, and equations without physical aids.</p></li>
+</ul></li>
+</ul>
+<p><img src="../img/mod02/cra.png" class="img-fluid"></p>
+</section>
+<section id="why-cra-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-cra-matters">Why CRA Matters</h3>
+<ul>
+<li><p>Builds strong foundational understanding and helps all learners, especially struggling ones.</p></li>
+<li><p>Encourages deep conceptual thinking and connects tangible experiences to abstract mathematics.</p></li>
 </ul>
 </section>
-<section id="numbers" class="level2">
-<h2 class="anchored" data-anchor-id="numbers">Numbers</h2>
-<p>The sets of numbers form a hierarchy:</p>
-<ol type="1">
-<li><strong>Natural numbers (ℕ)</strong>: Positive integers used for counting.</li>
-<li><strong>Whole numbers (ℕ<sub>0</sub>)</strong>: Natural numbers plus zero.</li>
-<li><strong>Integers (ℤ)</strong>: Positive and negative whole numbers.</li>
-<li><strong>Rational numbers (ℚ)</strong>: Numbers that can be expressed as fractions.</li>
-<li><strong>Irrational numbers</strong>: Numbers that cannot be expressed as fractions (e.g., π, √2, √3).</li>
-<li><strong>Real numbers (ℝ)</strong>: The union of rational and irrational numbers.</li>
-<li><strong>Complex numbers (ℂ)</strong>: Numbers with a real and imaginary part.</li>
-</ol>
-<section id="natural-numbers" class="level3">
-<h3 class="anchored" data-anchor-id="natural-numbers">Natural numbers</h3>
+<section id="classroom-applications" class="level3">
+<h3 class="anchored" data-anchor-id="classroom-applications">Classroom Applications</h3>
 <ul>
-<li><p>Definition: Positive integers used for counting (1, 2, 3, …)</p></li>
-<li><p>Also called counting numbers</p></li>
-<li><p>Denoted by N or ℕ Smallest natural number: 1</p></li>
-<li><p>No largest natural number (infinite set)</p></li>
+<li><p>Demonstrate CRA with fraction concepts, geometry, or operations.</p></li>
+<li><p>Use CRA to scaffold problem solving following Polya’s steps.</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="connecting-problem-solving-and-cra-for-effective-teaching" class="level1">
+<h1>Connecting Problem Solving and CRA for Effective Teaching</h1>
+<section id="integrating-cra-with-polyas-problem-solving" class="level3">
+<h3 class="anchored" data-anchor-id="integrating-cra-with-polyas-problem-solving">Integrating CRA with Polya’s Problem Solving</h3>
+<ul>
+<li><p>Use CRA stages to support the ‘Understand’ and ‘Devise a plan’ steps.</p></li>
+<li><p>Move students gradually from hands-on experiences to symbolic reasoning as they solve problems.</p></li>
 </ul>
 </section>
-<section id="whole-numbers" class="level3">
-<h3 class="anchored" data-anchor-id="whole-numbers">Whole numbers</h3>
+<section id="developing-logical-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="developing-logical-thinking">Developing Logical Thinking</h3>
 <ul>
-<li><p>Definition: Natural numbers plus zero (0, 1, 2, 3, …)</p></li>
-<li><p>Includes all non-negative integers</p></li>
-</ul>
-<section id="key-differences" class="level4">
-<h4 class="anchored" data-anchor-id="key-differences">Key differences</h4>
-<ul>
-<li><p>Natural numbers start at 1, whole numbers start at 0</p></li>
-<li><p>Whole numbers are a superset of natural numbers</p></li>
+<li>Introduce sets, number systems, and basic logical reasoning to prepare teachers for promoting mathematical thinking.</li>
 </ul>
 </section>
-</section>
-</section>
-</section>
-<section id="teaching-sets-and-numbers" class="level1">
-<h1>Teaching sets and numbers</h1>
-<p>To effectively teach numbers, fractions, and decimals, teachers should follow a structured approach that builds conceptual understanding and connects the related topics.</p>
-<section id="teaching-sets" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-sets">Teaching Sets</h2>
+<section id="reflection-and-discussion" class="level3">
+<h3 class="anchored" data-anchor-id="reflection-and-discussion">Reflection and Discussion</h3>
 <ul>
-<li>Introduce the concept of a set as a collection of distinct objects</li>
-<li>Start with concrete, familiar examples (e.g., set of fruits, set of colors)</li>
+<li><p>How can you support students struggling with abstract reasoning?</p></li>
+<li><p>How can CRA and Polya’s method build confidence in math learning?</p></li>
 </ul>
-<section id="basic-set-concepts" class="level3">
-<h3 class="anchored" data-anchor-id="basic-set-concepts">Basic Set Concepts</h3>
-<ul>
-<li>Teach set notation: { } for listing elements, <span class="math inline">\(\epsilon\)</span> for “is an element of”</li>
-<li>Explain finite and infinite sets</li>
-<li>Introduce the empty set (∅ or { })</li>
-</ul>
-</section>
-<section id="set-relationships-and-operations" class="level3">
-<h3 class="anchored" data-anchor-id="set-relationships-and-operations">Set Relationships and Operations</h3>
-<ul>
-<li>Teach subset (⊆) and proper subset (⊂) relationships</li>
-<li>Introduce set operations: union (∪), intersection (∩), difference (-)</li>
-<li>Use Venn diagrams to visually represent set relationships</li>
-</ul>
-</section>
-<section id="progression" class="level3">
-<h3 class="anchored" data-anchor-id="progression">Progression</h3>
-<ol type="1">
-<li>Begin with simple, countable sets</li>
-<li>Move to more abstract sets (e.g., even numbers, prime numbers)</li>
-<li>Introduce set operations and relationships</li>
-<li>Connect sets to other mathematical concepts (e.g., number systems, probability)</li>
-</ol>
-</section>
-<section id="teaching-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-strategies">Teaching Strategies</h3>
-<ul>
-<li>Use manipulatives for hands-on exploration of sets</li>
-<li>Employ visual aids like Venn diagrams and Carroll diagrams</li>
-<li>Encourage students to create their own sets and classify objects</li>
-<li>Integrate set theory into problem-solving activities</li>
-</ul>
-</section>
-<section id="real-world-applications" class="level3">
-<h3 class="anchored" data-anchor-id="real-world-applications">Real-world Applications</h3>
-<ul>
-<li>Discuss how sets are used in databases and computer science</li>
-<li>Explore set applications in logic and reasoning</li>
-<li>Show how sets relate to grouping and categorization in everyday life</li>
-</ul>
-</section>
-<section id="common-misconceptions" class="level3">
-<h3 class="anchored" data-anchor-id="common-misconceptions">Common Misconceptions</h3>
-<ul>
-<li>Address the difference between a set and its elements</li>
-<li>Clarify that order doesn’t matter in sets (unlike in sequences)</li>
-<li>Explain that repeated elements are counted only once in a set</li>
-</ul>
-</section>
-</section>
-<section id="teaching-numbers" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-numbers">Teaching Numbers</h2>
-<ul>
-<li>Start with natural numbers (1, 2, 3, …) for counting and basic operations</li>
-<li>Introduce whole numbers, including zero</li>
-<li>Emphasize place value concepts and number relationships</li>
-</ul>
-<section id="teaching-fractions" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-fractions">Teaching Fractions</h3>
-<ul>
-<li>Begin with concrete models and visual representations</li>
-<li>Use fraction walls and number lines to demonstrate equivalence</li>
-<li>Introduce proper fractions before improper fractions and mixed numbers</li>
-<li>Focus on conceptual understanding before moving to procedures</li>
-</ul>
-</section>
-<section id="teaching-decimals" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-decimals">Teaching Decimals</h3>
-<ul>
-<li>Connect decimals to fractions, especially tenths and hundredths</li>
-<li>Use place value language (e.g., “two-tenths and four-hundredths” for 0.24)</li>
-<li>Employ visual models like decimal grids and number lines</li>
-</ul>
-</section>
-<section id="connecting-fractions-and-decimals" class="level3">
-<h3 class="anchored" data-anchor-id="connecting-fractions-and-decimals">Connecting Fractions and Decimals</h3>
-<ul>
-<li>Explicitly show the relationship between fractions and decimals</li>
-<li>Use double number lines to compare fractions and decimals</li>
-<li>Demonstrate conversion between fractions and decimals</li>
-</ul>
-</section>
-<section id="key-teaching-strategies" class="level3">
-<h3 class="anchored" data-anchor-id="key-teaching-strategies">Key Teaching Strategies</h3>
-<ul>
-<li>Use manipulatives and visual models extensively</li>
-<li>Encourage students to make connections between concepts</li>
-<li>Provide ample opportunities for practice and discussion</li>
-<li>Address common misconceptions (e.g., longer decimal doesn’t always mean larger number)</li>
-<li>Integrate real-world applications and problem-solving</li>
-</ul>
-</section>
-<section id="progression-1" class="level3">
-<h3 class="anchored" data-anchor-id="progression-1">Progression</h3>
-<ol type="1">
-<li>Teach fractions before decimals to build a strong conceptual foundation</li>
-<li>Introduce decimals as an extension of the place value system</li>
-<li>Show how decimals relate to fractions, especially tenths and hundredths</li>
-<li>Gradually increase complexity, moving to operations with fractions and decimals</li>
-</ol>
-</section>
-</section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<ol type="1">
-<li><p>Use Polya’s problem-solving approach to solve: A rectangle’s length is twice its width. If its perimeter is 30 cm, what are its dimensions?</p></li>
-<li><p>How might we introduce struggling learners to the concept of sets and numbers?</p></li>
-<li><p>Given sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B.</p></li>
-</ol>
 
 
 </section>
@@ -1112,6 +951,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/module01.html" class="pagination-link" aria-label="Module 1">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 1</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../other/math-corner.html" class="pagination-link" aria-label="Math corner activity">
+        <span class="nav-page-text">Math corner activity</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

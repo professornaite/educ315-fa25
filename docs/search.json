@@ -575,9 +575,9 @@
   {
     "objectID": "modules/module02-slides.html#module-overview",
     "href": "modules/module02-slides.html#module-overview",
-    "title": "Module 2: Numbers and sets",
+    "title": "Module 2: Foundations of Mathematical Thinking",
     "section": "Module Overview",
-    "text": "Module Overview\nThis module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya’s problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms."
+    "text": "Module Overview\nThis module introduces foundational mathematical thinking, Polya’s problem-solving method, and the Concrete-Representational-Abstract (CRA) instructional approach. The focus is on understanding how we can support students in developing systematic problem-solving skills and connecting concepts with hands-on learning."
   },
   {
     "objectID": "modules/module02-slides.html#problem-solving",
@@ -631,65 +631,101 @@
   {
     "objectID": "modules/module02.html",
     "href": "modules/module02.html",
-    "title": "Module 2: Numbers and sets",
+    "title": "Module 2: Foundations of mathematical thinking",
     "section": "",
-    "text": "Module: Numbers and Sets"
+    "text": "This module introduces foundational mathematical thinking, Polya’s problem-solving method, and the Concrete-Representational-Abstract (CRA) instructional approach. The focus is on understanding how we can support students in developing systematic problem-solving skills and connecting concepts with hands-on learning.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#module-overview",
     "href": "modules/module02.html#module-overview",
-    "title": "Module 2: Numbers and sets",
-    "section": "Module Overview",
-    "text": "Module Overview\nThis module explores fundamental concepts in mathematics, focusing on numbers and sets within the context of problem-solving strategies. It is designed for teachers of grades 4-6 in urban classrooms. The module covers the history of problem-solving in mathematics, introduces George Polya’s problem-solving approach, delves into number theory, and examines the concept of sets and various number systems. By the end of this module, you will have a comprehensive understanding of these topics and be equipped to apply problem-solving strategies in their classrooms."
+    "title": "Module 2: Foundations of mathematical thinking",
+    "section": "",
+    "text": "This module introduces foundational mathematical thinking, Polya’s problem-solving method, and the Concrete-Representational-Abstract (CRA) instructional approach. The focus is on understanding how we can support students in developing systematic problem-solving skills and connecting concepts with hands-on learning.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#problem-solving",
     "href": "modules/module02.html#problem-solving",
     "title": "Module 2: Numbers and sets",
     "section": "Problem Solving",
-    "text": "Problem Solving\nProblem-solving has been a central focus in mathematics education for decades. The emphasis on problem-solving strategies gained momentum in the 1980s, with the National Council of Teachers of Mathematics (NCTM) highlighting its importance in their standards. Since then, various approaches have been developed to enhance students’ problem-solving skills, including heuristic strategies, metacognitive techniques, and collaborative problem-solving.\n\nWho is George Polya?\nGeorge Polya (1887-1985) was a Hungarian mathematician who made significant contributions to various fields of mathematics. He is best known for his work on problem-solving, particularly his book “How to Solve It” (1945), which outlines a systematic approach to problem-solving.\nPolya’s problem-solving approach consists of four main steps:\n\nUnderstand the problem: This step involves carefully reading the problem, identifying key information, and clarifying any unfamiliar terms or concepts.\nDevise a plan: Here, the problem-solver considers various strategies and selects an appropriate approach. This may include drawing diagrams, looking for patterns, or working backwards.\nCarry out the plan: In this step, the chosen strategy is implemented, and calculations are performed. It’s important to check each step for accuracy[2].\nLook back: After obtaining a solution, the problem-solver reviews their work, verifies the result, and considers alternative methods or extensions of the problem[2].\n\nExample 1: Solve the equation 2x + 5 = 13\n\nUnderstand: We need to find the value of x that makes the equation true.\nPlan: Isolate x by subtracting 5 from both sides, then divide by 2.\nExecute: 2x + 5 = 13 2x = 8 x = 4\nLook back: Check if 2(4) + 5 = 13, which it does.\n\nExample 2: Find the area of a rectangle with perimeter 24 cm and length 3 cm longer than its width.\n\nUnderstand: We need to find the area, given the perimeter and a relationship between length and width.\nPlan: Let w be the width. Express length as w + 3. Use the perimeter formula to find w, then calculate the area.\nExecute: 2(w + (w + 3)) = 24 4w + 6 = 24 4w = 18 w = 4.5 cm length = 7.5 cm Area = 4.5 × 7.5 = 33.75 cm²\nLook back: Verify that the perimeter is indeed 24 cm and the length is 3 cm longer than the width."
+    "text": "Problem Solving\nProblem-solving has been a central focus in mathematics education for decades. The emphasis on problem-solving strategies gained momentum in the 1980s, with the National Council of Teachers of Mathematics (NCTM) highlighting its importance in their standards. Since then, various approaches have been developed to enhance students’ problem-solving skills, including heuristic strategies, metacognitive techniques, and collaborative problem-solving.\n\nWho is George Polya?\nGeorge Polya (1887-1985) was a Hungarian mathematician who made significant contributions to various fields of mathematics. He is best known for his work on problem-solving, particularly his book “How to Solve It” (1945), which outlines a systematic approach to problem-solving.\nPolya’s problem-solving approach consists of four main steps:\n\nUnderstand the problem: This step involves carefully reading the problem, identifying key information, and clarifying any unfamiliar terms or concepts.\nDevise a plan: Here, the problem-solver considers various strategies and selects an appropriate approach. This may include drawing diagrams, looking for patterns, or working backwards.\nCarry out the plan: In this step, the chosen strategy is implemented, and calculations are performed. It’s important to check each step for accuracy[2].\nLook back: After obtaining a solution, the problem-solver reviews their work, verifies the result, and considers alternative methods or extensions of the problem[2].\n\nExample 1: Solve the equation 2x + 5 = 13\n\nUnderstand: We need to find the value of x that makes the equation true.\nPlan: Isolate x by subtracting 5 from both sides, then divide by 2.\nExecute: 2x + 5 = 13 2x = 8 x = 4\nLook back: Check if 2(4) + 5 = 13, which it does.\n\nExample 2: Find the area of a rectangle with perimeter 24 cm and length 3 cm longer than its width.\n\nUnderstand: We need to find the area, given the perimeter and a relationship between length and width.\nPlan: Let w be the width. Express length as w + 3. Use the perimeter formula to find w, then calculate the area.\nExecute: 2(w + (w + 3)) = 24 4w + 6 = 24 4w = 18 w = 4.5 cm length = 7.5 cm Area = 4.5 × 7.5 = 33.75 cm²\nLook back: Verify that the perimeter is indeed 24 cm and the length is 3 cm longer than the width.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#history-of-number-theory",
     "href": "modules/module02.html#history-of-number-theory",
     "title": "Module 2: Numbers and sets",
     "section": "History of Number Theory",
-    "text": "History of Number Theory\nNumber theory has a rich history of problem-solving approaches. Some famous theorems include:\n\nFermat’s Last Theorem: Pierre de Fermat claimed in 1637 that no three positive integers a, b, and c can satisfy the equation a^n + b^n = c^n for any integer n &gt; 2. This theorem was finally proved by Andrew Wiles in 1995, after centuries of attempts.\nThe Goldbach Conjecture: Proposed by Christian Goldbach in 1742, it states that every even integer greater than 2 can be expressed as the sum of two primes. While widely believed to be true, it remains unproven.\nThe Riemann Hypothesis: Proposed by Bernhard Riemann in 1859, this conjecture about the distribution of prime numbers is considered one of the most important unsolved problems in mathematics."
+    "text": "History of Number Theory\nNumber theory has a rich history of problem-solving approaches. Some famous theorems include:\n\nFermat’s Last Theorem: Pierre de Fermat claimed in 1637 that no three positive integers a, b, and c can satisfy the equation a^n + b^n = c^n for any integer n &gt; 2. This theorem was finally proved by Andrew Wiles in 1995, after centuries of attempts.\nThe Goldbach Conjecture: Proposed by Christian Goldbach in 1742, it states that every even integer greater than 2 can be expressed as the sum of two primes. While widely believed to be true, it remains unproven.\nThe Riemann Hypothesis: Proposed by Bernhard Riemann in 1859, this conjecture about the distribution of prime numbers is considered one of the most important unsolved problems in mathematics.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#sets",
     "href": "modules/module02.html#sets",
     "title": "Module 2: Numbers and sets",
     "section": "Sets",
-    "text": "Sets\nA set is a well-defined collection of distinct objects. Set theory provides a foundation for much of modern mathematics. Key concepts include:\n\nSet notation: {1, 2, 3} represents a set containing the elements 1, 2, and 3.\nSubsets: A is a subset of B if every element of A is also in B.\nSet operations: union (∪), intersection (∩), difference (-), complement.\nVenn diagrams: Visual representations of set relationships."
+    "text": "Sets\nA set is a well-defined collection of distinct objects. Set theory provides a foundation for much of modern mathematics. Key concepts include:\n\nSet notation: {1, 2, 3} represents a set containing the elements 1, 2, and 3.\nSubsets: A is a subset of B if every element of A is also in B.\nSet operations: union (∪), intersection (∩), difference (-), complement.\nVenn diagrams: Visual representations of set relationships.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#numbers",
     "href": "modules/module02.html#numbers",
     "title": "Module 2: Numbers and sets",
     "section": "Numbers",
-    "text": "Numbers\nThe sets of numbers form a hierarchy:\n\nNatural numbers (ℕ): Positive integers used for counting.\nWhole numbers (ℕ0): Natural numbers plus zero.\nIntegers (ℤ): Positive and negative whole numbers.\nRational numbers (ℚ): Numbers that can be expressed as fractions.\nIrrational numbers: Numbers that cannot be expressed as fractions (e.g., π, √2, √3).\nReal numbers (ℝ): The union of rational and irrational numbers.\nComplex numbers (ℂ): Numbers with a real and imaginary part.\n\n\nNatural numbers\n\nDefinition: Positive integers used for counting (1, 2, 3, …)\nAlso called counting numbers\nDenoted by N or ℕ Smallest natural number: 1\nNo largest natural number (infinite set)\n\n\n\nWhole numbers\n\nDefinition: Natural numbers plus zero (0, 1, 2, 3, …)\nIncludes all non-negative integers\n\n\nKey differences\n\nNatural numbers start at 1, whole numbers start at 0\nWhole numbers are a superset of natural numbers"
+    "text": "Numbers\nThe sets of numbers form a hierarchy:\n\nNatural numbers (ℕ): Positive integers used for counting.\nWhole numbers (ℕ0): Natural numbers plus zero.\nIntegers (ℤ): Positive and negative whole numbers.\nRational numbers (ℚ): Numbers that can be expressed as fractions.\nIrrational numbers: Numbers that cannot be expressed as fractions (e.g., π, √2, √3).\nReal numbers (ℝ): The union of rational and irrational numbers.\nComplex numbers (ℂ): Numbers with a real and imaginary part.\n\n\nNatural numbers\n\nDefinition: Positive integers used for counting (1, 2, 3, …)\nAlso called counting numbers\nDenoted by N or ℕ Smallest natural number: 1\nNo largest natural number (infinite set)\n\n\n\nWhole numbers\n\nDefinition: Natural numbers plus zero (0, 1, 2, 3, …)\nIncludes all non-negative integers\n\n\nKey differences\n\nNatural numbers start at 1, whole numbers start at 0\nWhole numbers are a superset of natural numbers",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#teaching-sets",
     "href": "modules/module02.html#teaching-sets",
     "title": "Module 2: Numbers and sets",
     "section": "Teaching Sets",
-    "text": "Teaching Sets\n\nIntroduce the concept of a set as a collection of distinct objects\nStart with concrete, familiar examples (e.g., set of fruits, set of colors)\n\n\nBasic Set Concepts\n\nTeach set notation: { } for listing elements, \\(\\epsilon\\) for “is an element of”\nExplain finite and infinite sets\nIntroduce the empty set (∅ or { })\n\n\n\nSet Relationships and Operations\n\nTeach subset (⊆) and proper subset (⊂) relationships\nIntroduce set operations: union (∪), intersection (∩), difference (-)\nUse Venn diagrams to visually represent set relationships\n\n\n\nProgression\n\nBegin with simple, countable sets\nMove to more abstract sets (e.g., even numbers, prime numbers)\nIntroduce set operations and relationships\nConnect sets to other mathematical concepts (e.g., number systems, probability)\n\n\n\nTeaching Strategies\n\nUse manipulatives for hands-on exploration of sets\nEmploy visual aids like Venn diagrams and Carroll diagrams\nEncourage students to create their own sets and classify objects\nIntegrate set theory into problem-solving activities\n\n\n\nReal-world Applications\n\nDiscuss how sets are used in databases and computer science\nExplore set applications in logic and reasoning\nShow how sets relate to grouping and categorization in everyday life\n\n\n\nCommon Misconceptions\n\nAddress the difference between a set and its elements\nClarify that order doesn’t matter in sets (unlike in sequences)\nExplain that repeated elements are counted only once in a set"
+    "text": "Teaching Sets\n\nIntroduce the concept of a set as a collection of distinct objects\nStart with concrete, familiar examples (e.g., set of fruits, set of colors)\n\n\nBasic Set Concepts\n\nTeach set notation: { } for listing elements, \\(\\epsilon\\) for “is an element of”\nExplain finite and infinite sets\nIntroduce the empty set (∅ or { })\n\n\n\nSet Relationships and Operations\n\nTeach subset (⊆) and proper subset (⊂) relationships\nIntroduce set operations: union (∪), intersection (∩), difference (-)\nUse Venn diagrams to visually represent set relationships\n\n\n\nProgression\n\nBegin with simple, countable sets\nMove to more abstract sets (e.g., even numbers, prime numbers)\nIntroduce set operations and relationships\nConnect sets to other mathematical concepts (e.g., number systems, probability)\n\n\n\nTeaching Strategies\n\nUse manipulatives for hands-on exploration of sets\nEmploy visual aids like Venn diagrams and Carroll diagrams\nEncourage students to create their own sets and classify objects\nIntegrate set theory into problem-solving activities\n\n\n\nReal-world Applications\n\nDiscuss how sets are used in databases and computer science\nExplore set applications in logic and reasoning\nShow how sets relate to grouping and categorization in everyday life\n\n\n\nCommon Misconceptions\n\nAddress the difference between a set and its elements\nClarify that order doesn’t matter in sets (unlike in sequences)\nExplain that repeated elements are counted only once in a set",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#teaching-numbers",
     "href": "modules/module02.html#teaching-numbers",
     "title": "Module 2: Numbers and sets",
     "section": "Teaching Numbers",
-    "text": "Teaching Numbers\n\nStart with natural numbers (1, 2, 3, …) for counting and basic operations\nIntroduce whole numbers, including zero\nEmphasize place value concepts and number relationships\n\n\nTeaching Fractions\n\nBegin with concrete models and visual representations\nUse fraction walls and number lines to demonstrate equivalence\nIntroduce proper fractions before improper fractions and mixed numbers\nFocus on conceptual understanding before moving to procedures\n\n\n\nTeaching Decimals\n\nConnect decimals to fractions, especially tenths and hundredths\nUse place value language (e.g., “two-tenths and four-hundredths” for 0.24)\nEmploy visual models like decimal grids and number lines\n\n\n\nConnecting Fractions and Decimals\n\nExplicitly show the relationship between fractions and decimals\nUse double number lines to compare fractions and decimals\nDemonstrate conversion between fractions and decimals\n\n\n\nKey Teaching Strategies\n\nUse manipulatives and visual models extensively\nEncourage students to make connections between concepts\nProvide ample opportunities for practice and discussion\nAddress common misconceptions (e.g., longer decimal doesn’t always mean larger number)\nIntegrate real-world applications and problem-solving\n\n\n\nProgression\n\nTeach fractions before decimals to build a strong conceptual foundation\nIntroduce decimals as an extension of the place value system\nShow how decimals relate to fractions, especially tenths and hundredths\nGradually increase complexity, moving to operations with fractions and decimals"
+    "text": "Teaching Numbers\n\nStart with natural numbers (1, 2, 3, …) for counting and basic operations\nIntroduce whole numbers, including zero\nEmphasize place value concepts and number relationships\n\n\nTeaching Fractions\n\nBegin with concrete models and visual representations\nUse fraction walls and number lines to demonstrate equivalence\nIntroduce proper fractions before improper fractions and mixed numbers\nFocus on conceptual understanding before moving to procedures\n\n\n\nTeaching Decimals\n\nConnect decimals to fractions, especially tenths and hundredths\nUse place value language (e.g., “two-tenths and four-hundredths” for 0.24)\nEmploy visual models like decimal grids and number lines\n\n\n\nConnecting Fractions and Decimals\n\nExplicitly show the relationship between fractions and decimals\nUse double number lines to compare fractions and decimals\nDemonstrate conversion between fractions and decimals\n\n\n\nKey Teaching Strategies\n\nUse manipulatives and visual models extensively\nEncourage students to make connections between concepts\nProvide ample opportunities for practice and discussion\nAddress common misconceptions (e.g., longer decimal doesn’t always mean larger number)\nIntegrate real-world applications and problem-solving\n\n\n\nProgression\n\nTeach fractions before decimals to build a strong conceptual foundation\nIntroduce decimals as an extension of the place value system\nShow how decimals relate to fractions, especially tenths and hundredths\nGradually increase complexity, moving to operations with fractions and decimals",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module02.html#exercises",
     "href": "modules/module02.html#exercises",
     "title": "Module 2: Numbers and sets",
     "section": "Exercises",
-    "text": "Exercises\n\nUse Polya’s problem-solving approach to solve: A rectangle’s length is twice its width. If its perimeter is 30 cm, what are its dimensions?\nHow might we introduce struggling learners to the concept of sets and numbers?\nGiven sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B."
+    "text": "Exercises\n\nUse Polya’s problem-solving approach to solve: A rectangle’s length is twice its width. If its perimeter is 30 cm, what are its dimensions?\nHow might we introduce struggling learners to the concept of sets and numbers?\nGiven sets A = {1, 2, 3, 4} and B = {3, 4, 5, 6}, find A ∪ B and A ∩ B.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
   },
   {
     "objectID": "modules/module01-slides.html#the-concept-of-sets",
@@ -841,5 +877,52 @@
     "title": "Common Core State Standards",
     "section": "",
     "text": "Text for this page was taken from osse.dc.gov:\nThe Common Core State Standards (CCSS) - Mathematics were adopted by the DC State Board of Education (July, 2010), as the K-12 Math Standards for the District of Columbia. Schools began a staged implementation of the standards during the 2011-12 school year. From 2011-2014, teachers received ongoing training in Common Core implementation, with full implementation occurring during the 2014-15 school year.\nThe CCSS-Mathematics demand a shift in math instruction from an emphasis on procedural fluency towards a balance between procedural fluency, conceptual understanding and application of concepts, so students are better prepared for the critical thinking necessary to succeed in college, careers and their daily lives. OSSE seeks to support high-quality implementation of the Common Core State Standards for Mathematics.\nFind more information by clicking here"
+  },
+  {
+    "objectID": "other/math-corner.html",
+    "href": "other/math-corner.html",
+    "title": "Mathematics Corner Activity Rubric",
+    "section": "",
+    "text": "Criteria\n5 pts (Level 5)\n3 pts (Level 3)\n1 pt (Level 1)\n\n\n\n\nENGAGE\nAll of level 3 AND: Predicts students’ questions and plans for individual learning needs.\nAll of level 1 AND: Uses students’ background knowledge and interest to motivate the task with real-life examples.\nUses some strategies to uncover student thinking but makes minimal connections to prior knowledge.\n\n\nEXPLORE\nAll of level 3 AND: Offers open-ended tasks with multiple solution paths; students prepare evidence and contribute to discussions.\nAll of level 1 AND: Allows hands-on exploration and student decision-making; supports collaboration with multiple strategies and questions.\nTask is one-dimensional with no variety; teacher fully prescribes steps; little support for engagement.\n\n\n\nTotal Points: 10",
+    "crumbs": [
+      "Rubrics",
+      "Math corner activity"
+    ]
+  },
+  {
+    "objectID": "other/math-corner.html#rubric-for-mathematics-corner-activity",
+    "href": "other/math-corner.html#rubric-for-mathematics-corner-activity",
+    "title": "Mathematics Corner Activity Rubric",
+    "section": "",
+    "text": "Criteria\n5 pts (Level 5)\n3 pts (Level 3)\n1 pt (Level 1)\n\n\n\n\nENGAGE\nAll of level 3 AND: Predicts students’ questions and plans for individual learning needs.\nAll of level 1 AND: Uses students’ background knowledge and interest to motivate the task with real-life examples.\nUses some strategies to uncover student thinking but makes minimal connections to prior knowledge.\n\n\nEXPLORE\nAll of level 3 AND: Offers open-ended tasks with multiple solution paths; students prepare evidence and contribute to discussions.\nAll of level 1 AND: Allows hands-on exploration and student decision-making; supports collaboration with multiple strategies and questions.\nTask is one-dimensional with no variety; teacher fully prescribes steps; little support for engagement.\n\n\n\nTotal Points: 10",
+    "crumbs": [
+      "Rubrics",
+      "Math corner activity"
+    ]
+  },
+  {
+    "objectID": "other/mathematics-corner.html#rubric-for-mathematics-corner-activity",
+    "href": "other/mathematics-corner.html#rubric-for-mathematics-corner-activity",
+    "title": "Mathematics Corner Activity Rubric",
+    "section": "Rubric for Mathematics Corner Activity",
+    "text": "Rubric for Mathematics Corner Activity\n\n\n\n\n\n\n\n\n\nCriteria\n5 pts (Level 5)\n3 pts (Level 3)\n1 pt (Level 1)\n\n\n\n\nENGAGE\nAll of level 3 AND: Predicts students’ questions and plans for individual learning needs.\nAll of level 1 AND: Uses students’ background knowledge and interest to motivate the task with real-life examples.\nUses some strategies to uncover student thinking but makes minimal connections to prior knowledge.\n\n\nEXPLORE\nAll of level 3 AND: Offers open-ended tasks with multiple solution paths; students prepare evidence and contribute to discussions.\nAll of level 1 AND: Allows hands-on exploration and student decision-making; supports collaboration with multiple strategies and questions.\nTask is one-dimensional with no variety; teacher fully prescribes steps; little support for engagement.\n\n\n\nTotal Points: 10"
+  },
+  {
+    "objectID": "modules/module02.html#assignments",
+    "href": "modules/module02.html#assignments",
+    "title": "Module 2: Foundations of Mathematical Thinking",
+    "section": "Assignments",
+    "text": "Assignments\n\nPractice applying Polya’s method to new problems and document the process.\n\nDesign a CRA-based lesson plan for an elementary math topic.\n\nReflect on how CRA and Polya’s problem solving can support diverse learners.",
+    "crumbs": [
+      "Modules",
+      "Module 2"
+    ]
+  },
+  {
+    "objectID": "modules/module02-slides.html#assignments",
+    "href": "modules/module02-slides.html#assignments",
+    "title": "Module 2: Foundations of Mathematical Thinking",
+    "section": "Assignments",
+    "text": "Assignments\n\nPractice applying Polya’s method to new problems and document the process.\n\nDesign a CRA-based lesson plan for an elementary math topic.\n\nReflect on how CRA and Polya’s problem solving can support diverse learners."
   }
 ]

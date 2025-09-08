@@ -50,8 +50,12 @@ website:
           text: Overview
         - href: modules/module01.qmd
           text: Module 1
+        - href: modules/module02.qmd
+          text: Module 2
     - section: "Rubrics"
       contents:
+        - href: other/math-corner.qmd
+          text: Math corner activity
         - href: other/historical.qmd
           text: Historical STEM figure
     - section: "Field experience"
