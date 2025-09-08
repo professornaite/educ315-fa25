@@ -21,7 +21,7 @@ This is the companion site for EDUC 315: Principles of Teaching Mathematics and 
 | 4 | Mon, Sept 8 | **Module 2: Foundations of Mathematical Thinking** <br> Polya’s 4-step method | \- |
 | 4 | Wed, Sept 10 | **Module 2: Foundations of Mathematical Thinking** <br> Computation, Number sense, place value | Quiz 2 |
 | 5 | Mon, Sept 15 |  | Excursion 1: National Portrait Gallery <br> Math corner activity due Tue, Sept 16 |
-| 5 | Wed, Sept 17 | **Module 3: Whole Number Operations** <br> Exponents and roots |  |
+| 5 | Wed, Sept 17 | **Module 2: Foundations of Mathematical Thinking** | Math activity rotations |
 | 6 | Mon, Sept 22 | **Module 3: Whole Number Operations** <br> Commutative property | — |
 | 6 | Wed, Sept 24 | **Module 3: Whole Number Operations** <br> Associative property | Quiz 3 |
 | 7 | Mon, Sept 29 | **Module 3: Whole Number Operations** <br> Distributive property | Historical STEM figure due Sun, Sept 28 |
