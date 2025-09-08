@@ -64,6 +64,8 @@ Nearly 100 years ago, a man named George Polya designed a four-step method to so
 
 # Concrete-Representational-Abstract (CRA)
 
+---
+
 ### What is CRA?
 
 - An instructional framework that supports conceptual understanding by moving learners through three stages: 
@@ -75,6 +77,8 @@ Nearly 100 years ago, a man named George Polya designed a four-step method to so
   - **Abstract**: Use numbers, symbols, and equations without physical aids.
 
 ![](/img/mod02/cra.png)
+
+---
 
 ### Why CRA Matters  
 
