@@ -131,7 +131,7 @@ A good way to think about math activities is the timing, which is often tough wi
 
 When planning a math activity, it is often useful to think about the specific students who will be engaging in the activity (their grade level), timing, and how these components can align with a very specific outcome or goal. For a quick example, consider the SMART goals for a way to think about your outcomes.
 
-![](img/mod02/smart.png)
+![](/img/mod02/smart.png)
 
 What are you considering for your math activity?
 
