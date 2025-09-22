@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Quantity and Operations"
+title: "Module 3: Whole Number Operations"
 subtitle: "EDUC 315 - Howard University"
 author: "Nathan Alexander, PhD"
 institute: "School of Education"
@@ -22,17 +22,59 @@ format:
     incremental: false
 ---
 
-Module: Quantity and Operations
-
 ## Module Overview
 
-This module explores the mathematical concepts focusing on quantity and operations within the context of elementary mathematics. The module covers the historical development of arithmetic operations, introduces the Concrete-Representational-Abstract (CRA) approach to teaching mathematics, delves into the properties of basic arithmetic operations, and examines the relationships between different operations. By the end of this module, you will have a comprehensive understanding of quantity and operations to effectively deal with various mathematical representations.
+This module explores the mathematical concepts focusing on whole number operations, with a specific focus on quantity and operations within the context of elementary mathematics. The module covers the historical development of arithmetic operations, introduces the Concrete-Representational-Abstract (CRA) approach to teaching mathematics, delves into the properties of basic arithmetic operations, and examines the relationships between different operations. By the end of this module, you will have a comprehensive understanding of quantity and operations to effectively deal with various mathematical representations.
 
-# Activity
+---
 
-# Lecture and Discussion
+## Discussion of Properties
 
-# Share
+### Commutative Property
+The order of addition or multiplication does not affect the result:
+
+$a + b = b + a$
+
+$a \times b = b \times a$
+
+---
+
+### Associative Property
+Changing grouping does not affect the sum or product:
+
+$(a + b) + c = a + (b + c)$
+
+$(a \times b) \times c = a \times (b \times c)$
+
+---
+
+### Distributive Property
+Multiplication distributes over addition:
+
+$a \times (b + c) = a \times b + a \times c$
+
+---
+
+### Closure Property
+Whole numbers remain whole when added or multiplied.
+
+---
+
+### Identity Property
+Adding zero or multiplying by one leaves the number unchanged:
+
+$a + 0 = a$
+
+$a \times 1 = a$
+
+---
+
+### Zero Property of Multiplication
+Multiplying any number by zero results in zero:
+
+$a \times 0 = 0$
+
+---
 
 # Quantity and Operations
 
