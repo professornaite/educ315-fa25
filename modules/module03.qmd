@@ -128,6 +128,8 @@ Repeated addition or scaling (e.g., 3 × 4 = 12)
 Distributing a quantity into equal parts (e.g., 15 ÷ 3 = 5)
 :::
 
+---
+
 ::: callout-tip
 ### Exponentiation (exponent)
 

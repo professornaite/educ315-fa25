@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Nathan Alexander, PhD">
-  <title>EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II – Module 1: Logic and the language of mathematics</title>
+  <title>EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II – Module 3: Whole Number Operations</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -121,7 +121,7 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Module 1: Logic and the language of mathematics – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
+<meta property="og:title" content="Module 3: Whole Number Operations – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 <meta property="og:description" content="EDUC 315 - Howard University">
 <meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 </head>
@@ -130,7 +130,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Module 1: Logic and the language of mathematics</h1>
+  <h1 class="title">Module 3: Whole Number Operations</h1>
   <p class="subtitle">EDUC 315 - Howard University</p>
 
 <div class="quarto-title-authors">
@@ -145,178 +145,373 @@ Nathan Alexander, PhD
 </div>
 
 </section>
-<section id="module-overview" class="title-slide slide level1 center">
-<h1>Module overview</h1>
-<p>This module provides an overview of fundamental concepts in number, logic, and mathematical reasoning. We’ll explore the principles of deductive and inductive reasoning, and begin to develop a foundation for understanding logical arguments and mathematical proofs.</p>
-<p>We’ll also explore concepts such as quantity, structure, space, and change, which form the basis of the various mathematical disciplines. Special attention is given to the concepts of zero and infinity, their historical development, and their significance in mathematical thinking.</p>
+<section id="module-overview" class="slide level2">
+<h2>Module Overview</h2>
+<p>This module explores the mathematical concepts focusing on whole number operations, with a specific focus on quantity and operations within the context of elementary mathematics. The module covers the historical development of arithmetic operations, introduces the Concrete-Representational-Abstract (CRA) approach to teaching mathematics, delves into the properties of basic arithmetic operations, and examines the relationships between different operations. By the end of this module, you will have a comprehensive understanding of quantity and operations to effectively deal with various mathematical representations.</p>
 </section>
-
-<section>
-<section id="notes" class="title-slide slide level1 center">
-<h1>Notes</h1>
-
-</section>
-<section id="the-concept-of-sets" class="slide level2">
-<h2>The concept of sets</h2>
-<p>A set is a well-defined collection of distinct objects. A set is considered as an object in its own right. Sets are foundational in mathematics because they provide a way to group and classify numbers, objects, or ideas. The items inside a set are called the set’s elements.</p>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Elements</strong></p>
-</div>
-<div class="callout-content">
-<p>An element is an object or item in a set.</p>
-<p>For example, for <span class="math inline">\(A = \{1, 3, 5\} \text{ and } B = \{2, 4, 6\}\)</span>, we say <span class="math inline">\(3 \in A\)</span> and <span class="math inline">\(4 \in B\)</span>.</p>
-</div>
-</div>
-</div>
-<p>If an element <span class="math inline">\(a\)</span> is in set <span class="math inline">\(A\)</span>, we write <span class="math inline">\(a \in A\)</span>.</p>
-<p>If a is not in <span class="math inline">\(A\)</span>, we write <span class="math inline">\(a \notin A\)</span>.</p>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Membership</strong></p>
-</div>
-<div class="callout-content">
-<p>The fundamental property of sets is that elements are either members or non-members – there is no in-between. The symbol <span class="math inline">\(\in\)</span> (epsilon) is used to denote membership.</p>
-</div>
-</div>
-</div>
-<p>In this context, <span class="math inline">\(\in\)</span> (epsilon) means: “is an element of,” “is a member of,” or simply “is in.” To indicate non-membership, we use <span class="math inline">\(\notin\)</span>. For example, for the same set <span class="math inline">\(A = \{1, 3, 5\}\)</span>, we write <span class="math inline">\(6 \notin A\)</span>.</p>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Subsets</strong></p>
-</div>
-<div class="callout-content">
-<p>A set <span class="math inline">\(A\)</span> is a subset of <span class="math inline">\(B\)</span> if every element of <span class="math inline">\(A\)</span> is also in <span class="math inline">\(B\)</span>.</p>
-<p>We write <span class="math inline">\(A \subseteq B\)</span> to indicate subsets.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Operations</strong></p>
-</div>
-<div class="callout-content">
-<h4 id="union">Union</h4>
-<p>The <strong>union</strong> of sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set of all elements in <span class="math inline">\(A\)</span> or <span class="math inline">\(B\)</span>:</p>
-<p><span class="math display">\[
-A \cup B = \{ x \mid x \in A \text{ or } x \in B \}
-\]</span></p>
-<h4 id="intersection">Intersection</h4>
-<p>The <strong>intersection</strong> of sets <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span> is the set of all elements in both <span class="math inline">\(A\)</span> and <span class="math inline">\(B\)</span>:</p>
-<p><span class="math display">\[
-A \cap B = \{ x \mid x \in A \text{ and } x \in B \}
-\]</span></p>
-<h4 id="complement">Complement</h4>
-<p>The <strong>complement</strong> of set <span class="math inline">\(A\)</span> (relative to a universal set <span class="math inline">\(U\)</span>) is the set of all elements in <span class="math inline">\(U\)</span> not in <span class="math inline">\(A\)</span>:<br>
-<span class="math display">\[
-A^{c} = \{ x \in U \mid x \notin A \}
-\]</span></p>
-</div>
-</div>
-</div>
-</section>
-<section id="sets-of-numbers" class="slide level2">
-<h2>Sets of numbers</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NuYPj29z6Ko?si=XMgQpMjfWdaJ-7__" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-<h3 id="natural-numbers">Natural numbers</h3>
-<p>The set of <strong>natural</strong> numbers, <span class="math inline">\(\mathbb{N} = \{1, 2, 3, ...\}\)</span></p>
-<h3 id="whole-numbers">Whole numbers</h3>
-<p>The set of <strong>whole</strong> numbers, <span class="math inline">\(\mathbb{N_0} = \{0, 1, 2, 3, ...\}\)</span></p>
-<h3 id="integer-numbers">Integer numbers</h3>
-<p>The set of <strong>integers</strong>, <span class="math inline">\(\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ...\}\)</span></p>
-<h3 id="rational-numbers">Rational numbers</h3>
-<p>The set of <strong>rational</strong> numbers, <span class="math inline">\(\mathbb{Q} = \{\dfrac{a}{b}, a \in \mathbb{Z}, b \in \mathbb{Z}, b \ne 0\}\)</span></p>
-<h3 id="real-numbers">Real numbers</h3>
-<ul>
-<li>The set of <strong>real</strong> numbers, <span class="math inline">\(\mathbb{R} = (-\infty, \infty)\)</span></li>
-</ul>
-<h3 id="other-sets">Other sets</h3>
-<p>What sets are missing? How can you define and visualize these other sets?</p>
-
-<img data-src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/real-numbers-1-1621595887.png" class="r-stretch quarto-figure-center"><p class="caption">Sets of numbers. From cuemath.com</p></section>
-<section id="framing-mathematics-and-science" class="slide level2">
-<h2>Framing mathematics and science</h2>
-<p><strong>Science</strong> is the systematic study and pursuit of knowledge about the natural and physical world through observation, experimentation, and the formulation of testable hypotheses. It involves a methods-based approach to understanding phenomena and developing explanations based on empirical evidence. <strong>Mathematics</strong> is the science that deals with the logic of quantity, structure, space, and change.</p>
+<section id="discussion-of-properties" class="slide level2">
+<h2>Discussion of Properties</h2>
+<h3 id="commutative-property">Commutative Property</h3>
+<p>The order of addition or multiplication does not affect the result:</p>
+<p><span class="math inline">\(a + b = b + a\)</span></p>
+<p><span class="math inline">\(a \times b = b \times a\)</span></p>
 </section>
 <section class="slide level2">
 
-<h3 id="logic">Logic</h3>
-<p>Logic refers to the principles of reasoning, especially correct reasoning. It’s the systematic method of coming to conclusions through rational thought. In mathematics, logic involves the formal principles of reasoning and inference used to derive valid conclusions.</p>
-<h3 id="reasoning">Reasoning</h3>
+<h3 id="associative-property">Associative Property</h3>
+<p>Changing grouping does not affect the sum or product:</p>
+<p><span class="math inline">\((a + b) + c = a + (b + c)\)</span></p>
+<p><span class="math inline">\((a \times b) \times c = a \times (b \times c)\)</span></p>
+</section>
+<section class="slide level2">
+
+<h3 id="distributive-property">Distributive Property</h3>
+<p>Multiplication distributes over addition:</p>
+<p><span class="math inline">\(a \times (b + c) = a \times b + a \times c\)</span></p>
+</section>
+<section class="slide level2">
+
+<h3 id="identity-property">Identity Property</h3>
+<p>Adding zero or multiplying by one leaves the number unchanged:</p>
+<p><span class="math inline">\(a + 0 = a\)</span></p>
+<p><span class="math inline">\(a \times 1 = a\)</span></p>
+</section>
+<section class="slide level2">
+
+<h3 id="zero-property-of-multiplication">Zero Property of Multiplication</h3>
+<p>Multiplying any number by zero results in zero:</p>
+<p><span class="math inline">\(a \times 0 = 0\)</span></p>
+</section>
+<section class="slide level2">
+
+</section>
+<section>
+<section id="quantity-and-operations" class="title-slide slide level1 center">
+<h1>Quantity and Operations</h1>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Quantity</strong></p>
+</div>
+<div class="callout-content">
+<p>A quantity is a property or characteristic that can be measured or counted. In mathematics, it refers to an amount that can be expressed as a number or a numerical value.</p>
+</div>
+</div>
+</div>
+<p>Key points:</p>
 <ul>
-<li><p><strong>Deductive reasoning</strong>: Deductive reasoning is a logical process that involves drawing specific conclusions from general premises or principles that are assumed to be true. This form of reasoning is often described as a “top-down” approach, where one starts with a general statement and applies it to a specific case. In mathematics, deductive reasoning involves using established rules, facts, and theorems to draw specific conclusions. It moves from general principles to specific instances.</p>
-<ul>
-<li>For example, if we know that “All fish live in water” and “Nemo is a fish,” what can we conclude?</li>
-</ul></li>
-<li><p><strong>Inductive reasoning</strong>: Inductive reasoning is a logical process that involves drawing general conclusions from specific observations or instances. This method is often referred to as “bottom-up” reasoning, contrasting with deductive reasoning, which moves from general principles to specific conclusions. In mathematics, inductive reasoning involves observing patterns or specific instances to form general conclusions or hypotheses.</p></li>
-<li><p>Using if-then statements.</p></li>
+<li>Quantities can be discrete (countable) or continuous (measurable)</li>
+<li>Quantities are often associated with units of measurement</li>
+<li>Quantities form the basis for mathematical operations and comparisons</li>
 </ul>
-<h3 id="quantity">Quantity</h3>
-<p>Quantity relates to the amount or number of something that can be measured or counted. In mathematics, it deals with concepts like magnitude, size, or amount that can be expressed numerically.</p>
-<h3 id="structure">Structure</h3>
-<p>Structure in mathematics refers to the way mathematical objects are organized or arranged. It involves the relationships and patterns between mathematical entities, such as the properties of number systems or the organization of geometric shapes.</p>
-<h3 id="space">Space</h3>
-<p>In mathematics, space refers to the framework within which points, lines, shapes, and other geometric objects exist. It can be two-dimensional (like a plane), three-dimensional (like our physical world), or even higher-dimensional in abstract mathematics.</p>
-<h3 id="change">Change</h3>
-<p>Change in mathematics deals with how quantities or properties vary or transform over time or under different conditions. This concept is fundamental to areas like calculus, which studies rates of change and accumulation.</p>
+<p>Examples:</p>
+<ul>
+<li>The number of apples in a basket (discrete quantity)</li>
+<li>The volume of water in a container (continuous quantity)</li>
+<li>The temperature of a room (measurable quantity)</li>
+<li>The speed of a car (derived quantity)</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Operation</strong></p>
+</div>
+<div class="callout-content">
+<p>An operation is a mathematical process or action performed on one or more quantities to produce a new quantity or result. It is a rule for combining mathematical objects or values.</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Operations transform quantities into new quantities</li>
+<li>They follow specific rules and properties (e.g., commutative, associative)</li>
+<li>Understanding operations is crucial for problem-solving and algebraic thinking</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Addition (sum)</strong></p>
+</div>
+<div class="callout-content">
+<p>Combining two or more quantities (e.g., 5 + 3 = 8)</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Subtraction (difference)</strong></p>
+</div>
+<div class="callout-content">
+<p>Finding the difference between quantities (e.g., 10 - 4 = 6)</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Multiplication (product)</strong></p>
+</div>
+<div class="callout-content">
+<p>Repeated addition or scaling (e.g., 3 × 4 = 12)</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Division (quotient)</strong></p>
+</div>
+<div class="callout-content">
+<p>Distributing a quantity into equal parts (e.g., 15 ÷ 3 = 5)</p>
+</div>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Exponentiation (exponent)</strong></p>
+</div>
+<div class="callout-content">
+<p>Repeated multiplication (e.g., 2³ = 8)</p>
+</div>
+</div>
+</div>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Root extraction (root)</strong></p>
+</div>
+<div class="callout-content">
+<p>Inverse of exponentiation (e.g., <span class="math inline">\(\sqrt{16} = 4\)</span>)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="concrete-representational-abstract-cra" class="slide level2">
+<h2>Concrete-Representational-Abstract (CRA)</h2>
+<p>The Concrete-Representational-Abstract (CRA) process is an instructional approach in mathematics that helps students develop a deeper understanding of mathematical concepts by progressing through three stages:</p>
+<ol type="1">
+<li><strong>Concrete</strong> Stage:</li>
+</ol>
+<ul>
+<li>Students use physical, hands-on objects to model mathematical concepts</li>
+<li>Examples include base-10 blocks, counters, fraction bars, or algebra tiles</li>
+<li>This stage allows students to manipulate tangible objects to solve problems</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/cra-algebra-tiles-adding-integers.png" style="width:80.0%"></p>
+<figcaption>Image from CRA methods by the Mathematics Initiative at www.pattan.net</figcaption>
+</figure>
+</div>
+<ol start="2" type="1">
+<li><strong>Representational</strong> (or Pictorial) Stage:</li>
+</ol>
+<ul>
+<li>Students transition to using visual representations of the concrete objects</li>
+<li>This may involve drawings, diagrams, or other pictorial models</li>
+<li>Examples include number lines, bar models, or sketches of manipulatives</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/cra-base-ten-blocks-place-value.png" style="width:80.0%"></p>
+<figcaption>Image from CRA methods by the Mathematics Initiative at www.pattan.net</figcaption>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><strong>Abstract</strong> Stage:</li>
+</ol>
+<ul>
+<li>Students work with abstract symbols and notation</li>
+<li>This includes numbers, variables, and mathematical symbols (+, -, x, ÷)</li>
+<li>Students apply their understanding to solve problems using standard algorithms</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/cra-chips-equivalent-fractions.png" style="width:80.0%"></p>
+<figcaption>Image from CRA methods by the Mathematics Initiative at www.pattan.net</figcaption>
+</figure>
+</div>
+<p>The CRA approach deepens mathematical understanding and help students internalize abstract concepts by first grounding them in concrete experiences.</p>
+</section>
+<section class="slide level2">
+
 </section></section>
 <section>
-<section id="what-do-we-mean-by-zero" class="title-slide slide level1 center">
-<h1>What do we mean by zero?</h1>
-<p>Zero is a number that represents the absence of quantity or magnitude. It is the integer between the set of all negative integers and all positive integers.</p>
+<section id="sum-and-difference" class="title-slide slide level1 center">
+<h1>Sum and Difference</h1>
+
 </section>
-<section id="examples" class="slide level2">
-<h2>Examples</h2>
-<p>The empty set: <span class="math inline">\(\emptyset\)</span> or <span class="math inline">\(\{ \}\)</span>.</p>
-<p>The number line: A starting point on number line.</p>
-<p>Counting: of you have a basket of apples and remove all of the apples, you are left with zero apples.</p>
-<p>Temperature: On the Celsius scale, zero degrees represents the freezing point of water.</p>
+<section id="algebra-tiles" class="slide level2">
+<h2>Algebra tiles</h2>
+<p>Depending on the grade of instruction, algebra tiles can be used as a concrete way to express various operations, such as the sum and difference.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/algebra-tile-0.png"></p>
+<figcaption>Introducing the tiles. From calculate.org.au</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/algebra-tile-1.png"></p>
+<figcaption>Zero-sum representation. From calculate.org.au</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/algebra-tile-2.png"></p>
+<figcaption>Modeling integers. From calculate.org.au</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/algebra-tile-3.png"></p>
+<figcaption>Addition and subtraction of integers. From calculate.org.au</figcaption>
+</figure>
+</div>
 </section>
-<section id="key-points" class="slide level2">
-<h2>Key Points:</h2>
-<p>Zero as a placeholder in our number system.</p>
-<p>The role of zero in mathematics (e.g., additive identity).</p>
-<p>Historical developments of the concept of zero:</p>
-<ul>
-<li><p>Dividing a number by zero, <span class="math inline">\(\dfrac{x}{0} = \text{undefined}\)</span> for some number <span class="math inline">\(x \neq 0\)</span></p></li>
-<li><p>Dividing zero by zero, <span class="math inline">\(\dfrac{x}{0} = \text{undefined}\)</span> for some number <span class="math inline">\(x = 0\)</span>.</p></li>
-</ul>
+<section class="slide level2">
+
 </section></section>
 <section>
-<section id="what-do-we-mean-by-infinity" class="title-slide slide level1 center">
-<h1>What do we mean by infinity?</h1>
-<p>Infinity is a concept describing something without any limit, and is larger than any real number. It is often denoted by the symbol <span class="math inline">\(\infty\)</span>.</p>
+<section id="product-and-quotient" class="title-slide slide level1 center">
+<h1>Product and Quotient</h1>
+<p>Fraction tiles provide a great way to review and extend students’ understanding of the concepts of multiplication and division.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/fraction-tiles-1.jpeg"></p>
+<figcaption>EDUC 315 fraction tiles</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../img/mod03/fraction-tiles-2.jpeg"></p>
+<figcaption>EDUC 315 fraction tiles</figcaption>
+</figure>
+</div>
 </section>
-<section id="examples-1" class="slide level2">
-<h2>Examples</h2>
-<p>The number line: You can always add 1 to any number, no matter how large, so the number line extends infinitely.</p>
-<p>Fractional division: 1 divided by 3 results in a repeating decimal (0.333…) that goes on infinitely.</p>
-</section>
-<section id="key-points-1" class="slide level2">
-<h2>Key Points</h2>
-<p>Different types of infinity (countable and uncountable)</p>
-<p>The concept of infinity in mathematics vs.&nbsp;everyday life</p>
-<p>Paradoxes involving infinity (e.g., Hilbert’s Hotel)</p>
-
+<h3 id="assessing-multiple-skills">Assessing multiple skills</h3>
+<p>Multiplication (product) with fractions (quotients)</p>
+<p><img data-src="../img/mod03/multiplying-fractions.jpg"></p>
+<section class="slide level2">
 
 </section></section>
+<section>
+<section id="exponents-and-roots" class="title-slide slide level1 center">
+<h1>Exponents and Roots</h1>
+<p>There are many ways to teach exponents and roots:</p>
+</section>
+<section id="teaching-exponents" class="slide level2">
+<h2>Teaching Exponents</h2>
+<p><strong>Pattern Blocks</strong></p>
+<p>Pattern blocks can be used to visually demonstrate exponents. For example:</p>
+<ul>
+<li>Use one triangle to represent <span class="math inline">\(1 \times 1\)</span></li>
+<li>Four triangles together represent <span class="math inline">\(2 \times 2\)</span></li>
+<li>Nine triangles together represent <span class="math inline">\(3 \times 3\)</span></li>
+</ul>
+<p><img data-src="../img/mod03/pattern-blocks.jpg"></p>
+<p>Draw the pattern for <span class="math inline">\(4 \times 4\)</span> and <span class="math inline">\(5 \times 5\)</span>.</p>
+<p>These patterns helps students visualize the quantity of exponents but we want to also show them representations of exponents as repeated multiplication; we can use base-ten blocks to extend their understanding.</p>
+<p><strong>Base Ten Blocks</strong></p>
+<p>Base ten blocks work well for teaching powers of 10:</p>
+<ul>
+<li>A unit cube represents <span class="math inline">\(10^0 = (1)\)</span></li>
+<li>A rod represents <span class="math inline">\(10^1 = 10 = (10)\)</span></li>
+<li>A flat represents <span class="math inline">\(10^2 = 10 x 10 = (100)\)</span></li>
+<li>A large cube represents <span class="math inline">\(10^3 = 10 x 10 x 10 = (1000)\)</span></li>
+</ul>
+<p><strong>Grid Paper</strong></p>
+<p>Grid paper allows students to draw squares and rectangles to represent exponents:</p>
+<ul>
+<li>A <span class="math inline">\(2 x 2\)</span> square represents <span class="math inline">\(2^2\)</span></li>
+<li>A <span class="math inline">\(3 x 3\)</span> square represents <span class="math inline">\(3^2\)</span></li>
+<li>A <span class="math inline">\(2 x 2 x 2\)</span> cube represents <span class="math inline">\(2^3\)</span></li>
+</ul>
+<p><img data-src="../img/mod03/grid-paper.jpg"></p>
+<p>Draw the figures representing <span class="math inline">\(3^3\)</span> and <span class="math inline">\(4^2\)</span>.</p>
+</section>
+<section id="teaching-roots" class="slide level2">
+<h2>Teaching Roots</h2>
+<p><strong>Algebra Tiles</strong></p>
+<p>Algebra tiles are also good for teaching square roots:</p>
+<ul>
+<li>Use the square tiles to build perfect square numbers (1, 4, 9, 16, etc.)</li>
+<li>The side length of the square represents the square root</li>
+</ul>
+<p>For example, a <span class="math inline">\(3x3\)</span> square of tiles has an area of <span class="math inline">\(9\)</span>, so the square root of <span class="math inline">\(9\)</span> is <span class="math inline">\(3\)</span>.</p>
+<p><strong>Grid Paper</strong></p>
+<p>Grid paper can be used to estimate non-perfect square roots:</p>
+<ul>
+<li>Draw a square with the given area (e.g.&nbsp;17)</li>
+<li>Count the side length to estimate the square root</li>
+<li>Refine by adding partial squares</li>
+</ul>
+<p>This provides a visual model for estimating irrational square roots.</p>
+
+<img data-src="../img/mod03/square-root-number-line.jpg" class="r-stretch"><p><strong>Number Lines</strong></p>
+<p>Use a number line to place square roots between perfect squares:</p>
+<ul>
+<li>Mark perfect squares (1, 4, 9, 16, 25, etc.)</li>
+<li>Estimate locations of other square roots between them</li>
+</ul>
+<p>This helps students understand square roots as numbers between integers.</p>
+<p>We can use manipulatives to build conceptual understanding before moving to procedures. Allow students to explore and discover patterns through hands-on activities. Gradually connect the concrete models to symbolic notation as students gain understanding.</p>
+</section>
+<section class="slide level2">
+
+</section></section>
+<section>
+<section id="stem-figures-and-history" class="title-slide slide level1 center">
+<h1>STEM figures and history</h1>
+<p>Incorporating history into your mathematics lessons provide an opportunity for interdisciplinary learning, and it encourages students to see mathematics in action through real-world examples.</p>
+</section>
+<section id="ancestral-mathematics" class="slide level2">
+<h2>Ancestral mathematics</h2>
+
+<img data-src="../img/mod03/ancestral-mathematics.jpg" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">Ancestral mathematics activity by Dr.&nbsp;Nathan Alexander. Adapted from ‘Ancestral Mathematics’ meme.</p><p>Using the image above as a sample, outline an <em>Ancestral Mathematics</em> class activity and create or modify the worksheet to follow along with your activity.</p>
+</section>
+<section id="historical-stem-figures" class="slide level2">
+<h2>Historical STEM Figures</h2>
+<p>This module closes with the identification of a historical figure in STEM.</p>
+<h3 id="objective">Objective</h3>
+<p>Research a historical STEM figure and create engaging content to showcase their contributions. The historical figure should showcase the growing diversity of a host of identities, cultures, and backgrounds represented in STEM.</p>
+<h3 id="procedures">Procedures</h3>
+<ul>
+<li><p><em>Museum visit</em> (75 minutes): Smithsonian Museum exhibit. Please take notes on interesting STEM figures and exhibits.</p></li>
+<li><p><em>Figure selection and background research</em>: Choose a historical STEM figure based on museum inspiration. Conduct additional research using archival resources and online databases.</p></li>
+<li><p><em>Content creation</em>: Students create content about their chosen figure in one of the following formats: Detailed video presentation (e.g., Tiktoc), Visual infographic (e.g., Canva), Interactive digital timeline, Podcast-like episode, Digital exhibit</p></li>
+<li><p><em>Peer review</em>: Students your work with classmates for feedback. Make final adjustments based on peer feedback.</p></li>
+<li><p><em>Presentation</em> (5 minutes): Develop a 5-minute presentation in the style that you would present it to your student. Present finished content to the class as if you were in front of your future students.</p></li>
+</ul>
+
+
+
+<img data-src="../img/mod03/historical-figures.png" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://www.rif.org/literacy-central/sustainable-futures/careers-in-stem" target="_blank">rif.org</a></p></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/howard-logo.jpg" class="slide-logo"></p>
@@ -354,7 +549,7 @@ A^{c} = \{ x \in U \mid x \notin A \}
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,
