@@ -12,7 +12,7 @@ format:
     smaller: true
     slide-number: c/t #< collapsted/total
     logo: "img/howard-logo.jpg"
-    footer: "[Course Data GitHub](https://github.com/educ315-fa24)"
+    footer: "[Course Data GitHub](https://github.com/educ315-fa25)"
     toc: false
     echo: true
     incremental: false
@@ -20,10 +20,10 @@ format:
 
 You may find a downloadable copy [here](https://www.dropbox.com/scl/fi/txz80drh4dbhqktnllihy/EDUC-315-Math-Lesson-Plan-Rubric.pdf?rlkey=7uobnp2see08l0na65zsmeazu&dl=0).
 
-## EDUC 315 Lesson Plan Project Rubric
+## EDUC 315 Lesson Plan Rubric
 
 | Criteria | Standards | 1 Needs Improvement | 2 Emergent | 3 Proficient | 4 Exemplary |
-|------------|------------|-------------|------------|------------|------------|
+|------------|------------|------------|------------|------------|------------|
 | **Lesson Objectives and Goals** | CAEP K-6 3c, NCTM 4 | The candidate does not identify performance-based objectives and appropriate curriculum goals that are relevant to learners. | The candidate identifies objectives and curriculum goals but they are not performance-based or appropriate for subject and/or grade level. | The candidate identifies performance-based objectives and appropriate curriculum goals and they are appropriate for subject and/or grade level. | The candidate identifies well-developed, performance-based objectives, appropriate curriculum goals that are appropriate for subject and/or grade level; correctly formulated; and addressed all domains. |
 | **State Standards** | NCTM 2 | The candidate does not identify national/state/local standards that align with the objectives or the standards are not appropriate for curriculum goals or are not relevant to learners. | The candidate identifies national/state/local standards but the standards are not aligned with the objectives and/or marginally relevant to learners. | The candidate identifies national/state/local standards that are aligned with the objectives and relevant to learners. | The candidate identifies national/state/local standards that are clearly aligned with the objectives and relevant to learners. |
 | **Sequencing and Pacing** | CAEP K-6 2b, CAEP K-6 4b, CAEP K-6 4c, NCTM 4 | The candidate does not plan for appropriate sequencing and pacing of learning experiences. Tasks, methods, strategies are not stated. | The candidate plans for appropriate sequencing and pacing of learning experiences; but tasks, methods and strategies are not stated and/or not appropriate or effective for the lesson. | The candidate plans for appropriate sequencing and pacing of learning experiences; and all tasks, methods, and strategies are stated and/or are appropriate and effective for the lesson | The candidate plans for appropriate sequencing and pacing of learning experiences; tasks, methods and strategies include a variety of creative, active learning, instructional strategies that address learner differences to maximize learning. |

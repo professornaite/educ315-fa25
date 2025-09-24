@@ -10,14 +10,14 @@ This is the companion site for EDUC 315: Principles of Teaching Mathematics and 
 ## Weekly Schedule
 
 | Week | Dates | Topics | Assignments, <br> Assessments, $\textit{\&}$ <br> Notes |
-|:--:|:---------|:-----|:---------|
+|:-------------:|:---------------------|:--------------|:-------------------|
 | 1 | Aug 18 <br> Aug 20 | [**Introduction to EDUC 315**](modules/module00.qmd)<br>Course overview; number line; sets of numbers | Mathematical coloring |
-| 2 | Aug 25 <br> Aug 27 | [**Module 1: Language of Mathematics**](modules/module01.qmd)<br>Sets, union, intersection; continuation | Number lines; Quiz 1 |
-| 3 | Sept 1\* <br> Sept 3 | Module 1: Logic and proofs; CRA approach | \*No class: Labor Day |
-| 4 | Sept 8 <br> Sept 10 | [**Module 2: Foundations of Mathematical Thinking**](modules/module02.qmd)<br>Polya’s 4-step method; computation, number sense, place value | Quiz 2 |
-| 5 | Sept 15 <br> Sept 17 | Excursion 1: National Portrait Gallery;<br>Module 2: Math activity rotations | Math corner activity due Sept 16 |
-| 6 | Sept 22<br> Sept 24 | [**Module 3: Whole Number Operations**](modules/module03.qmd)<br>Commutative & Associative properties | Quiz 3 |
-| 7 | Sept 29 <br> Oct 1 | Module 3: Distributive property;<br>[**Module 4: Fractions, Decimals & Rational Numbers**](modules/module04.qmd) (intro) | Historical STEM figure due Sept 28;<br>Midterm Exam |
+| 2 | Aug 25 <br> Aug 27 | [**Module 1: Language of Mathematics**](modules/module01.qmd)<br>Sets, union, intersection; continuation | Number lines<br>Quiz 1 |
+| 3 | Sep 1\* <br> Sept 3 | Module 1: Logic and proofs; CRA approach | \*No class: Labor Day |
+| 4 | Sep 8 <br> Sep 10 | [**Module 2: Foundations of Mathematical Thinking**](modules/module02.qmd)<br>Polya’s 4-step method | <br>Quiz 2 |
+| 5 | Sep 15 <br> Sep 17 | Excursion 1: National Portrait Gallery;<br>Module 2: Math activity rotations | Math corner activity due Sept 16 |
+| 6 | Sep 22<br> Sep 24 | [**Module 3: Whole Number Operations**](modules/module03.qmd)<br>Commutative & Associative properties | <br>Quiz 3 |
+| 7 | Sep 29 <br> Oct 1 | Module 3: Distributive property;<br>[**Module 4: Fractions, Decimals & Rational Numbers**](modules/module04.qmd) (intro) | Historical STEM figure due Sept 28;<br>Midterm Exam |
 | 8 | Oct 6 <br> Oct 8 | Module 4: Fractions, Decimals & Rational Numbers (continued) | — |
 | 9 | Oct 13\* <br> Oct 15 | [**Module 5: Geometry and Measurement**](modules/module05.qmd) | \*(No class, Indigenous Peoples’ Day) <br> Two-day lesson plan due Oct 14;<br>Quiz 4 |
 | 10 | Oct 20 <br> Oct 22 | Module 5: Geometry and Measurement (continued) | — |

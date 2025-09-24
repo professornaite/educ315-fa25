@@ -52,10 +52,13 @@ website:
           text: Module 1
         - href: modules/module02.qmd
           text: Module 2
+        - href: modules/module03.qmd
+          text: Module 3
     - section: "Rubrics"
       contents:
         - href: other/math-corner.qmd
           text: Math corner activity
+        - href: other/math-lesson1.qmd
         - href: other/historical.qmd
           text: Historical STEM figure
     - section: "Field experience"
