@@ -39,8 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2b0dcc654a13fd431ee0d254a7d30f30.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6a0241b741398fdfb3d856a31c312278.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a9427a72cef4659b38ecab86abd91c73.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-37c62b78767fb2ccd452604dc9587d31.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Welcome to EDUC 315 – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 <meta property="og:description" content="Principles of Teaching Mathematics and Science in Urban Classrooms II">
@@ -234,12 +263,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#course-schedule-and-modules" id="toc-course-schedule-and-modules" class="nav-link active" data-scroll-target="#course-schedule-and-modules">Course Schedule and Modules</a></li>
+  <li><a href="#weekly-schedule" id="toc-weekly-schedule" class="nav-link active" data-scroll-target="#weekly-schedule">Weekly Schedule</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Calendar</a></li></ol></nav>
 <div class="quarto-title">
@@ -261,210 +290,118 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by <a href="https://professornaite.github.io" target="_blank">Professor Nathan Alexander</a>. This site will serve as a <u>companion</u> to our <a href="https://canvas.howard.edu/courses/61566" target="_blank">Canvas site</a>, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.</p>
+<p>This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by <a href="https://professornaite.github.io" target="_blank">Professor Nathan Alexander</a>. This site will serve as a <u>companion</u> to our <a href="https://canvas.howard.edu/courses/61566" target="_blank">Canvas site</a> and support you with questions relevant to teaching mathematics. Let me know if you see any errors.</p>
 <hr>
-<section id="course-schedule-and-modules" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="course-schedule-and-modules">Course Schedule and Modules</h2>
-<div class="column-screen-inset-right">
+<section id="weekly-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="weekly-schedule">Weekly Schedule</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
 <th style="text-align: center;">Week</th>
-<th style="text-align: center;">Day</th>
-<th style="text-align: left;">Topic</th>
-<th style="text-align: left;">Assignments and Assessments</th>
+<th style="text-align: left;">Dates</th>
+<th style="text-align: left;">Topics</th>
+<th style="text-align: left;">Assignments, <br> Assessments, <span class="math inline">\(\textit{\&amp;}\)</span> <br> Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><a href="./modules/module00.html">1</a></td>
-<td style="text-align: center;">Mon, Aug 18</td>
-<td style="text-align: left;"><a href="modules/module00.html"><strong>Introduction to EDUC 315</strong></a> <br> Course overview</td>
-<td style="text-align: left;">—</td>
-</tr>
-<tr class="even">
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">Wed, Aug 20</td>
-<td style="text-align: left;"><a href="modules/module00.html"><strong>Introduction to EDUC 315</strong></a> <br> Number line; sets of numbers</td>
-<td style="text-align: left;">Mathematics color book</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><a href="./modules/module01.html">2</a></td>
-<td style="text-align: center;">Mon, Aug 25</td>
-<td style="text-align: left;"><a href="modules/module01.html"><strong>Module 1: Language of Mathematics</strong></a> <br> Sets, union, intersection</td>
-<td style="text-align: left;">Number lines</td>
+<td style="text-align: left;">Aug 18 <br> Aug 20</td>
+<td style="text-align: left;"><a href="./modules/module00.html"><strong>Introduction to EDUC 315</strong></a><br>Course overview; number line; sets of numbers</td>
+<td style="text-align: left;">Mathematical coloring</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
-<td style="text-align: center;">Wed, Aug 27</td>
-<td style="text-align: left;"><a href="modules/module01.html"><strong>Module 1: Language of Mathematics</strong></a></td>
-<td style="text-align: left;">Quiz 1</td>
+<td style="text-align: left;">Aug 25 <br> Aug 27</td>
+<td style="text-align: left;"><a href="./modules/module01.html"><strong>Module 1: Language of Mathematics</strong></a><br>Sets, union, intersection; continuation</td>
+<td style="text-align: left;">Number lines; Quiz 1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td style="text-align: center;">Mon, Sept 1</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">No class (Labor Day)</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">Wed, Sept 3</td>
-<td style="text-align: left;"><a href="modules/module01.html"><strong>Module 1: Language of Mathematics</strong></a> <br> Logic and proofs; CRA approach</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">Mon, Sept 8</td>
-<td style="text-align: left;"><a href="modules/module02.html"><strong>Module 2: Foundations of Mathematical Thinking</strong></a> <br> Polya’s 4-step method</td>
-<td style="text-align: left;">-</td>
+<td style="text-align: left;">Sept 1* <br> Sept 3</td>
+<td style="text-align: left;">Module 1: Logic and proofs; CRA approach</td>
+<td style="text-align: left;">*No class: Labor Day</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td style="text-align: center;">Wed, Sept 10</td>
-<td style="text-align: left;"><a href="modules/module02.html"><strong>Module 2: Foundations of Mathematical Thinking</strong></a> <br> Computation, Number sense, place value</td>
+<td style="text-align: left;">Sept 8 <br> Sept 10</td>
+<td style="text-align: left;"><a href="./modules/module02.html"><strong>Module 2: Foundations of Mathematical Thinking</strong></a><br>Polya’s 4-step method; computation, number sense, place value</td>
 <td style="text-align: left;">Quiz 2</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: center;">Mon, Sept 15</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Excursion 1: National Portrait Gallery <br> Math corner activity due Tue, Sept 16</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">Wed, Sept 17</td>
-<td style="text-align: left;"><strong>Module 2: Foundations of Mathematical Thinking</strong></td>
-<td style="text-align: left;">Math activity rotations</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">Mon, Sept 22</td>
-<td style="text-align: left;"><strong>Module 3: Whole Number Operations</strong> <br> Commutative property</td>
-<td style="text-align: left;">—</td>
+<td style="text-align: left;">Sept 15 <br> Sept 17</td>
+<td style="text-align: left;">Excursion 1: National Portrait Gallery;<br>Module 2: Math activity rotations</td>
+<td style="text-align: left;">Math corner activity due Sept 16</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
-<td style="text-align: center;">Wed, Sept 24</td>
-<td style="text-align: left;"><strong>Module 3: Whole Number Operations</strong> <br> Associative property</td>
+<td style="text-align: left;">Sept 22<br> Sept 24</td>
+<td style="text-align: left;"><a href="./modules/module03.html"><strong>Module 3: Whole Number Operations</strong></a><br>Commutative &amp; Associative properties</td>
 <td style="text-align: left;">Quiz 3</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
-<td style="text-align: center;">Mon, Sept 29</td>
-<td style="text-align: left;"><strong>Module 3: Whole Number Operations</strong> <br> Distributive property</td>
-<td style="text-align: left;">Historical STEM figure due Sun, Sept 28</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">Wed, Oct 1</td>
-<td style="text-align: left;"><strong>Module 4: Fractions, Decimals &amp; Rational Numbers</strong></td>
-<td style="text-align: left;">Midterm Exam</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">Mon, Oct 6</td>
-<td style="text-align: left;"><strong>Module 4: Fractions, Decimals &amp; Rational Numbers</strong></td>
-<td style="text-align: left;">—</td>
+<td style="text-align: left;">Sept 29 <br> Oct 1</td>
+<td style="text-align: left;">Module 3: Distributive property;<br><a href="./modules/module04.html"><strong>Module 4: Fractions, Decimals &amp; Rational Numbers</strong></a> (intro)</td>
+<td style="text-align: left;">Historical STEM figure due Sept 28;<br>Midterm Exam</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">8</td>
-<td style="text-align: center;">Wed, Oct 8</td>
-<td style="text-align: left;"><strong>Module 4: Fractions, Decimals &amp; Rational Numbers</strong></td>
+<td style="text-align: left;">Oct 6 <br> Oct 8</td>
+<td style="text-align: left;">Module 4: Fractions, Decimals &amp; Rational Numbers (continued)</td>
 <td style="text-align: left;">—</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">9</td>
-<td style="text-align: center;">Mon, Oct 13</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">No class (Indigenous Peoples’ Day) <br> Two-day lesson plan due Tue, Oct 14</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">Wed, Oct 15</td>
-<td style="text-align: left;"><strong>Module 5: Geometry and Measurement</strong></td>
-<td style="text-align: left;">Quiz 4</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">Mon, Oct 20</td>
-<td style="text-align: left;"><strong>Module 5: Geometry and Measurement</strong></td>
-<td style="text-align: left;">—</td>
+<td style="text-align: left;">Oct 13* <br> Oct 15</td>
+<td style="text-align: left;"><a href="./modules/module05.html"><strong>Module 5: Geometry and Measurement</strong></a></td>
+<td style="text-align: left;">*(No class, Indigenous Peoples’ Day) <br> Two-day lesson plan due Oct 14;<br>Quiz 4</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">10</td>
-<td style="text-align: center;">Wed, Oct 22</td>
-<td style="text-align: left;"><strong>Module 5: Geometry and Measurement</strong></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">Mon, Oct 27</td>
-<td style="text-align: left;"><strong>Module 5: Geometry and Measurement</strong></td>
-<td style="text-align: left;">—</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11</td>
-<td style="text-align: center;">Wed, Oct 29</td>
-<td style="text-align: left;"><strong>Module 5: Geometry and Measurement</strong></td>
+<td style="text-align: left;">Oct 20 <br> Oct 22</td>
+<td style="text-align: left;">Module 5: Geometry and Measurement (continued)</td>
 <td style="text-align: left;">—</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">12</td>
-<td style="text-align: center;">Mon, Nov 3</td>
-<td style="text-align: left;"><strong>Module 6: Data Science and Probability</strong></td>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">Oct 27 <br> Oct 29</td>
+<td style="text-align: left;">Module 5: Geometry and Measurement (continued)</td>
 <td style="text-align: left;">—</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">12</td>
-<td style="text-align: center;">Wed, Nov 5</td>
-<td style="text-align: left;"><strong>Module 6: Data Science and Probability</strong></td>
+<td style="text-align: left;">Nov 3 <br> Nov 5</td>
+<td style="text-align: left;"><a href="./modules/module06.html"><strong>Module 6: Data Science and Probability</strong></a></td>
 <td style="text-align: left;">Quiz 5</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">13</td>
-<td style="text-align: center;">Mon, Nov 10</td>
-<td style="text-align: left;"><strong>Module 6: Data Science and Probability</strong></td>
+<td style="text-align: left;">Nov 10 <br> Nov 12</td>
+<td style="text-align: left;">Module 6 (cont.);<br><a href="modules/module07.qmd"><strong>Module 7: Mathematical Modeling</strong></a>; Excursion 2: NMAAHC</td>
 <td style="text-align: left;">—</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">13</td>
-<td style="text-align: center;">Wed, Nov 12</td>
-<td style="text-align: left;"><strong>Module 7: Mathematical Modeling</strong></td>
-<td style="text-align: left;">Excursion 2: NMAAHC</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">14</td>
-<td style="text-align: center;">Mon, Nov 17</td>
-<td style="text-align: left;"><strong>Module 7: Mathematical Modeling</strong></td>
-<td style="text-align: left;">Mathematics unit outline due Sun, Nov 16</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">14</td>
-<td style="text-align: center;">Wed, Nov 19</td>
-<td style="text-align: left;"><strong>Module 7: Mathematical Modeling</strong></td>
-<td style="text-align: left;">Quiz 6</td>
+<td style="text-align: left;">Nov 17 <br> Nov 19</td>
+<td style="text-align: left;">Module 7: Mathematical Modeling (continued)</td>
+<td style="text-align: left;">Mathematics unit outline due Nov 16;<br>Quiz 6</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">15</td>
-<td style="text-align: center;">Mon, Nov 24</td>
-<td style="text-align: left;"><strong>Closing</strong> <br> Classgiving Potluck &amp; closing reflections</td>
+<td style="text-align: left;">Nov 24 <br> Nov 26</td>
+<td style="text-align: left;">Closing: Classgiving Potluck &amp; reflections;<br>Thanksgiving (No class)</td>
 <td style="text-align: left;">—</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">Wed, Nov 26</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">Dec 3</td>
 <td style="text-align: left;">—</td>
-<td style="text-align: left;">No class (Thanksgiving)</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Wed, Dec 3</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;"><strong>Field placement log due</strong></td>
+<td style="text-align: left;">Field placement log due</td>
 </tr>
 </tbody>
 </table>
-</div>
 
 
 </section>

@@ -10,7 +10,7 @@ $hover-color: lighten($link-color, 40%);
 
 a{
   color: $link-color;
-  text-decoration: none;
+  text-decoration: #5d6;
   
   &:hover{
     color: $hover-color;

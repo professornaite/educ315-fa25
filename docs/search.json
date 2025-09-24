@@ -187,7 +187,7 @@
     "href": "modules/module03.html#discussion-of-properties",
     "title": "Module 3: Whole Number Operations",
     "section": "Discussion of Properties",
-    "text": "Discussion of Properties\n\nCommutative Property\nThe order of addition or multiplication does not affect the result:\n\\(a + b = b + a\\)\n\\(a \\times b = b \\times a\\)\n\n\n\nAssociative Property\nChanging grouping does not affect the sum or product:\n\\((a + b) + c = a + (b + c)\\)\n\\((a \\times b) \\times c = a \\times (b \\times c)\\)\n\n\n\nDistributive Property\nMultiplication distributes over addition:\n\\(a \\times (b + c) = a \\times b + a \\times c\\)\n\n\n\nClosure Property\nWhole numbers remain whole when added or multiplied.\n\n\n\nIdentity Property\nAdding zero or multiplying by one leaves the number unchanged:\n\\(a + 0 = a\\)\n\\(a \\times 1 = a\\)\n\n\n\nZero Property of Multiplication\nMultiplying any number by zero results in zero:\n\\(a \\times 0 = 0\\)"
+    "text": "Discussion of Properties\n\nCommutative Property\nThe order of addition or multiplication does not affect the result:\n\\(a + b = b + a\\)\n\\(a \\times b = b \\times a\\)\n\n\n\nAssociative Property\nChanging grouping does not affect the sum or product:\n\\((a + b) + c = a + (b + c)\\)\n\\((a \\times b) \\times c = a \\times (b \\times c)\\)\n\n\n\nDistributive Property\nMultiplication distributes over addition:\n\\(a \\times (b + c) = a \\times b + a \\times c\\)\n\n\n\nIdentity Property\nAdding zero or multiplying by one leaves the number unchanged:\n\\(a + 0 = a\\)\n\\(a \\times 1 = a\\)\n\n\n\nZero Property of Multiplication\nMultiplying any number by zero results in zero:\n\\(a \\times 0 = 0\\)"
   },
   {
     "objectID": "modules/module03.html#concrete-representational-abstract-cra",
@@ -538,7 +538,7 @@
     "href": "index.html",
     "title": "Welcome to EDUC 315",
     "section": "",
-    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom.",
+    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site and support you with questions relevant to teaching mathematics. Let me know if you see any errors.",
     "crumbs": [
       "Course information",
       "Calendar"
@@ -794,5 +794,41 @@
     "title": "Common Core State Standards",
     "section": "",
     "text": "Text for this page was taken from osse.dc.gov:\nThe Common Core State Standards (CCSS) - Mathematics were adopted by the DC State Board of Education (July, 2010), as the K-12 Math Standards for the District of Columbia. Schools began a staged implementation of the standards during the 2011-12 school year. From 2011-2014, teachers received ongoing training in Common Core implementation, with full implementation occurring during the 2014-15 school year.\nThe CCSS-Mathematics demand a shift in math instruction from an emphasis on procedural fluency towards a balance between procedural fluency, conceptual understanding and application of concepts, so students are better prepared for the critical thinking necessary to succeed in college, careers and their daily lives. OSSE seeks to support high-quality implementation of the Common Core State Standards for Mathematics.\nFind more information by clicking here"
+  },
+  {
+    "objectID": "index.html#weekly-schedule",
+    "href": "index.html#weekly-schedule",
+    "title": "Welcome to EDUC 315",
+    "section": "Weekly Schedule",
+    "text": "Weekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments,  Assessments, \\(\\textit{\\&}\\)  Notes\n\n\n\n\n1\nAug 18  Aug 20\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematical coloring\n\n\n2\nAug 25  Aug 27\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber lines; Quiz 1\n\n\n3\nSept 1*  Sept 3\nModule 1: Logic and proofs; CRA approach\n*No class: Labor Day\n\n\n4\nSept 8  Sept 10\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method; computation, number sense, place value\nQuiz 2\n\n\n5\nSept 15  Sept 17\nExcursion 1: National Portrait Gallery;Module 2: Math activity rotations\nMath corner activity due Sept 16\n\n\n6\nSept 22 Sept 24\nModule 3: Whole Number OperationsCommutative & Associative properties\nQuiz 3\n\n\n7\nSept 29  Oct 1\nModule 3: Distributive property;Module 4: Fractions, Decimals & Rational Numbers (intro)\nHistorical STEM figure due Sept 28;Midterm Exam\n\n\n8\nOct 6  Oct 8\nModule 4: Fractions, Decimals & Rational Numbers (continued)\n—\n\n\n9\nOct 13*  Oct 15\nModule 5: Geometry and Measurement\n*(No class, Indigenous Peoples’ Day)  Two-day lesson plan due Oct 14;Quiz 4\n\n\n10\nOct 20  Oct 22\nModule 5: Geometry and Measurement (continued)\n—\n\n\n11\nOct 27  Oct 29\nModule 5: Geometry and Measurement (continued)\n—\n\n\n12\nNov 3  Nov 5\nModule 6: Data Science and Probability\nQuiz 5\n\n\n13\nNov 10  Nov 12\nModule 6 (cont.);Module 7: Mathematical Modeling; Excursion 2: NMAAHC\n—\n\n\n14\nNov 17  Nov 19\nModule 7: Mathematical Modeling (continued)\nMathematics unit outline due Nov 16;Quiz 6\n\n\n15\nNov 24  Nov 26\nClosing: Classgiving Potluck & reflections;Thanksgiving (No class)\n—\n\n\n16\nDec 3\n—\nField placement log due",
+    "crumbs": [
+      "Course information",
+      "Calendar"
+    ]
+  },
+  {
+    "objectID": "index_copy.html",
+    "href": "index_copy.html",
+    "title": "Welcome to EDUC 315",
+    "section": "",
+    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site, support you with questions relevant to teaching mathematics, and support your development of a pedagogical praxis for your future classroom."
+  },
+  {
+    "objectID": "index_copy.html#course-schedule-and-modules",
+    "href": "index_copy.html#course-schedule-and-modules",
+    "title": "Welcome to EDUC 315",
+    "section": "Course Schedule and Modules",
+    "text": "Course Schedule and Modules\n\n\n\n\nWeek\nDay\nTopic\nAssignments and Assessments\n\n\n\n\n1\nMon, Aug 18\nIntroduction to EDUC 315  Course overview\n—\n\n\n1\nWed, Aug 20\nIntroduction to EDUC 315  Number line; sets of numbers\nMathematics color book\n\n\n2\nMon, Aug 25\nModule 1: Language of Mathematics  Sets, union, intersection\nNumber lines\n\n\n2\nWed, Aug 27\nModule 1: Language of Mathematics\nQuiz 1\n\n\n3\nMon, Sept 1\n—\nNo class (Labor Day)\n\n\n3\nWed, Sept 3\nModule 1: Language of Mathematics  Logic and proofs; CRA approach\n\n\n\n4\nMon, Sept 8\nModule 2: Foundations of Mathematical Thinking  Polya’s 4-step method\n-\n\n\n4\nWed, Sept 10\nModule 2: Foundations of Mathematical Thinking  Computation, Number sense, place value\nQuiz 2\n\n\n5\nMon, Sept 15\n\nExcursion 1: National Portrait Gallery  Math corner activity due Tue, Sept 16\n\n\n5\nWed, Sept 17\nModule 2: Foundations of Mathematical Thinking\nMath activity rotations\n\n\n6\nMon, Sept 22\nModule 3: Whole Number Operations  Commutative property\n—\n\n\n6\nWed, Sept 24\nModule 3: Whole Number Operations  Associative property\nQuiz 3\n\n\n7\nMon, Sept 29\nModule 3: Whole Number Operations  Distributive property\nHistorical STEM figure due Sun, Sept 28\n\n\n7\nWed, Oct 1\nModule 4: Fractions, Decimals & Rational Numbers\nMidterm Exam\n\n\n8\nMon, Oct 6\nModule 4: Fractions, Decimals & Rational Numbers\n—\n\n\n8\nWed, Oct 8\nModule 4: Fractions, Decimals & Rational Numbers\n—\n\n\n9\nMon, Oct 13\n—\nNo class (Indigenous Peoples’ Day)  Two-day lesson plan due Tue, Oct 14\n\n\n9\nWed, Oct 15\nModule 5: Geometry and Measurement\nQuiz 4\n\n\n10\nMon, Oct 20\nModule 5: Geometry and Measurement\n—\n\n\n10\nWed, Oct 22\nModule 5: Geometry and Measurement\n\n\n\n11\nMon, Oct 27\nModule 5: Geometry and Measurement\n—\n\n\n11\nWed, Oct 29\nModule 5: Geometry and Measurement\n—\n\n\n12\nMon, Nov 3\nModule 6: Data Science and Probability\n—\n\n\n12\nWed, Nov 5\nModule 6: Data Science and Probability\nQuiz 5\n\n\n13\nMon, Nov 10\nModule 6: Data Science and Probability\n—\n\n\n13\nWed, Nov 12\nModule 7: Mathematical Modeling\nExcursion 2: NMAAHC\n\n\n14\nMon, Nov 17\nModule 7: Mathematical Modeling\nMathematics unit outline due Sun, Nov 16\n\n\n14\nWed, Nov 19\nModule 7: Mathematical Modeling\nQuiz 6\n\n\n15\nMon, Nov 24\nClosing  Classgiving Potluck & closing reflections\n—\n\n\n15\nWed, Nov 26\n—\nNo class (Thanksgiving)\n\n\n\nWed, Dec 3\n—\nField placement log due"
+  },
+  {
+    "objectID": "index.html#weekly-schedule-1",
+    "href": "index.html#weekly-schedule-1",
+    "title": "Welcome to EDUC 315",
+    "section": "Weekly Schedule",
+    "text": "Weekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments and Assessments\n\n\n\n\n1\nAug 18 & 20\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematics color book\n\n\n2\nAug 25 & 27\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber lines; Quiz 1\n\n\n3\nSept 1 (No class, Labor Day) & Sept 3\nModule 1: Logic and proofs; CRA approach\n—\n\n\n4\nSept 8 & 10\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method; computation, number sense, place value\nQuiz 2\n\n\n5\nSept 15 & 17\nExcursion 1: National Portrait Gallery;Module 2: Math activity rotations\nMath corner activity due Sept 16\n\n\n6\nSept 22 & 24\nModule 3: Whole Number OperationsCommutative & Associative properties\nQuiz 3\n\n\n7\nSept 29 & Oct 1\nModule 3: Distributive property;Module 4: Fractions, Decimals & Rational Numbers (intro)\nHistorical STEM figure due Sept 28;Midterm Exam\n\n\n8\nOct 6 & 8\nModule 4: Fractions, Decimals & Rational Numbers (continued)\n—\n\n\n9\nOct 13 (No class, Indigenous Peoples’ Day) & Oct 15\nModule 5: Geometry and Measurement\nTwo-day lesson plan due Oct 14;Quiz 4\n\n\n10\nOct 20 & 22\nModule 5: Geometry and Measurement (continued)\n—\n\n\n11\nOct 27 & 29\nModule 5: Geometry and Measurement (continued)\n—\n\n\n12\nNov 3 & 5\nModule 6: Data Science and Probability\nQuiz 5\n\n\n13\nNov 10 & 12\nModule 6 (cont.);Module 7: Mathematical Modeling; Excursion 2: NMAAHC\n—\n\n\n14\nNov 17 & 19\nModule 7: Mathematical Modeling (continued)\nMathematics unit outline due Nov 16;Quiz 6\n\n\n15\nNov 24 & 26\nClosing: Classgiving Potluck & reflections;Thanksgiving (No class)\n—\n\n\n16\nDec 3\n—\nField placement log due",
+    "crumbs": [
+      "Course information",
+      "Calendar"
+    ]
   }
 ]
