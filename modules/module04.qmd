@@ -1,5 +1,5 @@
 ---
-title: "Module 4: Structure and Properties"
+title: "Module 4: Lesson Planning"
 subtitle: "EDUC 315 - Howard University"
 author: "Nathan Alexander, PhD"
 institute: "School of Education"
@@ -18,255 +18,130 @@ format:
     incremental: false
 ---
 
-Module: Structure and Properties
-
 ## Module Overview
 
-This module will deepen your understanding of often taken-for-granted fundamental mathematical properties. The module focuses on the commutative, associative, distributive, identity, and inverse properties, which are essential for developing a strong foundation in arithmetic and preparation for algebraic thinking. By exploring each of these properties, you will gain the knowledge to support students' expansion beyond the general principles of quantity and operations.
+This module will deepen your understanding of generating mathematical lessons with a focus on fractions and decimals.
 
 ### Goals for the module
 
-One goal for this module is for you to come up with a set of ways to describe these properties to your students. Use examples from previous modules to guide you.
+One goal for this module is for you to come up with a set of ways to describe various ways to teach students' properties and procedural fluency. We'll use new examples and those from previous modules to guide you.
 
-# Activity
+# Decimals
 
-# Lecture and Discussion
+## Decimal Place Value
 
-# Share
+For each, underline the whole number part and circle the decimal (fractional) part.  
 
-------------------------------------------------------------------------
+- 2.5  
+- 1.23  
+- 0.52  
+- 0.002
 
-![Some of the mathematical properties.](/img/mod04/properties){width="50%"}
+Which digit is in the tenths place? Which is in the hundredths place?
 
-------------------------------------------------------------------------
+---
 
-## Commutative Property
+## True or False: Decimal Equivalents
 
-::: {.callout-note icon="false"}
-The commutative property states that the order of operands does not change the final result in certain mathematical operations. It applies to addition and multiplication, but not to subtraction or division.
-:::
+True or False: 25 hundredths is the same as 2 tenths and 5 hundredths?
 
-------------------------------------------------------------------------
+- Draw a place value chart to prove your answer.
+- Write both numbers in fraction form.
 
-### Formal expressions:
+---
 
--   For addition: a + b = b + a
+## Comparing and Ordering Decimals
 
--   For multiplication: a × b = b × a
+Compare which is greater by identifying the digits in each decimal place (tenths, hundredths, thousandths).
 
-------------------------------------------------------------------------
+- 4.859  
+- 4.869
 
-### Examples:
+Next, create your own set of three decimals and order them least to greatest.
 
-#### Addition:
+---
 
--   3 + 5 = 5 + 3 = 8
-
--   10 + 7 = 7 + 10 = 17
-
-------------------------------------------------------------------------
-
-#### Multiplication:
-
--   4 × 6 = 6 × 4 = 24
-
--   3 × 8 = 8 × 3 = 24
+# Five Strands of Mathematical Proficiency
 
 ------------------------------------------------------------------------
 
-#### With variables:
+![Five strands of mathematical proficiency](../img/mod04/five-strands.png){width="75%"}
 
--   x + y = y + x
 
--   m × n = n × m
 
-------------------------------------------------------------------------
+Kilpatrick and colleagues (National Research Council, 2001) identified five interdependent strands that together form a comprehensive definition of mathematical proficiency.
 
-## Associative Properties
+---
 
-::: {.callout-note icon="false"}
-Associative Property of Addition
+## Procedural Fluency
 
-The associative property of addition can be expressed as: (a + b) + c = a + (b + c)
-:::
+Skill in carrying out mathematical procedures flexibly, accurately, efficiently, and appropriately.
 
-------------------------------------------------------------------------
+- Involves knowing procedures and using them correctly.
 
-### Examples:
+- Includes the ability to select appropriate methods and apply algorithms based on the situation.
 
-Example 1:
+![Procedural fluency](../img/mod04/pf.png){width="50%"}
 
-(5 + 2) + 3 = 5 + (2 + 3)
+---
 
-When we break this down:
+## Conceptual Understanding
 
--   (5 + 2) + 3 = 7 + 3 = 10
+Comprehension of mathematical concepts, operations, and relationships.
 
--   5 + (2 + 3) = 5 + 5 = 10
+- Means having an integrated and functional grasp of ideas, not just memorizing facts.
 
-As we can see, the result is the same regardless of how we group the numbers.
+- Students should connect new knowledge with what they already know and represent mathematical situations in multiple ways.
 
-------------------------------------------------------------------------
+![Conceptual understanding](../img/mod04/cu.jpg){width="50%"}
 
-Example 2:
+---
 
-(4 + (-3)) + 11 = 4 + ((-3) + 11)
+## Adaptive Reasoning
 
-Breaking it down:
+Capacity for logical thought, reflection, explanation, and justification.
 
--   (4 + (-3)) + 11 = 1 + 11 = 12
+- Enables students to explain and justify their strategies and solutions.
 
--   4 + ((-3) + 11) = 4 + 8 = 12
+- Supports the extension of knowledge from known concepts to unfamiliar situations.
 
-------------------------------------------------------------------------
+![Adaptive reasoning](../img/mod04/ar.png){width="50%"}
 
-::: {.callout-note icon="false"}
-Associative Property of Multiplication
+---
 
-The associative property of multiplication is expressed as: (a × b) × c = a × (b × c)
-:::
+## Strategic Competence
 
-------------------------------------------------------------------------
+Ability to formulate, represent, and solve mathematical problems.
 
-### Examples:
+- Involves devising and using strategies for both routine and non-routine problems.
 
-Example 3:
+- Encourages flexible thinking when approaching mathematical challenges.
 
-(2 × 3) × 5 = 2 × (3 × 5)
+![Strategic competence](../img/mod04/sc.png){width="50%"}
 
-Let's calculate:
+---
 
--   (2 × 3) × 5 = 6 × 5 = 30
+## Productive Disposition
 
--   2 × (3 × 5) = 2 × 15 = 30
+Habitual inclination to see mathematics as sensible, useful, and worthwhile, paired with a belief in perseverance and personal efficacy.
 
-------------------------------------------------------------------------
+- Nurtures a positive attitude and sense of efficacy towards mathematics.
 
-Example 4:
+- Students believe that effort leads to understanding and success.
 
-(-4 × -3) × -5 = -4 × (-3 × -5)
+![Productive disposition](../img/mod04/pd.jpg){width="50%"}
 
-Breaking it down:
+---
 
--   (-4 × -3) × -5 = 12 × -5 = -60
+| Strand                | Key Aspect           | Description                                  |
+|-----------------------|----------------------|----------------------------------------------|
+| Procedural Fluency    | Technical Performance | Memorise and rehearse                       |
+| Conceptual Understanding | Classification, Definition | Sort, classify, define and deduce          |
+|                       | Representation       | Describe, interpret and translate           |
+|                       | Analysis             | Explore structure, variation, connections   |
+| Adaptive Reasoning    | Argument, Proof       | Test, justify and prove conjectures         |
+| Strategic Competence  | Mathematical Model    | Formulate models and problems                |
+|                       | Solution             | Employ strategies to solve a problem         |
+|                       | Critical Commentary  | Interpret & evaluate solutions and strategies|
 
--   -4 × (-3 × -5) = -4 × 15 = -60
 
-------------------------------------------------------------------------
-
-![Difference bewteen commutative and associative properties](/img/mod04/com-aso.jpg){width="50%"}
-
-## Identity Properties
-
-::: {.callout-note icon="false"}
-Identity Property of Addition
-
-The identity property of addition states that adding zero to any number results in the same number: a + 0 = a
-:::
-
-------------------------------------------------------------------------
-
-### Examples:
-
-Example 1:
-
-7 + 0 = 7
-
-Example 2:
-
--3 + 0 = -3
-
-------------------------------------------------------------------------
-
-::: {.callout-note icon="false"}
-Identity Property of Multiplication
-
-The identity property of multiplication states that multiplying any number by 1 results in the same number: a × 1 = a
-:::
-
-------------------------------------------------------------------------
-
-### Examples:
-
-Example 3:
-
-9 × 1 = 9
-
-Example 4:
-
--5 × 1 = -5
-
-------------------------------------------------------------------------
-
-## Distributive Property
-
-::: {.callout-note icon="false"}
-The distributive property states that multiplying a number by a sum is the same as multiplying the number by each addend and then adding the products: a(b + c) = ab + ac
-:::
-
-------------------------------------------------------------------------
-
-### Examples:
-
-Example 1:
-
-3(4 + 2) = 3(4) + 3(2)
-
-Let's calculate:
-
--   3(4 + 2) = 3(6) = 18
--   3(4) + 3(2) = 12 + 6 = 18
-
-------------------------------------------------------------------------
-
-Example 2:
-
-5(x - 3) = 5x - 15
-
-Breaking it down:
-
--   5(x) - 5(3) = 5x - 15
-
-------------------------------------------------------------------------
-
-## Inverse Property
-
-::: {.callout-note icon="false"}
-Additive Inverse Property
-
-The additive inverse property states that the sum of a number and its additive inverse (opposite) is zero: a + (-a) = 0
-:::
-
-------------------------------------------------------------------------
-
-### Examples:
-
-Example 1:
-
-7 + (-7) = 0
-
-Example 2:
-
--4 + 4 = 0
-
-------------------------------------------------------------------------
-
-::: {.callout-note icon="false"}
-Multiplicative Inverse Property
-
-The multiplicative inverse property states that the product of a number and its multiplicative inverse (reciprocal) is 1: a × (1/a) = 1, where a ≠ 0
-:::
-
-------------------------------------------------------------------------
-
-### Examples:
-
-Example 3:
-
-6 × (1/6) = 1
-
-Example 4:
-
--2 × (-1/2) = 1
-
-------------------------------------------------------------------------

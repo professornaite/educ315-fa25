@@ -10,7 +10,7 @@ Our course assignments will be split between four assignment groups.
 Please see the detailed syllabus on our Canvas site for a more ordered list.
 
 | Assignment group | Assignment | Due date |
-|----------------------|--------------------------------|------------------|
+|----|----|----|
 | **Mathematical activities and lesson plans** | Mathematics corner activity | Sun Sept 7 |
 |  | Two-day lesson plan (in pairs) | Tue Oct 28 |
 |  | Mathematics unit outline (in groups) | Sun Nov 16 |
