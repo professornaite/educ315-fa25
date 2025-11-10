@@ -94,7 +94,7 @@ A number which summarizes the entire group.
 
 A single number that summarizes a subset of data, or the sample.
 
-![Population vs. Sample. Image from Scribbr.](img/wk5-b-1.png){width="40%"}
+![Population vs. Sample. Image from Scribbr.](../img/wk5-b-1.png){width="40%"}
 
 # Data Collection and Measurement
 
@@ -178,7 +178,7 @@ Within these two broad categories are other methods based on the needs of the st
 
 ![Image from The W.E.B. DuBois Collection. https://credo.library.umass.edu](../img/wk5-a-5.jpg)
 
-![Image from The W.E.B. DuBois Collection. https://credo.library.umass.edu](img/wk5-a-1.jpg)
+![Image from The W.E.B. DuBois Collection. https://credo.library.umass.edu](../img/wk5-a-1.jpg)
 
 # Reflection
 
