@@ -21,7 +21,7 @@ This is the companion site for EDUC 315: Principles of Teaching Mathematics and 
 | 10 | Oct 20 <br> Oct 22 | [**Module 5: Lesson planning**]() |<br>Quiz 4 |
 | 11 | Oct 27 <br> Oct 29 | [**Module 5: Lesson planning**]() | <br> Lesson plan assignment  |
 | 12 | Nov 3 <br> Nov 5 | [**Math lesoson presentations**]() |<br>Quiz 5|
-| 13 | Nov 10 <br> Nov 12 | [**Module 6: Statistics** <br> **Probability**](modules/module06.qmd)<br>Excursion 2: NMAAHC |  |
+| 13 | Nov 10 <br> Nov 12 | [**Module 6: Statistics** <br> **Probability**](modules/module06.qmd) |  |
 | 14 | Nov 17 <br> Nov 19 | [**Module 7: Mathematical Modeling**](modules/module07.qmd)| Mathematics unit outline<br>Quiz 6 |
 | 15 | Nov 24 <br> Nov 26 | Closing: Classgiving Potluck & reflections<br>Thanksgiving (No class) | Historical STEM figure |
 | 16 | Dec 3 | — | Field placement log due |

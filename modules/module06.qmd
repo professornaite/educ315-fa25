@@ -86,6 +86,16 @@ S \subset U = \text{sample drawn from the population}
 $$
 
 
+## Population parameter
+
+A number which summarizes the entire group.
+
+## Sample statistic
+
+A single number that summarizes a subset of data, or the sample.
+
+![Population vs. Sample. Image from Scribbr.](img/wk5-b-1.png){width="40%"}
+
 # Data Collection and Measurement
 
 Measurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule. According to NCTM reasoning standards, effective data collection and measurement require:  
