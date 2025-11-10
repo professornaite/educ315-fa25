@@ -350,7 +350,7 @@
     "href": "modules/module06.html#sample-statistic",
     "title": "Mathematical Foundations of Statistics: Sets, Variables, and Data",
     "section": "Sample statistic",
-    "text": "Sample statistic\nA single number that summarizes a subset of data, or the sample.\n\n\n\nPopulation vs. Sample. Image from Scribbr.",
+    "text": "Sample statistic\nA single number that summarizes a subset of data, or the sample.\n\nPopulation vs. Sample. Image from Scribbr.",
     "crumbs": [
       "Modules",
       "Module 6"
@@ -969,5 +969,19 @@
     "title": "Common Core State Standards",
     "section": "",
     "text": "Text for this page was taken from osse.dc.gov:\nThe Common Core State Standards (CCSS) - Mathematics were adopted by the DC State Board of Education (July, 2010), as the K-12 Math Standards for the District of Columbia. Schools began a staged implementation of the standards during the 2011-12 school year. From 2011-2014, teachers received ongoing training in Common Core implementation, with full implementation occurring during the 2014-15 school year.\nThe CCSS-Mathematics demand a shift in math instruction from an emphasis on procedural fluency towards a balance between procedural fluency, conceptual understanding and application of concepts, so students are better prepared for the critical thinking necessary to succeed in college, careers and their daily lives. OSSE seeks to support high-quality implementation of the Common Core State Standards for Mathematics.\nFind more information by clicking here"
+  },
+  {
+    "objectID": "modules/module06-slides.html#population-parameter",
+    "href": "modules/module06-slides.html#population-parameter",
+    "title": "Module 6: Statistics and probability",
+    "section": "Population parameter",
+    "text": "Population parameter\nA number which summarizes the entire group."
+  },
+  {
+    "objectID": "modules/module06-slides.html#sample-statistic",
+    "href": "modules/module06-slides.html#sample-statistic",
+    "title": "Module 6: Statistics and probability",
+    "section": "Sample statistic",
+    "text": "Sample statistic\nA single number that summarizes a subset of data, or the sample.\n\nPopulation vs. Sample. Image from Scribbr."
   }
 ]

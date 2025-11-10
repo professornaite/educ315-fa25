@@ -18,12 +18,6 @@ format:
     incremental: false
 ---
 
----
-title: "Mathematical Foundations of Statistics: Sets, Variables, and Data"
-author: "For Future Mathematics Teachers"
-format: html
----
-
 # Overview
 
 Statistics builds upon deep mathematical concepts such as sets, numbers, and measurement. These foundations allow us to describe, collect, and analyze data effectively. Before studying data, we must understand the basic structures from which all numerical and categorical reasoning emerge.
