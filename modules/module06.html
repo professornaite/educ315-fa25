@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Nathan Alexander, PhD">
 
-<title>Umoja – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
+<title>Module 6: Statistics and probability – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../other/math-corner.html" rel="next">
+<link href="../modules/module05.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,13 +71,42 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Umoja – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
-<meta property="og:description" content="Course site for EDUC 315 at Howard University">
-<meta property="og:image" content="https://educ315-fa25.github.io/img/umoja.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Module 6: Statistics and probability – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
+<meta property="og:description" content="EDUC 315 - Howard University">
+<meta property="og:image" content="https://educ315-fa25.github.io/img/wk5-b-1.png">
 <meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
-<meta property="og:image:height" content="476">
-<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="457">
+<meta property="og:image:width" content="501">
 </head>
 
 <body class="nav-sidebar docked">
@@ -86,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Umoja</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module06.html">Module 6</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -153,13 +185,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Modules</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../modules/module00.html" class="sidebar-item-text sidebar-link">
@@ -198,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../modules/module06.html" class="sidebar-item-text sidebar-link">
+  <a href="../modules/module06.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Module 6</span></a>
   </div>
 </li>
@@ -261,22 +293,56 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#national-council-of-teachers-of-mathematics-nctm" id="toc-national-council-of-teachers-of-mathematics-nctm" class="nav-link" data-scroll-target="#national-council-of-teachers-of-mathematics-nctm">National Council of Teachers of Mathematics (NCTM)</a></li>
+  <li><a href="#sets-of-numbers" id="toc-sets-of-numbers" class="nav-link" data-scroll-target="#sets-of-numbers">Sets of Numbers</a></li>
+  <li><a href="#number-sets-and-variable-types" id="toc-number-sets-and-variable-types" class="nav-link" data-scroll-target="#number-sets-and-variable-types">Number Sets and Variable Types</a></li>
+  <li><a href="#populations-and-samples" id="toc-populations-and-samples" class="nav-link" data-scroll-target="#populations-and-samples">Populations and Samples</a>
+  <ul class="collapse">
+  <li><a href="#population-parameter" id="toc-population-parameter" class="nav-link" data-scroll-target="#population-parameter">Population parameter</a></li>
+  <li><a href="#sample-statistic" id="toc-sample-statistic" class="nav-link" data-scroll-target="#sample-statistic">Sample statistic</a></li>
+  </ul></li>
+  <li><a href="#data-collection-and-measurement" id="toc-data-collection-and-measurement" class="nav-link" data-scroll-target="#data-collection-and-measurement">Data Collection and Measurement</a>
+  <ul class="collapse">
+  <li><a href="#types-of-studies-and-sampling-strategies" id="toc-types-of-studies-and-sampling-strategies" class="nav-link" data-scroll-target="#types-of-studies-and-sampling-strategies">Types of studies and sampling strategies</a></li>
+  </ul></li>
+  <li><a href="#real-world-examples" id="toc-real-world-examples" class="nav-link" data-scroll-target="#real-world-examples">Real world examples</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="module06-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module06.html">Module 6</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Umoja</h1>
+<h1 class="title">Module 6: Statistics and probability</h1>
+<p class="subtitle lead">EDUC 315 - Howard University</p>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nathan Alexander, PhD </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            School of Education
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
   
     
   </div>
@@ -286,11 +352,216 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Text for this page was taken from umojacommunity.org:</p>
-<p>Our curriculum is the modality by which we deliver cultural and educational experiences that inspire self-actualization and academic excellence in Black students. Umoja’s curriculum begins with a holistic approach, bringing spirit, body, and cultural memory into the learning environments we cultivate for our students and community of practitioners. When students, faculty, and staff attend Umoja’s symposia, institutes, and conferences, they build communal intelligence around identity, culture, career growth, manifestation, and leadership. We draw from educators like bell hooks, Dr.&nbsp;Asa G. Hilliard, Dr.&nbsp;Bettina Love, and Dr.&nbsp;Wade Nobles to uplift the important role of culture, love, and justice in the Umoja classroom and program. We recommend aligning programs, coursework, field trips, etc. to at least one of the goals or objectives from Umoja’s Curriculum.</p>
-<p><img src="../img/umoja.png" class="img-fluid"> Find more information by clicking <a href="https://umojacommunity.org/umoja-curriculum">here</a></p>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>Statistics builds upon deep mathematical concepts such as sets, numbers, and measurement. These foundations allow us to describe, collect, and analyze data effectively. Before studying data, we must understand the basic structures from which all numerical and categorical reasoning emerge.</p>
+</section>
+<section id="national-council-of-teachers-of-mathematics-nctm" class="level1">
+<h1>National Council of Teachers of Mathematics (NCTM)</h1>
+<p>Alignment with the principles from the National Council of Teachers of Mathematics (NCTM, Principles to Actions, 2014).</p>
+<ul>
+<li>Understand and describe different sets of numbers and their relationships.</li>
+<li>Relate sets of numbers to statistical variable types.</li>
+<li>Distinguish between a population and a sample in statistical terms.</li>
+<li>Explain data collection and measurement processes grounded in mathematical reasoning.</li>
+<li>Connect abstract mathematical structures to real-world data contexts.</li>
+</ul>
+</section>
+<section id="sets-of-numbers" class="level1">
+<h1>Sets of Numbers</h1>
+<p>As we know, mathematics is constructed upon sets — well-defined collections of elements.</p>
+<p>The number system builds systematically upon these sets, each expanding the possibilities of measurement when we are thinking about statistics.</p>
+<p><span class="math display">\[
+\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\mathbb{N}\)</span>: The set of natural numbers, used for counting objects.<br>
+</li>
+<li><span class="math inline">\(\mathbb{Z}\)</span>: The set of integers, extending natural numbers to include negatives.<br>
+</li>
+<li><span class="math inline">\(\mathbb{Q}\)</span>: The set of rational numbers, allowing fractional relationships.<br>
+</li>
+<li><span class="math inline">\(\mathbb{R}\)</span>: The set of real numbers, providing a complete continuum of measurement.<br>
+</li>
+<li><span class="math inline">\(\mathbb{C}\)</span>: The set of complex numbers, incorporating an imaginary component <span class="math inline">\(i = \sqrt{-1}\)</span>.</li>
+</ul>
+<p>Each set expands our capacity to represent and interpret reality mathematically. In statistics, these same conceptual expansions allow for increasingly sophisticated ways to represent and analyze data.</p>
+</section>
+<section id="number-sets-and-variable-types" class="level1">
+<h1>Number Sets and Variable Types</h1>
+<p>Statistical variables describe measurable or classifiable aspects of a population. The type of variable determines the operations that can be performed and the level of precision possible.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 28%">
+<col style="width: 22%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mathematical Set</th>
+<th>Variable Type</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\mathbb{N}\)</span></td>
+<td>Discrete</td>
+<td>Countable outcomes</td>
+<td>Number of books, number of students</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathbb{Z}\)</span></td>
+<td>Categorical Ordinal</td>
+<td>Ordered categories, sometimes signed values</td>
+<td>Temperature comparison, rankings</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathbb{Q}\)</span>, <span class="math inline">\(\mathbb{R}\)</span></td>
+<td>Continuous</td>
+<td>Measurable quantities on an interval or ratio scale</td>
+<td>Time, distance, height</td>
+</tr>
+<tr class="even">
+<td>Symbolic (labels)</td>
+<td>Nominal</td>
+<td>Unordered categories</td>
+<td>Gender, subject area, colors</td>
+</tr>
+</tbody>
+</table>
+<p>This table shows the bridge between mathematics and statistics: number sets form a logical foundation for classifying real-world data.</p>
+</section>
+<section id="populations-and-samples" class="level1">
+<h1>Populations and Samples</h1>
+<p>In mathematics, we often discuss universal sets and their subsets. This same idea shapes statistical reasoning through the relationship between a population and a sample. Let:</p>
+<p><strong>Population</strong>: The complete set of all individuals or observations of interest.</p>
+<p><span class="math display">\[
+U = \text{universal set of all possible observations}
+\]</span></p>
+<p><strong>Sample</strong>: A subset selected from the population for study.</p>
+<p><span class="math display">\[
+S \subset U = \text{sample drawn from the population}
+\]</span></p>
+<section id="population-parameter" class="level2">
+<h2 class="anchored" data-anchor-id="population-parameter">Population parameter</h2>
+<p>A number which summarizes the entire group.</p>
+</section>
+<section id="sample-statistic" class="level2">
+<h2 class="anchored" data-anchor-id="sample-statistic">Sample statistic</h2>
+<p>A single number that summarizes a subset of data, or the sample.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/wk5-b-1.png" class="img-fluid figure-img" style="width:40.0%"></p>
+<figcaption>Population vs.&nbsp;Sample. Image from Scribbr.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="data-collection-and-measurement" class="level1">
+<h1>Data Collection and Measurement</h1>
+<p>Measurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule. According to NCTM reasoning standards, effective data collection and measurement require:</p>
+<ul>
+<li>A clear definition of variables.<br>
+</li>
+<li>Consistency in units and scales.<br>
+</li>
+<li>Awareness of sources of variability in data.</li>
+</ul>
+<p>Measurements can be discrete (counted) or continuous (measured), directly linked to the corresponding set structure:</p>
+<p><span class="math display">\[
+\text{Discrete: } x \in \mathbb{N}, \quad \text{Continuous: } x \in \mathbb{R}
+\]</span></p>
+<p>Real-world measurement always involves approximations; understanding the number system helps teachers explain these approximations as necessary simplifications of continuous reality.</p>
+<section id="types-of-studies-and-sampling-strategies" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-studies-and-sampling-strategies">Types of studies and sampling strategies</h3>
+<p>The methods used to collect sample data for statistical analysis is extremely important.</p>
+<p>If sample data are not collected appropriately, resulting statistical analyses will be futile.</p>
+<p>As a result, planning a study by identifying <em>research questions</em>, the <em>population</em> and <em>sample</em> of interest, and selecting the appropriate <em>research method(s)</em> that will be used to <em>analyze data</em> that is collected are all essential parts in the statistical data analysis process.</p>
+<hr>
+<section id="understanding-experimental-and-observational-study-designs" class="level4">
+<h4 class="anchored" data-anchor-id="understanding-experimental-and-observational-study-designs">Understanding experimental and observational study designs</h4>
+<p>There are many different types of research studies.</p>
+<p>Some studies use non-traditional methods (such as oral traditions) to collect data, while others focus on more traditional methods (such as surveys) to analyze data on a sample or a population.</p>
+<p>These data collection methods produce a set of observations upon which statistical analyses can be applied. We consider two core study designs in statistical data analysis: <em>experimental</em> studies and <em>observational</em> studies.</p>
+<hr>
+<div class="callout-DEFINITIONS">
+<p><strong>Experimental study</strong>: In an experimental study, a <em>treatment</em> is applied to a sample of interest to observe its effects. There is generally a control group and a treatment group used to understand the effects of the treatment. Individual observations are referred to as experimental units whereas studies involving humans are generally defined as study subjects.</p>
+<p><strong>Observational study</strong>: In an observational study, specific characteristics of a sample or population are observed and measured but individual observations or subjects of study are not influenced or modified in any way.</p>
+</div>
+<hr>
+<section id="three-types-of-observational-studies" class="level5">
+<h5 class="anchored" data-anchor-id="three-types-of-observational-studies">Three types of observational studies</h5>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>DEFINITIONS</strong>: Types of studies
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Retrospective study</strong>: In a retrospective study, we go back in time to collect data over some past period.</p>
+<p><strong>Cross-sectional study</strong>: In a cross-sectional study, data are collected and measured at one point in time.</p>
+<p><strong>Prospective study</strong>: In a prospective study, we set up a study to go forward in time and observe groups sharing common factors.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="identify-and-describe-the-different-sampling-methods" class="level5">
+<h5 class="anchored" data-anchor-id="identify-and-describe-the-different-sampling-methods">Identify and describe the different sampling methods</h5>
+<p>There are two broad categories of selecting members of a population to generate sample data:</p>
+<ul>
+<li><p>Probability sampling</p></li>
+<li><p>Non-probability sampling</p></li>
+</ul>
+<p>Within these two broad categories are other methods based on the needs of the study. Each methods is used to support statistical data analysis with some methods providing stronger evidence than others.</p>
+<hr>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<strong>Definitions</strong>: Sampling methods
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Probability sampling</strong>: Involves the random selection of subjects in such a way that every member of a sample has the sample probability of being selected.</p>
+<p><strong>Non-probability sampling</strong>: Involves the use of criteria to select data that is not based on an equal likelihood of selection.</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+</section>
+<section id="real-world-examples" class="level1">
+<h1>Real world examples</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/wk5-a-5.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image from The W.E.B. DuBois Collection. https://credo.library.umass.edu</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/wk5-a-1.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image from The W.E.B. DuBois Collection. https://credo.library.umass.edu</figcaption>
+</figure>
+</div>
+</section>
+<section id="reflection" class="level1">
+<h1>Reflection</h1>
+<p>Encourage students to connect these mathematical foundations to their teaching practice:<br>
+- How can the hierarchy of number sets guide discussions of data types?<br>
+- What set relationships help explain statistical sampling methods?<br>
+- How can measurement be introduced through examples grounded in number theory?</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -854,6 +1125,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/module05.html" class="pagination-link" aria-label="Module 5">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 5</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../other/math-corner.html" class="pagination-link" aria-label="Math corner activity">
+        <span class="nav-page-text">Math corner activity</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

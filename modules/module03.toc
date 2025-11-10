@@ -1,0 +1,22 @@
+\contentsline {subsection}{\numberline {0.1}Module Overview}{1}{subsection.0.1}%
+\contentsline {subsection}{\numberline {0.2}Discussion of Properties}{1}{subsection.0.2}%
+\contentsline {subsubsection}{\numberline {0.2.1}Commutative Property}{1}{subsubsection.0.2.1}%
+\contentsline {subsubsection}{\numberline {0.2.2}Associative Property}{2}{subsubsection.0.2.2}%
+\contentsline {subsubsection}{\numberline {0.2.3}Distributive Property}{2}{subsubsection.0.2.3}%
+\contentsline {subsubsection}{\numberline {0.2.4}Identity Property}{2}{subsubsection.0.2.4}%
+\contentsline {subsubsection}{\numberline {0.2.5}Zero Property of Multiplication}{2}{subsubsection.0.2.5}%
+\contentsline {section}{\numberline {1}Quantity and Operations}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Concrete-Representational-Abstract (CRA)}{4}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Sum and Difference}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Algebra tiles}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Product and Quotient}{10}{section.3}%
+\contentsline {subsubsection}{\numberline {3.0.1}Assessing multiple skills}{11}{subsubsection.3.0.1}%
+\contentsline {section}{\numberline {4}Exponents and Roots}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Teaching Exponents}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Teaching Roots}{14}{subsection.4.2}%
+\contentsline {section}{\numberline {5}STEM figures and history}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ancestral mathematics}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Historical STEM Figures}{18}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Objective}{18}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Procedures}{18}{subsubsection.5.2.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
