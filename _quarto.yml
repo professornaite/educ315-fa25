@@ -56,6 +56,10 @@ website:
           text: Module 3
         - href: modules/module04.qmd
           text: Module 4
+        - href: modules/module05.qmd
+          text: Module 5
+        - href: modules/module06.qmd
+          text: Module 6
     - section: "Rubrics"
       contents:
         - href: other/math-corner.qmd

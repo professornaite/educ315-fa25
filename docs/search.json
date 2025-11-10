@@ -326,14 +326,18 @@
   {
     "objectID": "modules/module06.html",
     "href": "modules/module06.html",
-    "title": "Module 6: Lesson planning and assessment",
+    "title": "Mathematical Foundations of Statistics: Sets, Variables, and Data",
     "section": "",
-    "text": "Activity\n\n\nLecture and Discussion\n\n\nShare"
+    "text": "Introduction\nStatistics builds upon deep mathematical concepts such as sets, numbers, and measurement. These foundations allow us to describe, collect, and analyze data effectively. Before studying data, we must understand the basic structures from which all numerical and categorical reasoning emerge.\n\n\nLearning Objectives\nAligned with principles from the National Council of Teachers of Mathematics (NCTM, Principles to Actions, 2014), by the end of this lesson, students should be able to:\n\nUnderstand and describe different sets of numbers and their relationships.\nRelate sets of numbers to statistical variable types.\nDistinguish between a population and a sample in statistical terms.\nExplain data collection and measurement processes grounded in mathematical reasoning.\nConnect abstract mathematical structures to real-world data contexts.\n\n\n\n1. Number Sets\nMathematics is constructed upon sets — well-defined collections of elements. The number system builds systematically upon these sets, each expanding the possibilities of measurement.\n\\[\n\\mathbb{N} \\subset \\mathbb{Z} \\subset \\mathbb{Q} \\subset \\mathbb{R} \\subset \\mathbb{C}\n\\]\n\n\\(\\mathbb{N}\\): The set of natural numbers, used for counting objects.\n\n\\(\\mathbb{Z}\\): The set of integers, extending natural numbers to include negatives.\n\n\\(\\mathbb{Q}\\): The set of rational numbers, allowing fractional relationships.\n\n\\(\\mathbb{R}\\): The set of real numbers, providing a complete continuum of measurement.\n\n\\(\\mathbb{C}\\): The set of complex numbers, incorporating an imaginary component \\(i = \\sqrt{-1}\\).\n\nEach set expands our capacity to represent and interpret reality mathematically. In statistics, these same conceptual expansions allow for increasingly sophisticated ways to represent and analyze data.\n\n\n2. From Number Sets to Variable Types\nStatistical variables describe measurable or classifiable aspects of a population. The type of variable determines the operations that can be performed and the level of precision possible.\n\n\n\n\n\n\n\n\n\nMathematical Set\nVariable Type\nDescription\nExample\n\n\n\n\n\\(\\mathbb{N}\\)\nDiscrete\nCountable outcomes\nNumber of books, number of students\n\n\n\\(\\mathbb{Z}\\)\nCategorical Ordinal\nOrdered categories, sometimes signed values\nTemperature comparison, rankings\n\n\n\\(\\mathbb{Q}\\), \\(\\mathbb{R}\\)\nContinuous\nMeasurable quantities on an interval or ratio scale\nTime, distance, height\n\n\nSymbolic (labels)\nNominal\nUnordered categories\nGender, subject area, colors\n\n\n\nThis table shows the bridge between mathematics and statistics: number sets form a logical foundation for classifying real-world data.\n\n\n3. Populations and Samples\nIn mathematics, we often discuss universal sets and their subsets. This same idea shapes statistical reasoning through the relationship between a population and a sample.\nLet:\n\\[\nU = \\text{universal set of all possible observations}\n\\]\n\\[\nS \\subset U = \\text{sample drawn from the population}\n\\]\n\nPopulation: The complete set of all individuals or observations of interest.\n\nSample: A subset selected from the population for study.\n\nSampling introduces practicality without abandoning theoretical rigor—our inferences about \\(U\\) are based on observations from \\(S\\).\n\n\n4. Data Collection and Measurement\nMeasurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule.\nAccording to NCTM reasoning standards, effective data collection and measurement require:\n- A clear definition of variables.\n- Consistency in units and scales.\n- Awareness of sources of variability in data.\nMeasurements can be discrete (counted) or continuous (measured), directly linked to the corresponding set structure:\n\\[\n\\text{Discrete: } x \\in \\mathbb{N}, \\quad \\text{Continuous: } x \\in \\mathbb{R}\n\\]\nReal-world measurement always involves approximations; understanding the number system helps teachers explain these approximations as necessary simplifications of continuous reality.\n\n\nReflection\nEncourage students to connect these mathematical foundations to their teaching practice:\n- How can the hierarchy of number sets guide discussions of data types?\n- What set relationships help explain statistical sampling methods?\n- How can measurement be introduced through examples grounded in number theory?",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
   },
   {
     "objectID": "modules/module04.html",
     "href": "modules/module04.html",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "",
     "text": "This module will deepen your understanding of generating mathematical lessons with a focus on fractions and decimals.\n\n\nOne goal for this module is for you to come up with a set of ways to describe various ways to teach students’ properties and procedural fluency. We’ll use new examples and those from previous modules to guide you.",
     "crumbs": [
@@ -344,7 +348,7 @@
   {
     "objectID": "modules/module04.html#module-overview",
     "href": "modules/module04.html#module-overview",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "",
     "text": "This module will deepen your understanding of generating mathematical lessons with a focus on fractions and decimals.\n\n\nOne goal for this module is for you to come up with a set of ways to describe various ways to teach students’ properties and procedural fluency. We’ll use new examples and those from previous modules to guide you.",
     "crumbs": [
@@ -355,7 +359,7 @@
   {
     "objectID": "modules/module04.html#decimal-place-value",
     "href": "modules/module04.html#decimal-place-value",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Decimal Place Value",
     "text": "Decimal Place Value\nFor each, underline the whole number part and circle the decimal (fractional) part.\n\n2.5\n\n1.23\n\n0.52\n\n0.002\n\nWhich digit is in the tenths place? Which is in the hundredths place?",
     "crumbs": [
@@ -366,7 +370,7 @@
   {
     "objectID": "modules/module04.html#true-or-false-decimal-equivalents",
     "href": "modules/module04.html#true-or-false-decimal-equivalents",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "True or False: Decimal Equivalents",
     "text": "True or False: Decimal Equivalents\nTrue or False: 25 hundredths is the same as 2 tenths and 5 hundredths?\n\nDraw a place value chart to prove your answer.\nWrite both numbers in fraction form.",
     "crumbs": [
@@ -377,7 +381,7 @@
   {
     "objectID": "modules/module04.html#comparing-and-ordering-decimals",
     "href": "modules/module04.html#comparing-and-ordering-decimals",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Comparing and Ordering Decimals",
     "text": "Comparing and Ordering Decimals\nCompare which is greater by identifying the digits in each decimal place (tenths, hundredths, thousandths).\n\n4.859\n\n4.869\n\nNext, create your own set of three decimals and order them least to greatest.",
     "crumbs": [
@@ -388,7 +392,7 @@
   {
     "objectID": "modules/module04.html#procedural-fluency",
     "href": "modules/module04.html#procedural-fluency",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Procedural Fluency",
     "text": "Procedural Fluency\nSkill in carrying out mathematical procedures flexibly, accurately, efficiently, and appropriately.\n\nInvolves knowing procedures and using them correctly.\nIncludes the ability to select appropriate methods and apply algorithms based on the situation.\n\n\n\n\nProcedural fluency",
     "crumbs": [
@@ -399,7 +403,7 @@
   {
     "objectID": "modules/module04.html#conceptual-understanding",
     "href": "modules/module04.html#conceptual-understanding",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Conceptual Understanding",
     "text": "Conceptual Understanding\nComprehension of mathematical concepts, operations, and relationships.\n\nMeans having an integrated and functional grasp of ideas, not just memorizing facts.\nStudents should connect new knowledge with what they already know and represent mathematical situations in multiple ways.\n\n\n\n\nConceptual understanding",
     "crumbs": [
@@ -410,7 +414,7 @@
   {
     "objectID": "modules/module04.html#adaptive-reasoning",
     "href": "modules/module04.html#adaptive-reasoning",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Adaptive Reasoning",
     "text": "Adaptive Reasoning\nCapacity for logical thought, reflection, explanation, and justification.\n\nEnables students to explain and justify their strategies and solutions.\nSupports the extension of knowledge from known concepts to unfamiliar situations.\n\n\n\n\nAdaptive reasoning",
     "crumbs": [
@@ -421,7 +425,7 @@
   {
     "objectID": "modules/module04.html#strategic-competence",
     "href": "modules/module04.html#strategic-competence",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Strategic Competence",
     "text": "Strategic Competence\nAbility to formulate, represent, and solve mathematical problems.\n\nInvolves devising and using strategies for both routine and non-routine problems.\nEncourages flexible thinking when approaching mathematical challenges.\n\n\n\n\nStrategic competence",
     "crumbs": [
@@ -432,7 +436,7 @@
   {
     "objectID": "modules/module04.html#productive-disposition",
     "href": "modules/module04.html#productive-disposition",
-    "title": "Module 4: Lesson Planning",
+    "title": "Module 4: Strands of Mathematical Proficiency",
     "section": "Productive Disposition",
     "text": "Productive Disposition\nHabitual inclination to see mathematics as sensible, useful, and worthwhile, paired with a belief in perseverance and personal efficacy.\n\nNurtures a positive attitude and sense of efficacy towards mathematics.\nStudents believe that effort leads to understanding and success.\n\n\n\n\nProductive disposition\n\n\n\n\n\n\n\n\n\n\n\nStrand\nKey Aspect\nDescription\n\n\n\n\nProcedural Fluency\nTechnical Performance\nMemorise and rehearse\n\n\nConceptual Understanding\nClassification, Definition\nSort, classify, define and deduce\n\n\n\nRepresentation\nDescribe, interpret and translate\n\n\n\nAnalysis\nExplore structure, variation, connections\n\n\nAdaptive Reasoning\nArgument, Proof\nTest, justify and prove conjectures\n\n\nStrategic Competence\nMathematical Model\nFormulate models and problems\n\n\n\nSolution\nEmploy strategies to solve a problem\n\n\n\nCritical Commentary\nInterpret & evaluate solutions and strategies",
     "crumbs": [
@@ -617,7 +621,7 @@
     "href": "assignments.html",
     "title": "Assignments",
     "section": "",
-    "text": "Overview of course assignments\nOur course assignments will be split between four assignment groups.\nPlease see the detailed syllabus on our Canvas site for a more ordered list.\n\n\n\n\n\n\n\n\nAssignment group\nAssignment\nDue date\n\n\n\n\nMathematical activities and lesson plans\nMathematics corner activity\nSun Sept 7\n\n\n\nTwo-day lesson plan (in pairs)\nTue Oct 28\n\n\n\nMathematics unit outline (in groups)\nSun Nov 16\n\n\n\nHistorical STEM figure activity\nMon Nov 24\n\n\n\n\n\n\n\nQuizzes (in class)\nQuiz 1: Numbers and sets\nWed Aug 27\n\n\n\nQuiz 2: Logic and related concepts\nWed Sept 10\n\n\n\nQuiz 3: Quantity and operations (sum, difference, product, quotient, exponent, root)\nWed Sept 24\n\n\n\nQuiz 4: Structure and properties (commutative, associative, distributive, identity)\nWed Oct 22\n\n\n\nQuiz 5: Space and geometry (objects, shape, representations)\nWed Nov 5\n\n\n\nQuiz 6: Mathematical modeling (patterns and sequences, functions, early algebraic thinking)\nWed Nov 19\n\n\n\n\n\n\n\nMidterm exam (in class)\n\nWed Oct 8\n\n\n\n\n\n\n\nField placement log and other files/notes\nExcursion 1: National Portrait Gallery\nMon Sept 15\n\n\n\nExcursion 2: NMAAHC\nWed Nov 12\n\n\n\nField placement log due\nWed Dec 3",
+    "text": "Overview of course assignments\nOur course assignments will be split between four assignment groups.\nPlease see the detailed syllabus on our Canvas site for a more ordered list.\n\n\n\n\n\n\n\n\nAssignment group\nAssignment\nDue date\n\n\n\n\nMathematical activities and lesson plans\nMathematics corner activity\nSun Sept 7\n\n\n\nTwo-day lesson plan (in pairs)\nTue Oct 28\n\n\n\nMathematics unit outline (initial draft)\nSun Nov 16\n\n\n\nHistorical STEM figure activity\nMon Nov 24\n\n\n\nMathematics unit outline (final draft)\nFriday Dec 5\n\n\n\n\n\n\n\nQuizzes (in class)\nQuiz 1: Numbers and sets\nWed Aug 27\n\n\n\nQuiz 2: Logic and related concepts\nWed Sept 10\n\n\n\nQuiz 3: Quantity and operations\nWed Sept 24\n\n\n\nQuiz 4: Structure and properties\nWed Oct 22\n\n\n\nQuiz 5: Space and geometry (objects, shape, representations)\nWed Nov 5\n\n\n\nQuiz 5: Statistics and probability\nWed Nov 19\n\n\n\n\n\n\n\nMidterm exam (in class)\n\nWed Oct 8\n\n\n\n\n\n\n\nField placement log and other files/notes\nExcursion 1: National Portrait Gallery\nMon Sept 15\n\n\n\nExcursion 2: NMAAHC\nWed Nov 12\n\n\n\nField placement log due\nWed Dec 3",
     "crumbs": [
       "Course information",
       "Assignments"
@@ -682,7 +686,7 @@
     "href": "index.html",
     "title": "Welcome to EDUC 315",
     "section": "",
-    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site and support you with questions relevant to teaching mathematics. Let me know if you see any errors.\n\nWeekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments,  Assessments, \\(\\textit{\\&}\\)  Notes\n\n\n\n\n1\nAug 18  Aug 20\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematical coloring book\n\n\n2\nAug 25  Aug 27\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber linesQuiz 1\n\n\n3\nSep 1*  Sept 3\nModule 1: Logic and proofsCRA approach\n*No class: Labor Day\n\n\n4\nSep 8  Sep 10\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method\nQuiz 2\n\n\n5\nSep 15  Sep 17\nExcursion 1: National Portrait GalleryMath activity rotations\nMath corner activity\n\n\n6\nSep 22 Sep 24\nModule 3: PropertiesProperties and proof\nQuiz 3\n\n\n7\nSep 29  Oct 1\nModule 3: Whole Number OperationsMathematical thinking\nFraction tiles activity\n\n\n8\nOct 6  Oct 8\nModule 4: FractionsMidterm Exam (in-class)\nMidterm Exam\n\n\n9\nOct 13*  Oct 15\nModule 4: DecimalsLesson planning in mathematics\n*No class: Indigenous Peoples’ Day\n\n\n10\nOct 20  Oct 22\nModule 5: Geometry\nQuiz 4\n\n\n11\nOct 27  Oct 29\nModule 5: Measurement\n Lesson plan assignment\n\n\n12\nNov 3  Nov 5\nModule 6: Statistics\nQuiz 5\n\n\n13\nNov 10  Nov 12\nModule 6: Probability;Excursion 2: NMAAHC\n\n\n\n14\nNov 17  Nov 19\nModule 7: Mathematical Modeling\nMathematics unit outlineQuiz 6\n\n\n15\nNov 24  Nov 26\nClosing: Classgiving Potluck & reflectionsThanksgiving (No class)\nHistorical STEM figure\n\n\n16\nDec 3\n—\nField placement log due",
+    "text": "This is the companion site for EDUC 315: Principles of Teaching Mathematics and Science in Urban Classrooms II at Howard University, taught by Professor Nathan Alexander. This site will serve as a companion to our Canvas site and support you with questions relevant to teaching mathematics. Let me know if you see any errors.\n\nWeekly Schedule\n\n\n\nWeek\nDates\nTopics\nAssignments,  Assessments, \\(\\textit{\\&}\\)  Notes\n\n\n\n\n1\nAug 18  Aug 20\nIntroduction to EDUC 315Course overview; number line; sets of numbers\nMathematical coloring book\n\n\n2\nAug 25  Aug 27\nModule 1: Language of MathematicsSets, union, intersection; continuation\nNumber linesQuiz 1\n\n\n3\nSep 1*  Sept 3\nModule 1: Logic and proofsCRA approach\n*No class: Labor Day\n\n\n4\nSep 8  Sep 10\nModule 2: Foundations of Mathematical ThinkingPolya’s 4-step method\nQuiz 2\n\n\n5\nSep 15  Sep 17\nExcursion 1: National Portrait GalleryMath activity rotations\nMath corner activity\n\n\n6\nSep 22 Sep 24\nModule 3: PropertiesProperties and proof\nQuiz 3\n\n\n7\nSep 29  Oct 1\nModule 3: Whole Number OperationsMathematical thinking\nFraction tiles activity\n\n\n8\nOct 6  Oct 8\nModule 4: Strands of proficiencyMidterm Exam (in-class)\nMidterm Exam\n\n\n9\nOct 13*  Oct 15\nModule 4: Strands of proficiencyLesson planning in mathematics\n*No class: Indigenous Peoples’ Day\n\n\n10\nOct 20  Oct 22\nModule 5: Lesson planning\nQuiz 4\n\n\n11\nOct 27  Oct 29\nModule 5: Lesson planning\n Lesson plan assignment\n\n\n12\nNov 3  Nov 5\nMath lesoson presentations\nQuiz 5\n\n\n13\nNov 10  Nov 12\nModule 6: Statistics  ProbabilityExcursion 2: NMAAHC\n\n\n\n14\nNov 17  Nov 19\nModule 7: Mathematical Modeling\nMathematics unit outlineQuiz 6\n\n\n15\nNov 24  Nov 26\nClosing: Classgiving Potluck & reflectionsThanksgiving (No class)\nHistorical STEM figure\n\n\n16\nDec 3\n—\nField placement log due",
     "crumbs": [
       "Course information",
       "Calendar"
@@ -927,5 +931,131 @@
     "title": "Common Core State Standards",
     "section": "",
     "text": "Text for this page was taken from osse.dc.gov:\nThe Common Core State Standards (CCSS) - Mathematics were adopted by the DC State Board of Education (July, 2010), as the K-12 Math Standards for the District of Columbia. Schools began a staged implementation of the standards during the 2011-12 school year. From 2011-2014, teachers received ongoing training in Common Core implementation, with full implementation occurring during the 2014-15 school year.\nThe CCSS-Mathematics demand a shift in math instruction from an emphasis on procedural fluency towards a balance between procedural fluency, conceptual understanding and application of concepts, so students are better prepared for the critical thinking necessary to succeed in college, careers and their daily lives. OSSE seeks to support high-quality implementation of the Common Core State Standards for Mathematics.\nFind more information by clicking here"
+  },
+  {
+    "objectID": "modules/module06.html#introduction",
+    "href": "modules/module06.html#introduction",
+    "title": "Module 6: Statistics and probability",
+    "section": "",
+    "text": "Statistics, at its core, is the study of data — how it is collected, organized, analyzed, and interpreted. Understanding statistics begins with understanding the mathematical structures that underlie it. This document explores the foundational sets that form the basis of statistical thinking and how they extend naturally toward variable types, probability, and inference.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#foundations-sets-and-number-systems",
+    "href": "modules/module06.html#foundations-sets-and-number-systems",
+    "title": "Module 6: Statistics and probability",
+    "section": "1. Foundations: Sets and Number Systems",
+    "text": "1. Foundations: Sets and Number Systems\nA set is a well-defined collection of elements. In mathematical notation, we often write sets as:\n[ A = {1, 2, 3, 4} ]\n\nBasic Number Sets\nWe often work within several key sets of numbers that represent a hierarchy of mathematical abstraction:\n[ ]\n\nNatural numbers (()): Counting numbers such as 1, 2, 3, …\nIntegers (()): Includes negative numbers and zero.\nRational numbers (()): Fractions where numerator and denominator are integers and denominator ≠ 0.\nReal numbers (()): Includes all rational and irrational numbers.\nComplex numbers (()): Numbers with real and imaginary parts.\n\nThese sets form the structural backbone for how we classify data types in statistics.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#from-sets-to-variable-types",
+    "href": "modules/module06.html#from-sets-to-variable-types",
+    "title": "Module 6: Statistics and probability",
+    "section": "2. From Sets to Variable Types",
+    "text": "2. From Sets to Variable Types\nIn statistics, we classify data based on the properties of the values they can take — a natural extension of how we classify numbers.\n\nCategorical vs. Numerical Variables\n\n\n\n\n\n\n\n\nType\nDefinition\nExample\n\n\n\n\nCategorical\nData grouped into categories that may or may not have order\nEye color, type of school\n\n\nNumerical\nData measured or counted with mathematical meaning\nHeight, weight, number of students\n\n\n\n\n\nSubclassification\n\nNominal (unordered categories): e.g. blood type (A, B, AB, O)\nOrdinal (ordered categories): e.g. satisfaction level (low, medium, high)\nDiscrete (countable numbers): e.g. number of cars in a parking lot\nContinuous (uncountable range of values): e.g. time, temperature\n\nHere we see the bridge between abstract number sets and real-world measurement. Discrete variables align closely with integers, while continuous variables connect with real numbers.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#operations-and-relations",
+    "href": "modules/module06.html#operations-and-relations",
+    "title": "Module 6: Statistics and probability",
+    "section": "3. Operations and Relations",
+    "text": "3. Operations and Relations\nJust as we define operations on sets (union, intersection, complement), statistical variables interact through operations such as addition, comparison, and transformation.\n\nCommon Set Operations\nGiven two sets (A) and (B):\n[ A B = {x x A x B} ] [ A B = {x x A x B} ] [ A’ = {x x A} ]\nThese operations model ideas like combining datasets, identifying common data points, or filtering observations.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#probability-as-a-set-framework",
+    "href": "modules/module06.html#probability-as-a-set-framework",
+    "title": "Module 6: Statistics and probability",
+    "section": "4. Probability as a Set Framework",
+    "text": "4. Probability as a Set Framework\nProbability theory formalizes uncertainty using set concepts. A sample space (S) represents all possible outcomes, while an event (E S) represents a subset of outcomes.\nThe probability of (E) is a function:\n[ P: (S) ]\nwhich satisfies: 1. (P(S) = 1) 2. (P(E) ) 3. If (E_1, E_2, ) are disjoint, then (P(_i E_i) = _i P(E_i))\nThis structure shows the deep connection between logic, sets, and statistical reasoning.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#connections-to-teaching",
+    "href": "modules/module06.html#connections-to-teaching",
+    "title": "Module 6: Statistics and probability",
+    "section": "5. Connections to Teaching",
+    "text": "5. Connections to Teaching\nAs future mathematics teachers, cultivating these linkages helps students see that statistics is not isolated from mathematics—it is its extension and application. Presenting variable types as sets of possible measurements demystifies data classification and strengthens conceptual understanding.\nEncourage students to: - Recognize the number system hierarchy as a precursor to understanding variable types. - See statistics as a language using set theory to describe uncertainty. - Explore how mathematical operations underpin data manipulation.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06.html#sample-activities",
+    "href": "modules/module06.html#sample-activities",
+    "title": "Module 6: Statistics and probability",
+    "section": "Sample Activities",
+    "text": "Sample Activities\n\nSet Sorting Game: Provide cards showing different variables; have students classify them as discrete, continuous, nominal, or ordinal.\nNumber Set Challenge: Ask students to generate real-world examples for each number set ((), (), etc.) and connect them to variable types.\nVenn Diagram of Variables: Create a group chart mapping overlaps between set operations and variable properties.\nMini Data Collection Project: Collect simple class data (e.g., commute times) and classify each variable type using mathematical lenses.\nProbability in Action: Use coins and dice to visualize sample spaces and set-based probabilities.",
+    "crumbs": [
+      "Modules",
+      "Module 6"
+    ]
+  },
+  {
+    "objectID": "modules/module06-slides.html#introduction",
+    "href": "modules/module06-slides.html#introduction",
+    "title": "Module 6: Statistics and probability",
+    "section": "Introduction",
+    "text": "Introduction\nStatistics, at its core, is the study of data — how it is collected, organized, analyzed, and interpreted. Understanding statistics begins with understanding the mathematical structures that underlie it. This document explores the foundational sets that form the basis of statistical thinking and how they extend naturally toward variable types, probability, and inference."
+  },
+  {
+    "objectID": "modules/module06-slides.html#foundations-sets-and-number-systems",
+    "href": "modules/module06-slides.html#foundations-sets-and-number-systems",
+    "title": "Module 6: Statistics and probability",
+    "section": "1. Foundations: Sets and Number Systems",
+    "text": "1. Foundations: Sets and Number Systems\nA set is a well-defined collection of elements. In mathematical notation, we often write sets as:\n[ A = {1, 2, 3, 4} ]\nBasic Number Sets\nWe often work within several key sets of numbers that represent a hierarchy of mathematical abstraction:\n[ ]\n\nNatural numbers (()): Counting numbers such as 1, 2, 3, …\nIntegers (()): Includes negative numbers and zero.\nRational numbers (()): Fractions where numerator and denominator are integers and denominator ≠ 0.\nReal numbers (()): Includes all rational and irrational numbers.\nComplex numbers (()): Numbers with real and imaginary parts.\n\nThese sets form the structural backbone for how we classify data types in statistics."
+  },
+  {
+    "objectID": "modules/module06-slides.html#from-sets-to-variable-types",
+    "href": "modules/module06-slides.html#from-sets-to-variable-types",
+    "title": "Module 6: Statistics and probability",
+    "section": "2. From Sets to Variable Types",
+    "text": "2. From Sets to Variable Types\nIn statistics, we classify data based on the properties of the values they can take — a natural extension of how we classify numbers.\nCategorical vs. Numerical Variables\n\n\n\n\n\n\n\n\nType\nDefinition\nExample\n\n\n\n\nCategorical\nData grouped into categories that may or may not have order\nEye color, type of school\n\n\nNumerical\nData measured or counted with mathematical meaning\nHeight, weight, number of students\n\n\n\nSubclassification\n\nNominal (unordered categories): e.g. blood type (A, B, AB, O)\nOrdinal (ordered categories): e.g. satisfaction level (low, medium, high)\nDiscrete (countable numbers): e.g. number of cars in a parking lot\nContinuous (uncountable range of values): e.g. time, temperature\n\nHere we see the bridge between abstract number sets and real-world measurement. Discrete variables align closely with integers, while continuous variables connect with real numbers."
+  },
+  {
+    "objectID": "modules/module06-slides.html#operations-and-relations",
+    "href": "modules/module06-slides.html#operations-and-relations",
+    "title": "Module 6: Statistics and probability",
+    "section": "3. Operations and Relations",
+    "text": "3. Operations and Relations\nJust as we define operations on sets (union, intersection, complement), statistical variables interact through operations such as addition, comparison, and transformation.\nCommon Set Operations\nGiven two sets (A) and (B):\n[ A B = {x x A x B} ] [ A B = {x x A x B} ] [ A’ = {x x A} ]\nThese operations model ideas like combining datasets, identifying common data points, or filtering observations."
+  },
+  {
+    "objectID": "modules/module06-slides.html#probability-as-a-set-framework",
+    "href": "modules/module06-slides.html#probability-as-a-set-framework",
+    "title": "Module 6: Statistics and probability",
+    "section": "4. Probability as a Set Framework",
+    "text": "4. Probability as a Set Framework\nProbability theory formalizes uncertainty using set concepts. A sample space (S) represents all possible outcomes, while an event (E S) represents a subset of outcomes.\nThe probability of (E) is a function:\n[ P: (S) ]\nwhich satisfies: 1. (P(S) = 1) 2. (P(E) ) 3. If (E_1, E_2, ) are disjoint, then (P(_i E_i) = _i P(E_i))\nThis structure shows the deep connection between logic, sets, and statistical reasoning."
+  },
+  {
+    "objectID": "modules/module06-slides.html#connections-to-teaching",
+    "href": "modules/module06-slides.html#connections-to-teaching",
+    "title": "Module 6: Statistics and probability",
+    "section": "5. Connections to Teaching",
+    "text": "5. Connections to Teaching\nAs future mathematics teachers, cultivating these linkages helps students see that statistics is not isolated from mathematics—it is its extension and application. Presenting variable types as sets of possible measurements demystifies data classification and strengthens conceptual understanding.\nEncourage students to: - Recognize the number system hierarchy as a precursor to understanding variable types. - See statistics as a language using set theory to describe uncertainty. - Explore how mathematical operations underpin data manipulation."
+  },
+  {
+    "objectID": "modules/module06-slides.html#sample-activities",
+    "href": "modules/module06-slides.html#sample-activities",
+    "title": "Module 6: Statistics and probability",
+    "section": "Sample Activities",
+    "text": "Sample Activities\n\nSet Sorting Game: Provide cards showing different variables; have students classify them as discrete, continuous, nominal, or ordinal.\nNumber Set Challenge: Ask students to generate real-world examples for each number set ((), (), etc.) and connect them to variable types.\nVenn Diagram of Variables: Create a group chart mapping overlaps between set operations and variable properties.\nMini Data Collection Project: Collect simple class data (e.g., commute times) and classify each variable type using mathematical lenses.\nProbability in Action: Use coins and dice to visualize sample spaces and set-based probabilities."
   }
 ]

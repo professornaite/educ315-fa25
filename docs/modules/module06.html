@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nathan Alexander, PhD">
+<meta name="author" content="For Future Mathematics Teachers">
 
-<title>Module 6: Lesson planning and assessment – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
+<title>Mathematical Foundations of Statistics: Sets, Variables, and Data – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../other/math-corner.html" rel="next">
+<link href="../modules/module05.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,8 +71,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="Module 6: Lesson planning and assessment – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Mathematical Foundations of Statistics: Sets, Variables, and Data – EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 <meta property="og:description" content="EDUC 315 - Howard University">
 <meta property="og:site_name" content="EDUC 315: Principles of Teaching Math and Science in Urban Classrooms II">
 </head>
@@ -84,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Module 6: Lesson planning and assessment</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module06.html">Module 6</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -151,13 +182,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Modules</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../modules/module00.html" class="sidebar-item-text sidebar-link">
@@ -186,6 +217,18 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../modules/module04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Module 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Module 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../modules/module06.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Module 6</span></a>
   </div>
 </li>
       </ul>
@@ -252,18 +295,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#activity" id="toc-activity" class="nav-link active" data-scroll-target="#activity">Activity</a></li>
-  <li><a href="#lecture-and-discussion" id="toc-lecture-and-discussion" class="nav-link" data-scroll-target="#lecture-and-discussion">Lecture and Discussion</a></li>
-  <li><a href="#share" id="toc-share" class="nav-link" data-scroll-target="#share">Share</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#number-sets" id="toc-number-sets" class="nav-link" data-scroll-target="#number-sets">1. Number Sets</a></li>
+  <li><a href="#from-number-sets-to-variable-types" id="toc-from-number-sets-to-variable-types" class="nav-link" data-scroll-target="#from-number-sets-to-variable-types">2. From Number Sets to Variable Types</a></li>
+  <li><a href="#populations-and-samples" id="toc-populations-and-samples" class="nav-link" data-scroll-target="#populations-and-samples">3. Populations and Samples</a></li>
+  <li><a href="#data-collection-and-measurement" id="toc-data-collection-and-measurement" class="nav-link" data-scroll-target="#data-collection-and-measurement">4. Data Collection and Measurement</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="module06-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../modules/module00.html">Modules</a></li><li class="breadcrumb-item"><a href="../modules/module06.html">Module 6</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Module 6: Lesson planning and assessment</h1>
+<h1 class="title">Mathematical Foundations of Statistics: Sets, Variables, and Data</h1>
 <p class="subtitle lead">EDUC 315 - Howard University</p>
 </div>
 
@@ -294,14 +341,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="activity" class="level1">
-<h1>Activity</h1>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Statistics builds upon deep mathematical concepts such as sets, numbers, and measurement. These foundations allow us to describe, collect, and analyze data effectively. Before studying data, we must understand the basic structures from which all numerical and categorical reasoning emerge.</p>
 </section>
-<section id="lecture-and-discussion" class="level1">
-<h1>Lecture and Discussion</h1>
+<section id="learning-objectives" class="level1">
+<h1>Learning Objectives</h1>
+<p>Aligned with principles from the National Council of Teachers of Mathematics (NCTM, Principles to Actions, 2014), by the end of this lesson, students should be able to:</p>
+<ul>
+<li>Understand and describe different sets of numbers and their relationships.</li>
+<li>Relate sets of numbers to statistical variable types.</li>
+<li>Distinguish between a population and a sample in statistical terms.</li>
+<li>Explain data collection and measurement processes grounded in mathematical reasoning.</li>
+<li>Connect abstract mathematical structures to real-world data contexts.</li>
+</ul>
 </section>
-<section id="share" class="level1">
-<h1>Share</h1>
+<section id="number-sets" class="level1">
+<h1>1. Number Sets</h1>
+<p>Mathematics is constructed upon sets — well-defined collections of elements. The number system builds systematically upon these sets, each expanding the possibilities of measurement.</p>
+<p><span class="math display">\[
+\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\mathbb{N}\)</span>: The set of natural numbers, used for counting objects.<br>
+</li>
+<li><span class="math inline">\(\mathbb{Z}\)</span>: The set of integers, extending natural numbers to include negatives.<br>
+</li>
+<li><span class="math inline">\(\mathbb{Q}\)</span>: The set of rational numbers, allowing fractional relationships.<br>
+</li>
+<li><span class="math inline">\(\mathbb{R}\)</span>: The set of real numbers, providing a complete continuum of measurement.<br>
+</li>
+<li><span class="math inline">\(\mathbb{C}\)</span>: The set of complex numbers, incorporating an imaginary component <span class="math inline">\(i = \sqrt{-1}\)</span>.</li>
+</ul>
+<p>Each set expands our capacity to represent and interpret reality mathematically. In statistics, these same conceptual expansions allow for increasingly sophisticated ways to represent and analyze data.</p>
+</section>
+<section id="from-number-sets-to-variable-types" class="level1">
+<h1>2. From Number Sets to Variable Types</h1>
+<p>Statistical variables describe measurable or classifiable aspects of a population. The type of variable determines the operations that can be performed and the level of precision possible.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 28%">
+<col style="width: 22%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mathematical Set</th>
+<th>Variable Type</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\mathbb{N}\)</span></td>
+<td>Discrete</td>
+<td>Countable outcomes</td>
+<td>Number of books, number of students</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathbb{Z}\)</span></td>
+<td>Categorical Ordinal</td>
+<td>Ordered categories, sometimes signed values</td>
+<td>Temperature comparison, rankings</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathbb{Q}\)</span>, <span class="math inline">\(\mathbb{R}\)</span></td>
+<td>Continuous</td>
+<td>Measurable quantities on an interval or ratio scale</td>
+<td>Time, distance, height</td>
+</tr>
+<tr class="even">
+<td>Symbolic (labels)</td>
+<td>Nominal</td>
+<td>Unordered categories</td>
+<td>Gender, subject area, colors</td>
+</tr>
+</tbody>
+</table>
+<p>This table shows the bridge between mathematics and statistics: number sets form a logical foundation for classifying real-world data.</p>
+</section>
+<section id="populations-and-samples" class="level1">
+<h1>3. Populations and Samples</h1>
+<p>In mathematics, we often discuss universal sets and their subsets. This same idea shapes statistical reasoning through the relationship between a population and a sample.</p>
+<p>Let:</p>
+<p><span class="math display">\[
+U = \text{universal set of all possible observations}
+\]</span></p>
+<p><span class="math display">\[
+S \subset U = \text{sample drawn from the population}
+\]</span></p>
+<ul>
+<li>Population: The complete set of all individuals or observations of interest.<br>
+</li>
+<li>Sample: A subset selected from the population for study.</li>
+</ul>
+<p>Sampling introduces practicality without abandoning theoretical rigor—our inferences about <span class="math inline">\(U\)</span> are based on observations from <span class="math inline">\(S\)</span>.</p>
+</section>
+<section id="data-collection-and-measurement" class="level1">
+<h1>4. Data Collection and Measurement</h1>
+<p>Measurement connects the abstract and the empirical. It assigns numbers or categories to objects or events according to a defined rule.</p>
+<p>According to NCTM reasoning standards, effective data collection and measurement require:<br>
+- A clear definition of variables.<br>
+- Consistency in units and scales.<br>
+- Awareness of sources of variability in data.</p>
+<p>Measurements can be discrete (counted) or continuous (measured), directly linked to the corresponding set structure:</p>
+<p><span class="math display">\[
+\text{Discrete: } x \in \mathbb{N}, \quad \text{Continuous: } x \in \mathbb{R}
+\]</span></p>
+<p>Real-world measurement always involves approximations; understanding the number system helps teachers explain these approximations as necessary simplifications of continuous reality.</p>
+</section>
+<section id="reflection" class="level1">
+<h1>Reflection</h1>
+<p>Encourage students to connect these mathematical foundations to their teaching practice:<br>
+- How can the hierarchy of number sets guide discussions of data types?<br>
+- What set relationships help explain statistical sampling methods?<br>
+- How can measurement be introduced through examples grounded in number theory?</p>
 
 
 </section>
@@ -868,6 +1024,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../modules/module05.html" class="pagination-link" aria-label="Module 5">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Module 5</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../other/math-corner.html" class="pagination-link" aria-label="Math corner activity">
+        <span class="nav-page-text">Math corner activity</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
